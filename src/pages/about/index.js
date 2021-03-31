@@ -36,13 +36,7 @@ class About extends React.Component {
   render() {
     const { current } = this.state;
     return (
-      // ABOUT
-      // NEWS
-      // PUBLICATIONS
-      // PROJECTS
-      // TEACHING
-      // PEOPLE
-      // OPPORTUNITIES
+
       <AppLayout>
         <Paragraph >
           Ant Design, a design language for background applications, is refined by Ant UED Team. Ant

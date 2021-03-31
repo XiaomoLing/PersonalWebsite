@@ -18,9 +18,21 @@ class AppNavigationBar extends React.Component {
       case "ABOUT":
         this.props.history.push('/about')
         break;
-      case "food":
-        this.props.history.push('/food')
+      case "NEWS":
+        this.props.history.push('/')
         break;
+      case "PUBLICATIONS":
+        this.props.history.push('/')
+        break;
+      case "PROJECTS":
+        this.props.history.push('/')
+        break;
+      case "TEACHING":
+        this.props.history.push('/')
+        break;
+      // case "OPPORTUNITIES":
+      //   this.props.history.push('/')
+      //   break;
       default:
         this.props.history.push('/')
         break;
@@ -45,7 +57,7 @@ class AppNavigationBar extends React.Component {
           <Menu.Item key="ABOUT" >
             ABOUT
           </Menu.Item>
-          <Menu.Item key="NEWS"  icon={<AppstoreOutlined />}>
+          <Menu.Item key="NEWS" >
             NEWS
           </Menu.Item>
           <Menu.Item key="PUBLICATIONS"  icon={<AppstoreOutlined />}>
@@ -54,10 +66,17 @@ class AppNavigationBar extends React.Component {
           <Menu.Item key="PROJECTS"  icon={<AppstoreOutlined />}>
             PROJECTS
           </Menu.Item>
-          <Menu.Item key="TEACHING"  icon={<AppstoreOutlined />}>
-            TEACHING
-          </Menu.Item>
-          <SubMenu key="SubMenu" icon={<SettingOutlined />} title="Navigation Three - Submenu">
+          <SubMenu key="PROJECTS" icon={<SettingOutlined />} title="PROJECTS">
+
+            <Menu.Item key="IndProject">Industrial Projects</Menu.Item>
+            <Menu.Item key="ResProject">Research Projects</Menu.Item>
+
+            {/* <Menu.ItemGroup title="Research Project">
+              <Menu.Item key="setting:3">Option 3</Menu.Item>
+              <Menu.Item key="setting:4">Option 4</Menu.Item>
+            </Menu.ItemGroup> */}
+          </SubMenu>
+          {/* <SubMenu key="ResProject" icon={<SettingOutlined />} title="Navigation Three - Submenu">
             <Menu.ItemGroup title="Item 1">
               <Menu.Item key="setting:1">Option 1</Menu.Item>
               <Menu.Item key="setting:2">Option 2</Menu.Item>
@@ -66,7 +85,12 @@ class AppNavigationBar extends React.Component {
               <Menu.Item key="setting:3">Option 3</Menu.Item>
               <Menu.Item key="setting:4">Option 4</Menu.Item>
             </Menu.ItemGroup>
-          </SubMenu>
+          </SubMenu> */}
+          <Menu.Item key="TEACHING"  >
+            TEACHING
+          </Menu.Item>
+
+          {/* what is the follow? */}
           <Menu.Item key="alipay">
             <a href="https://ant.design" target="_blank" rel="noopener noreferrer">
               Navigation Four - Link
