@@ -16,60 +16,48 @@ class About extends React.Component {
     current: 'mail',
   };
 
-  handleClick = e => {
-    switch (e.key) {
-      case "ABOUT":
-        this.props.history.push('/about')
-        break;
-      case "food":
-        this.props.history.push('/food')
-        break;
-      default:
-        this.props.history.push('/')
-        break;
-    }
-
-    // console.log('click ', e);
-    this.setState({ current: e.key });
-  };
-
   render() {
     const { current } = this.state;
     return (
 
       <AppLayout>
-        <Paragraph >
-          Ant Design, a design language for background applications, is refined by Ant UED Team. Ant
-          Design, a design language for background applications, is refined by Ant UED Team. Ant
-          Design, a design language for background applications, is refined by Ant UED Team. Ant
-          Design, a design language for background applications, is refined by Ant UED Team. Ant
-          Design, a design language for background applications, is refined by Ant UED Team. Ant
-          Design, a design language for background applications, is refined by Ant UED Team.
-        </Paragraph>
-        <Paragraph >
-          Ant Design, a design language for background applications, is refined by Ant UED Team. Ant
-          Design, a design language for background applications, is refined by Ant UED Team. Ant
-          Design, a design language for background applications, is refined by Ant UED Team. Ant
-          Design, a design language for background applications, is refined by Ant UED Team. Ant
-          Design, a design language for background applications, is refined by Ant UED Team. Ant
-          Design, a design language for background applications, is refined by Ant UED Team.
-        </Paragraph>
-        <Paragraph >
-          Ant Design, a design language for background applications, is refined by Ant UED Team. Ant
-          Design, a design language for background applications, is refined by Ant UED Team. Ant
-          Design, a design language for background applications, is refined by Ant UED Team. Ant
-          Design, a design language for background applications, is refined by Ant UED Team. Ant
-          Design, a design language for background applications, is refined by Ant UED Team. Ant
-          Design, a design language for background applications, is refined by Ant UED Team.
-        </Paragraph>
-        <Paragraph >
-          Ant Design, a design language for background applications, is refined by Ant UED Team. Ant
-          Design, a design language for background applications, is refined by Ant UED Team. Ant
-          Design, a design language for background applications, is refined by Ant UED Team. Ant
-          Design, a design language for background applications, is refined by Ant UED Team. Ant
-          Design, a design language for background applications, is refined by Ant UED Team. Ant
-          Design, a design language for background applications, is refined by Ant UED Team.
-        </Paragraph>
+        <div style={{
+          display: 'inline'
+        }}>
+          <Paragraph >
+            Ant Design, a design language for background applications, is refined by Ant UED Team. Ant
+            Design, a design language for background applications, is refined by Ant UED Team. Ant
+            Design, a design language for background applications, is refined by Ant UED Team. Ant
+            Design, a design language for background applications, is refined by Ant UED Team. Ant
+            Design, a design language for background applications, is refined by Ant UED Team. Ant
+            Design, a design language for background applications, is refined by Ant UED Team.
+          </Paragraph>
+          <Paragraph >
+            Ant Design, a design language for background applications, is refined by Ant UED Team. Ant
+            Design, a design language for background applications, is refined by Ant UED Team. Ant
+            Design, a design language for background applications, is refined by Ant UED Team. Ant
+            Design, a design language for background applications, is refined by Ant UED Team. Ant
+            Design, a design language for background applications, is refined by Ant UED Team. Ant
+            Design, a design language for background applications, is refined by Ant UED Team.
+          </Paragraph>
+          <Paragraph >
+            Ant Design, a design language for background applications, is refined by Ant UED Team. Ant
+            Design, a design language for background applications, is refined by Ant UED Team. Ant
+            Design, a design language for background applications, is refined by Ant UED Team. Ant
+            Design, a design language for background applications, is refined by Ant UED Team. Ant
+            Design, a design language for background applications, is refined by Ant UED Team. Ant
+            Design, a design language for background applications, is refined by Ant UED Team.
+          </Paragraph>
+          <Paragraph >
+            Ant Design, a design language for background applications, is refined by Ant UED Team. Ant
+            Design, a design language for background applications, is refined by Ant UED Team. Ant
+            Design, a design language for background applications, is refined by Ant UED Team. Ant
+            Design, a design language for background applications, is refined by Ant UED Team. Ant
+            Design, a design language for background applications, is refined by Ant UED Team. Ant
+            Design, a design language for background applications, is refined by Ant UED Team.
+          </Paragraph>
+        </div>
+        
       </AppLayout>
 
       

@@ -2,8 +2,7 @@ import React from 'react';
 import {Layout, } from 'antd'
 import AppNavigationBar from '../components/navbar'
 
-const {Content} = Layout
-
+const { Header, Footer, Sider, Content } = Layout;
 const layoutStyle = {
   minHeight: '100vh',
   width: "100%"
@@ -18,8 +17,15 @@ const contentStyle = {
 function AppLayout({children, style}) {
   return (
     <Layout style={layoutStyle}>
-    <AppNavigationBar ></AppNavigationBar>
-    <Content style={{...contentStyle, ...style}}>{children}</Content>
+      <Header style={{
+        backgroundColor: 'white',
+        padding: "0",
+        display: 'flex',
+        justifyContent: "center"
+      }}>
+        <AppNavigationBar></AppNavigationBar>
+      </Header>
+      <Content style={{...contentStyle, ...style}}>{children}</Content>
     </Layout>
   )
 }
