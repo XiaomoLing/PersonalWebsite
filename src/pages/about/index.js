@@ -25,37 +25,21 @@ class About extends React.Component {
           display: 'inline'
         }}>
           <Paragraph >
-            Ant Design, a design language for background applications, is refined by Ant UED Team. Ant
-            Design, a design language for background applications, is refined by Ant UED Team. Ant
-            Design, a design language for background applications, is refined by Ant UED Team. Ant
-            Design, a design language for background applications, is refined by Ant UED Team. Ant
-            Design, a design language for background applications, is refined by Ant UED Team. Ant
-            Design, a design language for background applications, is refined by Ant UED Team.
+            Lingzi Wu, PhD, EIT
           </Paragraph>
           <Paragraph >
-            Ant Design, a design language for background applications, is refined by Ant UED Team. Ant
-            Design, a design language for background applications, is refined by Ant UED Team. Ant
-            Design, a design language for background applications, is refined by Ant UED Team. Ant
-            Design, a design language for background applications, is refined by Ant UED Team. Ant
-            Design, a design language for background applications, is refined by Ant UED Team. Ant
-            Design, a design language for background applications, is refined by Ant UED Team.
+            Postdoctoral Fellow,
           </Paragraph>
-          <Paragraph >
-            Ant Design, a design language for background applications, is refined by Ant UED Team. Ant
-            Design, a design language for background applications, is refined by Ant UED Team. Ant
-            Design, a design language for background applications, is refined by Ant UED Team. Ant
-            Design, a design language for background applications, is refined by Ant UED Team. Ant
-            Design, a design language for background applications, is refined by Ant UED Team. Ant
-            Design, a design language for background applications, is refined by Ant UED Team.
+
+          <Paragraph >           
+            lingzi1@ualberta.ca,
+          </Paragraph>           
+          <Paragraph >            
+            Hole School of Construction, 
+            Department of Civil and Environmental Engineering,
+            University of Alberta, AB
           </Paragraph>
-          <Paragraph >
-            Ant Design, a design language for background applications, is refined by Ant UED Team. Ant
-            Design, a design language for background applications, is refined by Ant UED Team. Ant
-            Design, a design language for background applications, is refined by Ant UED Team. Ant
-            Design, a design language for background applications, is refined by Ant UED Team. Ant
-            Design, a design language for background applications, is refined by Ant UED Team. Ant
-            Design, a design language for background applications, is refined by Ant UED Team.
-          </Paragraph>
+
         </div>
         
       </AppLayout>
