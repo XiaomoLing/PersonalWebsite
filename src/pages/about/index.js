@@ -6,7 +6,9 @@ import { Menu } from 'antd';
 import { MailOutlined, AppstoreOutlined, SettingOutlined } from '@ant-design/icons';
 import { withRouter } from "react-router-dom";
 import { Typography } from 'antd';
-const { Paragraph, Text } = Typography;
+const { Paragraph, Text, Title } = Typography;
+
+
 import AppLayout from '../layout';
 
 const { SubMenu } = Menu;
@@ -24,22 +26,20 @@ class About extends React.Component {
         <div style={{
           display: 'inline'
         }}>
-          <Paragraph >
-            Lingzi Wu, PhD, EIT
-          </Paragraph>
-          <Paragraph >
-            Postdoctoral Fellow,
-          </Paragraph>
+          <Title level={2}>Lingzi Wu, PhD, EIT</Title>
+          <Title level={4}>Postdoctoral Fellow</Title>
 
+
+          <Text underline> lingzi1@ualberta.ca </Text>
           <Paragraph >           
-            lingzi1@ualberta.ca,
+                        Hole School of Construction,
           </Paragraph>           
-          <Paragraph >            
-            Hole School of Construction, 
+          <Paragraph >             
             Department of Civil and Environmental Engineering,
-            University of Alberta, AB
           </Paragraph>
-
+          <Paragraph >           
+            University of Alberta, AB
+          </Paragraph> 
         </div>
         
       </AppLayout>

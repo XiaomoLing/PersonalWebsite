@@ -9,6 +9,8 @@ const layoutStyle = {
 }
 const contentStyle = {
   display: 'flex',
+  padding: '0 150px',
+  justifyContent: "center",
   height: '100%'
 }
 /**

@@ -63,11 +63,11 @@ class AppNavigationBar extends React.Component {
 				<Menu onClick={this.handleClick} selectedKeys={[current]} mode="horizontal">
 					<Menu.Item key="ABOUT">ABOUT</Menu.Item>
 					<Menu.Item key="NEWS">NEWS</Menu.Item>
-					<Menu.Item key="PUBLICATIONS" icon={<AppstoreOutlined />}>
+					<Menu.Item key="PUBLICATIONS" >
 						PUBLICATIONS
 					</Menu.Item>
 
-					<SubMenu key="PROJECTS" icon={<SettingOutlined />} title="PROJECTS">
+					<SubMenu key="PROJECTS"  title="PROJECTS">
 						<Menu.Item key="IndProject">Industrial Projects</Menu.Item>
 						<Menu.Item key="ResProject">Research Projects</Menu.Item>
 					</SubMenu>

@@ -6,7 +6,7 @@ import { Menu } from 'antd';
 import { MailOutlined, AppstoreOutlined, SettingOutlined } from '@ant-design/icons';
 import { withRouter } from "react-router-dom";
 import { Typography } from 'antd';
-const { Paragraph, Text } = Typography;
+const { Paragraph, Text,Title } = Typography;
 import AppLayout from '../layout';
 
 const { SubMenu } = Menu;
@@ -25,13 +25,15 @@ class News extends React.Component {
           display: 'inline'
         }}>
           
+          <Title level={3}>Best Paper at MAS 2018</Title>
+
           <Paragraph >
-            Best Paper at MAS 2018
+            <Text strong>
+            Lingzi Wu and colleagues awarded Best Paper Award at the 17th International 
+            Conference on Modeling and Applied Simulation.
+            </Text>
           </Paragraph>
-          <Paragraph >
-            Lingzi Wu and colleagues awarded Best Paper Award at the 17th 
-            International Conference on Modeling and Applied Simulation.
-          </Paragraph>
+
           <Paragraph >
             Congratulations to Lingzi Wu, Mostafa Ali, Estacio Pereira, 
             and Simaan AbouRizk for receiving a Best Paper Award for their 
