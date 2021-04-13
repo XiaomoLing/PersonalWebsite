@@ -2,7 +2,6 @@ import logo from "./logo.svg";
 import React from "react";
 import "./App.css";
 import { DatePicker } from "antd";
-import connect from "redux-connect-decorator";
 import AppLayout from "./pages/layout";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import About from "./pages/about";

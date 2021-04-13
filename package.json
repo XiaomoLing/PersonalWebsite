@@ -2,43 +2,19 @@
   "name": "react_app",
   "version": "0.1.0",
   "private": true,
-  "homepage":"https://XiaomoLing.github.io/PersonalWebsite",
+  "homepage": "https://XiaomoLing.github.io/PersonalWebsite",
   "dependencies": {
-    "@babel/core": "^7.9.0",
-    "@babel/plugin-proposal-class-properties": "^7.12.1",
-    "@babel/plugin-proposal-decorators": "^7.7.0",
-    "@babel/preset-env": "^7.9.5",
-    "@babel/preset-react": "^7.9.4",
-    "@reduxjs/toolkit": "^1.5.0",
-    "@testing-library/jest-dom": "^5.11.6",
-    "@testing-library/react": "^11.2.2",
-    "@testing-library/user-event": "^12.5.0",
     "antd": "^4.9.4",
-    "babel-loader": "^8.1.0",
     "gh-pages": "^3.1.0",
-    "node-sass": "^4.13.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
-    "react-redux": "^7.2.2",
-    "react-redux-decorate": "0.0.5",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.1",
-    "redux": "^4.0.5",
-    "redux-connect-decorator": "^0.2.1",
-    "redux-logger": "^3.0.6",
-    "redux-promise-middleware": "^6.1.2",
-    "redux-thunk": "^2.3.0",
-    "sass-loader": "^8.0.2",
-    "style-loader": "^1.1.3",
-    "web-vitals": "^0.2.4",
-    "webpack": "^4.42.1",
-    "webpack-cli": "^3.3.11",
-    "webpack-dev-server": "^3.11.2"
+    "web-vitals": "^1.1.1"
   },
   "scripts": {
-    "start": "webpack --mode=development",
-    "build": "webpack --mode=production",
-    "dev": "webpack-dev-server",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
@@ -59,10 +35,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "css-loader": "^3.6.0",
-    "redux-devtools": "^3.7.0",
-    "svg-url-loader": "^7.1.1"
   }
 }

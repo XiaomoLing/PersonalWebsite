@@ -6,11 +6,11 @@ import { Menu } from 'antd';
 import { MailOutlined, AppstoreOutlined, SettingOutlined } from '@ant-design/icons';
 import { withRouter } from "react-router-dom";
 import { Typography } from 'antd';
-const { Paragraph, Text, Title } = Typography;
 import { Image } from 'antd';
-
-
 import AppLayout from '../layout';
+
+const { Paragraph, Text, Title } = Typography;
+
 
 const { SubMenu } = Menu;
 

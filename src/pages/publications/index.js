@@ -6,11 +6,12 @@ import { Menu } from 'antd';
 import { MailOutlined, AppstoreOutlined, SettingOutlined } from '@ant-design/icons';
 import { withRouter } from "react-router-dom";
 import { Typography } from 'antd';
-const { Paragraph, Text, Link } = Typography;
-const { Title } = Typography;
 import AppLayout from '../layout';
 import { Divider } from 'antd';
 
+
+const { Paragraph, Text, Link } = Typography;
+const { Title } = Typography;
 const { SubMenu } = Menu;
 
 class Publications extends React.Component {
