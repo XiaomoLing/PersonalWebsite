@@ -2,6 +2,7 @@
   "name": "react_app",
   "version": "0.1.0",
   "private": true,
+  "homepage":"https://XiaomoLing.github.io/PersonalWebsite",
   "dependencies": {
     "@babel/core": "^7.9.0",
     "@babel/plugin-proposal-class-properties": "^7.12.1",
@@ -14,6 +15,7 @@
     "@testing-library/user-event": "^12.5.0",
     "antd": "^4.9.4",
     "babel-loader": "^8.1.0",
+    "gh-pages": "^3.1.0",
     "node-sass": "^4.13.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
@@ -36,7 +38,9 @@
   "scripts": {
     "start": "webpack --mode=development",
     "build": "webpack --mode=production",
-    "dev": "webpack-dev-server"
+    "dev": "webpack-dev-server",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
