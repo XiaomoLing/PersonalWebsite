@@ -7,6 +7,7 @@ import { MailOutlined, AppstoreOutlined, SettingOutlined } from '@ant-design/ico
 import { withRouter } from "react-router-dom";
 import { Typography } from 'antd';
 const { Paragraph, Text, Title } = Typography;
+import { Image } from 'antd';
 
 
 import AppLayout from '../layout';
@@ -26,13 +27,17 @@ class About extends React.Component {
         <div style={{
           display: 'inline'
         }}>
+          <Image
+            width={200}
+            src=".../images/IMG_8880_R3.jpg"
+          />
           <Title level={2}>Lingzi Wu, PhD, EIT</Title>
           <Title level={4}>Postdoctoral Fellow</Title>
 
 
           <Text underline> lingzi1@ualberta.ca </Text>
           <Paragraph >           
-                        Hole School of Construction,
+            Hole School of Construction,
           </Paragraph>           
           <Paragraph >             
             Department of Civil and Environmental Engineering,
