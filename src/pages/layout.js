@@ -2,7 +2,7 @@ import React from 'react';
 import {Layout, } from 'antd'
 import AppNavigationBar from '../components/navbar'
 // import { cyan } from '@ant-design/colors';
-
+import { Image } from 'antd';
 const { Header, Footer, Sider, Content } = Layout;
 const layoutStyle = {
   minHeight: '100vh',
@@ -45,7 +45,11 @@ function AppLayout({children, style}) {
         display: 'flex',
         justifyContent: "center"
       }}> 
-        Add UofA Logo
+        <Image
+          width={200}
+          src= "/images/UA-1C-TINT.png"
+          preview = {false}
+        />
       </Footer>
     </Layout>
   )

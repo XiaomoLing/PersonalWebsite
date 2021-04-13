@@ -29,7 +29,7 @@ class About extends React.Component {
         }}>
           <Image
             width={200}
-            src=".../images/IMG_8880_R3.jpg"
+            src= "/images/IMG_8880_R3.jpg"
           />
           <Title level={2}>Lingzi Wu, PhD, EIT</Title>
           <Title level={4}>Postdoctoral Fellow</Title>
