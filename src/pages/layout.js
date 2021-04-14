@@ -45,10 +45,9 @@ function AppLayout({children, style}) {
         display: 'flex',
         justifyContent: "center"
       }}> 
-        <Image
+        <img
           width={200}
-          src= "/images/UA-1C-TINT.png"
-          preview = {false}
+          src={`${process.env.PUBLIC_URL}/images/UA-1C-TINT.png`} 
         />
       </Footer>
     </Layout>

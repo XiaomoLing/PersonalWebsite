@@ -6,30 +6,27 @@ import { Menu } from 'antd';
 import { MailOutlined, AppstoreOutlined, SettingOutlined } from '@ant-design/icons';
 import { withRouter } from "react-router-dom";
 import { Typography } from 'antd';
-import { Image } from 'antd';
+// import { Image } from 'antd';
 import AppLayout from '../layout';
 
 const { Paragraph, Text, Title } = Typography;
 
 
 const { SubMenu } = Menu;
+// const selfie = require('/images/IMG_8880_R3.jpg');
 
 class About extends React.Component {
-  state = {
-    current: 'mail',
-  };
 
   render() {
-    const { current } = this.state;
     return (
 
       <AppLayout>
         <div style={{
           display: 'inline'
         }}>
-          <Image
+          <img
             width={200}
-            src= "/images/IMG_8880_R3.jpg"
+            src={`${process.env.PUBLIC_URL}/images/IMG_8880_R3.jpg`} 
           />
           <Title level={2}>Lingzi Wu, PhD, EIT</Title>
           <Title level={4}>Postdoctoral Fellow</Title>
@@ -48,7 +45,6 @@ class About extends React.Component {
         </div>
         
       </AppLayout>
-
       
     );
   }
