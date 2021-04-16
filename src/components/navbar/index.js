@@ -28,9 +28,6 @@ class AppNavigationBar extends React.Component {
 			case "PUBLICATIONS":
 				this.props.history.push("/publications");
 				break;
-			case "PROJECTS":
-				this.props.history.push("/projects");
-				break;
 			case "TEACHING":
 				this.props.history.push("/teaching");
 				break;
