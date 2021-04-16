@@ -16,12 +16,6 @@ const contentStyle = {
   height: '100%'
 }
 //, LightCyan, MintCream
-// const footerStyle = {
-//   backgroundColor: 'white',
-//   padding: "0",
-//   display: 'flex',
-//   justifyContent: "center"
-// }
 
 /**
  * Layout component used to generate header and footer component

@@ -9,8 +9,7 @@ import { Typography } from 'antd';
 import AppLayout from '../layout';
 import { Divider } from 'antd';
 
-const { Paragraph, Text } = Typography;
-const { Title } = Typography;
+const { Paragraph, Text, Title } = Typography;
 const { SubMenu } = Menu;
 
 class Teaching extends React.Component {
@@ -28,7 +27,7 @@ class Teaching extends React.Component {
         }}>
           
 
-          <Title level={1}>Teaching Philosophy</Title>
+          <Divider> <Title level={4}>TEACHING PHILOSOPHY</Title></Divider>
 
           <Paragraph >
             When I look back, over 10 years after completing my undergraduate degree, I can hardly remember 
@@ -43,7 +42,7 @@ class Teaching extends React.Component {
             at the same time, as it led to a series of questions:
           </Paragraph>
         
-          <Title level={3}>What role do I play as an educator? </Title>
+          <Title level={4}>What role do I play as an educator? </Title>
           <Paragraph >
             Early in my education, I became aware of various teaching approaches, particularly their effects on my 
             learning outcomes. In recent years, as I started teaching and coaching (both in higher education and in
@@ -115,20 +114,25 @@ class Teaching extends React.Component {
             the teaching environments, and use them as teaching moments through my practice.
           </Paragraph>    
 
-          <Title level={3}>What role does higher education play in our society?  </Title>
+          <Title level={4}>What role does higher education play in our society?  </Title>
           <Paragraph >
-            More than simply assisting in the aggregation, development, and sharing of knowledge, I believe higher education plays a significant role in a democratic society: in educating informed and responsible citizens, thus ensuring a robust democracy. As one component of the higher education system, my influence on my students starts from setting a strong and positive example. To train my students to be accountable, I will be candid and deliver reliably; to cultivate a lifelong learning habit, I will demonstrate my dedication through continuous professional development activities; to encourage inclusivity and diversity, I am committed to helping them find their own identities and expressions of self and voices.  
-
+            More than simply assisting in the aggregation, development, and sharing of knowledge, I believe higher 
+            education plays a significant role in a democratic society: in educating informed and responsible citizens, 
+            thus ensuring a robust democracy. As one component of the higher education system, my influence on my 
+            students starts from setting a strong and positive example. To train my students to be accountable, I will 
+            be candid and deliver reliably; to cultivate a lifelong learning habit, I will demonstrate my dedication 
+            through continuous professional development activities; to encourage inclusivity and diversity, I am 
+            committed to helping them find their own identities and expressions of self and voices.  
           </Paragraph>
-          <Title level={3}>Conclusion</Title>
+          <Title level={4}>Conclusion</Title>
 
           <Paragraph >
             Like any skill, it takes practices and deliberate effort to achieve excellence. My teaching and mentoring, like my personality, reflect a passion for lifelong learning. I look forward to overcoming challenges and achieving excellence as I pursue my academic career. 
           </Paragraph>
 
-          <Divider> </Divider>
-          <Title level={1}>Teaching & Mentoring </Title>
-          <Title level={3}>Guest Lecturer </Title>
+          <Divider> <Title level={4}>TEACHING & MENTORING </Title> </Divider>
+
+          <Title level={4}>Guest Lecturer </Title>
           <Paragraph >
 
             Program Evaluation and Review Technique  (Mar 2021) <br></br>
@@ -141,28 +145,33 @@ class Teaching extends React.Component {
             CIV E 303 Construction Project Management        (Mar 2018) <br></br>
 
           </Paragraph>
-          <Title level={3}>Teaching Assistant </Title>
+          <Title level={4}>Teaching Assistant </Title>
           <Paragraph >
             CIV E 606 Design and Analysis of Construction Operation       (2019 Winter) <br></br>
             CIV E 303 Project Management       (2018 Winter)
           </Paragraph>
 
-          <Title level={3}>Coaching </Title>
+          <Title level={4}>Coaching </Title>
           <Title level={5}>Ski Instructor </Title>
           <Paragraph >
             Part-time Ski instructor at Banff Sunshine Village Ski Resort    (2018 to Current) 
           </Paragraph>
 
-          <Title level={3}>Mentoring</Title>
-          <Title level={5}>Mentor for Graduate Research Students    (Current)    </Title>
-
-          <Title level={5}>Supervisor for Undergraduate Research Students    (2019)    </Title>
+          <Title level={4}>Mentoring</Title>
+          <Title level={5}>    </Title>
           <Paragraph >
+            <Text strong>Mentor for Graduate Research Students    (Current)</Text><br></br>  
+            Various MEng, MSc, and PhD students 
+          </Paragraph>     
+
+          <Paragraph >
+          <Text strong>Supervisor for Undergraduate Research Students    (2019)</Text><br></br>           
             Students: Zuofu Li*, and Baoli Feng* <br></br>
              * underrepresented populations 
           </Paragraph>   
-          <Title level={5}>Supervisor for WISEST (Women in Scholarship, Engineering, Science and Technology) Summer Research Program   (2018) </Title>
+
           <Paragraph >
+            <Text strong>Supervisor for WISEST (Women in Scholarship, Engineering, Science and Technology) Summer Research Program   (2018)</Text><br></br>  
             Student: Alex Barber-Cross 
           </Paragraph>             
 

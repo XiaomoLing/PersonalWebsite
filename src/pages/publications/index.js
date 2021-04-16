@@ -28,7 +28,7 @@ class Publications extends React.Component {
           display: 'inline'
         }}>
           
-          <Divider>Journal Papers</Divider>
+          <Divider> <Title level={4}>JOURNAL PAPERS</Title></Divider>
           <Paragraph >
             <Text strong>Wu, L.</Text>
             , Ji, W., Feng, B., Hermann U., & AbouRizk, S. “Intelligent Data-Driven Approach for Enhancing 
@@ -53,12 +53,10 @@ class Publications extends React.Component {
           <Paragraph >
              <Text strong>Wu, L.</Text>,
              Ji, W., & AbouRizk, S. (2020). “Bayesian inference with Markov chain Monte Carlo–based numerical 
-             approach for input model updating.” Journal of Computing in Civil Engineering, 34(1), 04019043. 
-             
+             approach for input model updating.” Journal of Computing in Civil Engineering, 34(1), 04019043.              
              <Link href="https://doi.org/10.1061/(ASCE)CP.1943-5487.0000862" target="_blank">
               https://doi.org/10.1061/(ASCE)CP.1943-5487.0000862
-             </Link>
-                        
+             </Link>                       
           </Paragraph>
 
           <Paragraph >
@@ -72,7 +70,8 @@ class Publications extends React.Component {
              </Link>
           </Paragraph>
 
-          <Divider>Conference Papers</Divider>
+          <Divider> <Title level={4}>CONFERENCE PAPERS</Title></Divider>
+
           <Paragraph >
           < Text strong>Wu, L.</Text>,
              & AbouRizk, S. (2021) “Towards construction’s digital future: a roadmap for enhancing data value” 
@@ -95,8 +94,7 @@ class Publications extends React.Component {
             plowing operations” Proceedings of the Winter Simulation Conference (WSC), National Harbor, MD, US. 
             <Link href="https://doi.org/10.1109/WSC40007.2019.9004954" target="_blank">
              https://doi.org/10.1109/WSC40007.2019.9004954
-            </Link>
-            
+            </Link>          
           </Paragraph>           
 
           <Paragraph >
@@ -106,7 +104,6 @@ class Publications extends React.Component {
              Applied Simulation, Budapest, Hungary. 
              <Text strong> * Best Paper Award</Text>
           </Paragraph>  
-
 
           <Paragraph >
             <Text strong>Wu, L.</Text>,  
@@ -118,7 +115,8 @@ class Publications extends React.Component {
             </Link> 
           </Paragraph>  
 
-          <Divider>Software Packages</Divider>
+          <Divider> <Title level={4}>SOFTWARE PACKAGES</Title></Divider>
+
           <Paragraph >
             Li, Z., 
             <Text strong>Wu, L.</Text>,
@@ -128,8 +126,7 @@ class Publications extends React.Component {
             </Link>, Zenodo,  
             <Link href="https://doi.org/10.5281/zenodo.4057067" target="_blank">
             https://doi.org/10.5281/zenodo.4057067
-            </Link>   
-                 
+            </Link>                    
           </Paragraph>
 
           <Paragraph >
@@ -140,15 +137,12 @@ class Publications extends React.Component {
             </Link>, Zenodo 
             <Link href="https://doi.org/10.5281/zenodo.4058576 " target="_blank">
             https://doi.org/10.5281/zenodo.4058576 
-            </Link> 
-
-             
+            </Link>              
           </Paragraph>
 
         </div>
         
       </AppLayout>
-
       
     );
   }

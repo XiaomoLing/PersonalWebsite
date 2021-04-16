@@ -9,6 +9,7 @@ import { Typography } from 'antd';
 import { Image } from 'antd';
 import { Divider } from 'antd';
 import AppLayout from '../layout';
+import { Card } from 'antd';
 
 const { Paragraph, Text, Title } = Typography;
 
@@ -34,6 +35,30 @@ class About extends React.Component {
             width={200}
             src={`${process.env.PUBLIC_URL}/images/IMG_8880_R3.jpg`} 
           />
+          <Paragraph ></Paragraph>        
+          
+          {/* <div style={{ 
+            background: '#ECECEC', 
+            padding: '30px',
+          }}>
+            <Card title="Lingzi Wu, PhD, EIT" bordered={false} style={{ width: 900 }}>
+              <h3>Lingzi Wu, PhD, EIT</h3>
+              <img
+                width={200}
+                src={`${process.env.PUBLIC_URL}/images/IMG_8880_R3.jpg`} 
+              />
+              <p>Card content</p>
+            </Card>
+          </div> */}
+
+          {/* <Card title="Card title" bordered={false} style={{ width: 600 }}>
+            <img
+              width={200}
+              src={`${process.env.PUBLIC_URL}/images/IMG_8880_R3.jpg`} 
+            />
+            <p>Card content</p>
+          </Card> */}
+
 
           <Paragraph >         
             <Title level={3}>Lingzi Wu, PhD, EIT</Title>
@@ -43,6 +68,7 @@ class About extends React.Component {
               Educator
             </Title>
             <Divider />
+
             <Title level={5}>Postdoctoral Fellow</Title>
             <Text underline><a href="lingzi1@ualberta.ca">lingzi1@ualberta.ca</a></Text>
           </Paragraph> 
@@ -92,5 +118,4 @@ class About extends React.Component {
   }
 }
 
-// export default withRouter(AppNavigationBar);
 export default About;
