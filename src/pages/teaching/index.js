@@ -163,7 +163,7 @@ class Teaching extends React.Component {
           </Paragraph>   
           <Title level={5}>Supervisor for WISEST (Women in Scholarship, Engineering, Science and Technology) Summer Research Program   (2018) </Title>
           <Paragraph >
-            Students: Alex Barber-Cross 
+            Student: Alex Barber-Cross 
           </Paragraph>             
 
         </div>

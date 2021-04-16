@@ -8,12 +8,12 @@ import { withRouter } from "react-router-dom";
 import { Typography } from 'antd';
 import AppLayout from '../layout';
 
-
 const { Paragraph, Text } = Typography;
 const { Title } = Typography;
 const { SubMenu } = Menu;
 
-class Projects extends React.Component {
+
+class IndProjects extends React.Component {
     state = {
       current: 'mail',
     };
@@ -29,7 +29,7 @@ class Projects extends React.Component {
             
 
 
-            <Title level={5}>Suncor Fort Hills    (2016-2017) </Title>
+            <Title level={5}>Input Modelling    (2016-2017) </Title>
             <Paragraph >
               L., Wu was the leading cost engineer, with responsibilities of tracking project cost, 
               conducting cash flow analysis, monthly forecast, and generating incurred report. 
@@ -51,4 +51,4 @@ class Projects extends React.Component {
   }
   
   
-  export default Projects;
+export default IndProjects;

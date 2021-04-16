@@ -25,14 +25,25 @@ class About extends React.Component {
         <div style={{
           display: 'inline'
         }}>
+
+          <Divider>
+            <Title level={2}>WELCOME TO MY PERSONAL WEBSITE！</Title>        
+          </Divider>
+          
           <img
             width={200}
             src={`${process.env.PUBLIC_URL}/images/IMG_8880_R3.jpg`} 
           />
-          <Divider />
+
           <Paragraph >         
-            <Title level={2}>Lingzi Wu, PhD, EIT</Title>
-            <Title level={4}>Postdoctoral Fellow</Title>
+            <Title level={3}>Lingzi Wu, PhD, EIT</Title>
+            <Title level={4}>
+              Innovative Problem Solver |        
+              Researcher |
+              Educator
+            </Title>
+            <Divider />
+            <Title level={5}>Postdoctoral Fellow</Title>
             <Text underline><a href="lingzi1@ualberta.ca">lingzi1@ualberta.ca</a></Text>
           </Paragraph> 
 
@@ -43,14 +54,35 @@ class About extends React.Component {
           </Paragraph> 
 
 
-          <Divider>Brief Biography </Divider>
+          <Divider>
+            <Title level={4}>Brief Biography</Title>
+          </Divider>
           <Paragraph >           
-            Recently defended my PhD in Construction Engineering and Management at the University of Alberta, 
-            I am transitioning into my new role as a postdoctoral fellow in world’s foremost Simulation Lab lead 
-            by Dr. Simaan AbouRizk. Prior to my PhD studies, I was a project coordinator/site engineer on a 
-            variety of construction projects for 5 years. I experienced the challenges, difficulties, and 
-            frustrations of day-to-day construction practices, which led me to return to academic research where 
-            I can apply my research skills to improve the construction industry and better my community.
+            I am currently a postdoctoral fellow in the Department of Civil and Environmental 
+            Engineering at University of Alberta.
+          </Paragraph> 
+          <Paragraph >           
+            My passion for research extends far beyond my professional life. It intertwines into
+            my everyday life, and is embedded in my life philosophy—live to learn, and learn to live. 
+            My curious mind is a relentless engine drives me to discover new ideas, concepts, and technologies, 
+            to challenge the status quo, and to improve myself and the world around me. Through developing the 
+            state-of-art technologies (e.g., simulation, automation, and smart sensors), and adapting 
+            interdisciplinary methods (e.g., machine learning, artificial intelligence, and data analytics), 
+            my research is expected to solve practical challenges, advance the body of knowledge in engineering 
+            and management field, thus making a significant and visible impact on society and the daily lives 
+            of people. 
+          </Paragraph> 
+          <Paragraph >           
+            I love teaching and mentoring: My goal is to design a stimulating, inclusive, and equitable learning 
+            environment for every mind, and create a positive, substantial, and sustained influence on how my 
+            students think, act, and feel. To participate in their journey actively and positively, towards 
+            their personal and professional goals, is the greatest achievement I could ever imagine.
+          </Paragraph> 
+
+          <Paragraph >           
+            My research expertise and teaching interests include: project life cycle management, construction 
+            sustainability, resilient design, machine learning and artificial intelligence, construction informatics, 
+            data analytics, simulation and automation.
           </Paragraph> 
         </div>
         
