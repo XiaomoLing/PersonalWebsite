@@ -127,14 +127,20 @@ class Teaching extends React.Component {
           <Title level={4}>Conclusion</Title>
 
           <Paragraph >
-            Like any skill, it takes practices and deliberate effort to achieve excellence. My teaching and mentoring, like my personality, reflect a passion for lifelong learning. I look forward to overcoming challenges and achieving excellence as I pursue my academic career. 
+            My teaching goal is to design a stimulating, inclusive, and equitable learning environment for every mind, 
+            and create a positive, substantial, and sustained influence on how my students think, act, and feel. To 
+            participate in their journey actively and positively, towards their personal and professional goals, is 
+            the greatest achievement I could ever imagine. 
           </Paragraph>
-
-          <Divider> <Title level={4}>TEACHING & MENTORING </Title> </Divider>
+          <Paragraph >
+            Like any skill, it takes practices and deliberate effort to achieve excellence. My teaching and mentoring, 
+            like my personality, reflect a passion for lifelong learning. I look forward to overcoming challenges and 
+            achieving excellence as I pursue my academic career. 
+          </Paragraph>
+          <Divider> <Title level={4}>TEACHING & MENTORING EXPERIENCES</Title> </Divider>
 
           <Title level={4}>Guest Lecturer </Title>
           <Paragraph >
-
             Program Evaluation and Review Technique  (Mar 2021) <br></br>
             Introduction to Technology-Based Startups  (Mar 2021 & Nov 2020) <br></br>
             Construction Drawings and Specifications   (Feb 2021) <br></br>
@@ -143,18 +149,11 @@ class Teaching extends React.Component {
             Introduction to Project Management              (Apr 2021 & May 2020) <br></br>
             CIV E 606 Design and Analysis of Construction Operation       (Apr 2020 ) <br></br>
             CIV E 303 Construction Project Management        (Mar 2018) <br></br>
-
           </Paragraph>
           <Title level={4}>Teaching Assistant </Title>
           <Paragraph >
             CIV E 606 Design and Analysis of Construction Operation       (2019 Winter) <br></br>
             CIV E 303 Project Management       (2018 Winter)
-          </Paragraph>
-
-          <Title level={4}>Coaching </Title>
-          <Title level={5}>Ski Instructor </Title>
-          <Paragraph >
-            Part-time Ski instructor at Banff Sunshine Village Ski Resort    (2018 to Current) 
           </Paragraph>
 
           <Title level={4}>Mentoring</Title>
@@ -173,8 +172,14 @@ class Teaching extends React.Component {
           <Paragraph >
             <Text strong>Supervisor for WISEST (Women in Scholarship, Engineering, Science and Technology) Summer Research Program   (2018)</Text><br></br>  
             Student: Alex Barber-Cross 
-          </Paragraph>             
+          </Paragraph>     
 
+          <Title level={4}>Coaching </Title>
+          {/* <Title level={5}>Ski Instructor </Title> */}
+          <Paragraph >
+            <Text strong>Ski Instructor    (2018 to Current)</Text><br></br>           
+            Part-time Ski instructor at Banff Sunshine Village Ski Resort     
+          </Paragraph>
         </div>
         
       </AppLayout>
