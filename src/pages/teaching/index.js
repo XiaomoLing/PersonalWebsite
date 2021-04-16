@@ -127,10 +127,44 @@ class Teaching extends React.Component {
           </Paragraph>
 
           <Divider> </Divider>
-          <Title level={1}>Teaching Experience</Title>
+          <Title level={1}>Teaching & Mentoring </Title>
+          <Title level={3}>Guest Lecturer </Title>
           <Paragraph >
-            cccccccccccccccccccccccccc
+
+            Program Evaluation and Review Technique  (Mar 2021) <br></br>
+            Introduction to Technology-Based Startups  (Mar 2021 & Nov 2020) <br></br>
+            Construction Drawings and Specifications   (Feb 2021) <br></br>
+            Assessing Technology and Market Risk Associated with a Technology-Based Startup   (Aug 2020)<br></br>
+            Customer Discovery Process for Technology-Based Startups       (Jul 2020) <br></br>
+            Introduction to Project Management              (Apr 2021 & May 2020) <br></br>
+            CIV E 606 Design and Analysis of Construction Operation       (Apr 2020 ) <br></br>
+            CIV E 303 Construction Project Management        (Mar 2018) <br></br>
+
           </Paragraph>
+          <Title level={3}>Teaching Assistant </Title>
+          <Paragraph >
+            CIV E 606 Design and Analysis of Construction Operation       (2019 Winter) <br></br>
+            CIV E 303 Project Management       (2018 Winter)
+          </Paragraph>
+
+          <Title level={3}>Coaching </Title>
+          <Title level={5}>Ski Instructor </Title>
+          <Paragraph >
+            Part-time Ski instructor at Banff Sunshine Village Ski Resort    (2018 to Current) 
+          </Paragraph>
+
+          <Title level={3}>Mentoring</Title>
+          <Title level={5}>Mentor for Graduate Research Students    (Current)    </Title>
+
+          <Title level={5}>Supervisor for Undergraduate Research Students    (2019)    </Title>
+          <Paragraph >
+            Students: Zuofu Li*, and Baoli Feng* <br></br>
+             * underrepresented populations 
+          </Paragraph>   
+          <Title level={5}>Supervisor for WISEST (Women in Scholarship, Engineering, Science and Technology) Summer Research Program   (2018) </Title>
+          <Paragraph >
+            Students: Alex Barber-Cross 
+          </Paragraph>             
 
         </div>
         
