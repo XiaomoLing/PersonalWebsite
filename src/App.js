@@ -8,8 +8,7 @@ import About from "./pages/about";
 import News from "./pages/news";
 import Publications from "./pages/publications";
 import Teaching from "./pages/teaching";
-import IndProjects from "./pages/indprojects";
-import ResProjects from "./pages/resprojects";
+import Projects from "./pages/projects";
 
 function App() {
 	return (
@@ -27,12 +26,10 @@ function App() {
 				<Route exact path="/publications">
 					<Publications />
 				</Route>
-				<Route exact path="/ind-project">
-					<IndProjects />
+				<Route exact path="/projects">
+					<Projects />
 				</Route>
-				<Route exact path="/res-project">
-					<ResProjects />
-				</Route>
+				
 				{/* path="" put in the end */}
 				<Route exact path="">
 					<About />

@@ -9,6 +9,7 @@ import {
 	SettingOutlined,
 } from "@ant-design/icons";
 import { withRouter } from "react-router-dom";
+import { HashLink as Link } from 'react-router-hash-link';
 
 const { SubMenu } = Menu;
 
@@ -31,11 +32,8 @@ class AppNavigationBar extends React.Component {
 			case "TEACHING":
 				this.props.history.push("/teaching");
 				break;
-			case "IndProject":
-				this.props.history.push("/ind-project");
-				break;
-			case "ResProject":
-				this.props.history.push("/res-project");
+			case "PROJECTS":
+				this.props.history.push("/projects");
 				break;
 			default:
 				this.props.history.push("/");
@@ -65,8 +63,12 @@ class AppNavigationBar extends React.Component {
 					</Menu.Item>
 
 					<SubMenu key="PROJECTS"  title="PROJECTS">
-						<Menu.Item key="IndProject">Industrial Projects</Menu.Item>
-						<Menu.Item key="ResProject">Research Projects</Menu.Item>
+						<Menu.Item key="IndProject">
+							<Link to="/projects#Industrial-Projects">Industrial Projects</Link>
+						</Menu.Item>
+						<Menu.Item key="ResProject">
+							<Link to="/projects#Research-Projects">Research Projects</Link>
+						</Menu.Item>
 					</SubMenu>
 					<Menu.Item key="TEACHING">TEACHING</Menu.Item>
 				</Menu>
