@@ -147,7 +147,7 @@ class Teaching extends React.Component {
             Assessing Technology and Market Risk Associated with a Technology-Based Startup   (Aug 2020)<br></br>
             Customer Discovery Process for Technology-Based Startups       (Jul 2020) <br></br>
             Introduction to Project Management              (Apr 2021 & May 2020) <br></br>
-            CIV E 606 Design and Analysis of Construction Operation       (Apr 2020 ) <br></br>
+            CIV E 606 Design and Analysis of Construction Operation       (Apr 2020) <br></br>
             CIV E 303 Construction Project Management        (Mar 2018) <br></br>
           </Paragraph>
           <Title level={4}>Teaching Assistant </Title>
@@ -180,6 +180,24 @@ class Teaching extends React.Component {
             <Text strong>Ski Instructor    (2018 to Current)</Text><br></br>           
             Part-time Ski instructor at Banff Sunshine Village Ski Resort     
           </Paragraph>
+
+          <Divider> <Title level={4}>REPRESENTATIVE STUDENT COMMENTS</Title> </Divider>
+
+          <Paragraph >
+            “Lingzi Wu was knowledgeable about the course materials and understood the concepts very well which made her capable of clearly explaining concepts. Also, she put in the time and effort to help students in understanding a given problem and relating it to the real world.”
+          </Paragraph>
+          <Paragraph >
+            “Although she was trying to present a new topic for the class via an online lecture, I can say that she managed it perfectly and answered all the questions very well,  I am confident to say it was one of the best online lectures that I've attended the so far because she managed to keep my attention right to the very end.”
+          </Paragraph>
+          <Paragraph >
+            “Lingzi is an excellent mentor. She always takes an interest in students’ well-being and career beyond the program. Over the 8 months of the coop program under her supervision, I have established a strong personal and professional relationship with her. Even now, I go to her for career and professional development advice.”
+          </Paragraph>
+          <Paragraph >
+            “Lingzi is open and honest with her students. She is always honest with me when she doesn’t know the answers to my questions. More than simply following up on the answers later, she spends time in exploring the solutions with me together and demonstrates her approaches in solving problems.”
+          </Paragraph>
+
+
+          
         </div>
         
       </AppLayout>

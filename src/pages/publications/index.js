@@ -30,21 +30,28 @@ class Publications extends React.Component {
           
           <Divider> <Title level={4}>JOURNAL PAPERS</Title></Divider>
           <Paragraph >
+            <Text strong>Wu, L.</Text>         
+              , Li, Z., & AbouRizk, S., “Automating common data pre-processing steps for improved data-driven 
+              decision-support in industrial construction.” <em>Journal of Computing in Civil Engineering</em>, [Under Review]
+          </Paragraph>   
+
+          <Paragraph >
             <Text strong>Wu, L.</Text>
             , Ji, W., Feng, B., Hermann U., & AbouRizk, S. “Intelligent Data-Driven Approach for Enhancing 
-            Preliminary Resource Planning in Industrial Construction.” Automation in Construction, [Revised and Resubmitted]
+            Preliminary Resource Planning in Industrial Construction.” <em>Automation in Construction</em>,  [Revised and Resubmitted]
           </Paragraph>
-
+          <em></em>
           <Paragraph >
             Ali, M., Mohamed, E., 
             <Text strong>Wu, L.</Text>,
-             & AbouRizk, S. “A generic framework for simulation-based optimization using HLA.” Annals of Operations Research. [Under Review]
+             & AbouRizk, S. “A generic framework for simulation-based optimization using HLA.” 
+             <em>Annals of Operations Research</em>, [Under Review]
           </Paragraph>
 
           <Paragraph >
             <Text strong>Wu, L.</Text>,
              & AbouRizk, S. (2021) “A numerical-based approach for updating simulation input in real time” 
-             Journal of Computing in Civil Engineering, 35(2), 04020067. 
+             <em>Journal of Computing in Civil Engineering</em>, 35(2), 04020067. 
              <Link href="https://doi.org/10.1061/(ASCE)CP.1943-5487.0000948" target="_blank">
               https://doi.org/10.1061/(ASCE)CP.1943-5487.0000948
              </Link>
@@ -53,7 +60,7 @@ class Publications extends React.Component {
           <Paragraph >
              <Text strong>Wu, L.</Text>,
              Ji, W., & AbouRizk, S. (2020). “Bayesian inference with Markov chain Monte Carlo–based numerical 
-             approach for input model updating.” Journal of Computing in Civil Engineering, 34(1), 04019043.              
+             approach for input model updating.” <em>Journal of Computing in Civil Engineering</em>, 34(1), 04019043.              
              <Link href="https://doi.org/10.1061/(ASCE)CP.1943-5487.0000862" target="_blank">
               https://doi.org/10.1061/(ASCE)CP.1943-5487.0000862
              </Link>                       
@@ -63,7 +70,7 @@ class Publications extends React.Component {
             Pereira, E., Ali, M.,
             <Text strong>Wu, L.</Text>,
              & AbouRizk, S. (2019). “Distributed simulation-based analytics approach for enhancing safety 
-             management systems in industrial construction” Journal of Construction Engineering and Management, 
+             management systems in industrial construction” <em>Journal of Construction Engineering and Management</em> , 
              146(1), 04019091.   
              <Link href="https://doi.org/10.1061/(ASCE)CO.1943-7862.0001732" target="_blank">
                https://doi.org/10.1061/(ASCE)CO.1943-7862.0001732

@@ -81,7 +81,7 @@ class About extends React.Component {
 
 
           <Divider>
-            <Title level={4}>Brief Biography</Title>
+            <Title level={4}>BRIEF BIOGRAPHY</Title>
           </Divider>
           <Paragraph >           
             I am currently a postdoctoral fellow in the Department of Civil and Environmental 
