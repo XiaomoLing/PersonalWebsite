@@ -64,13 +64,12 @@ class AppNavigationBar extends React.Component {
 					<Menu.Item key="PUBLICATIONS" >
 						PUBLICATIONS
 					</Menu.Item>
-
 					<SubMenu key="PROJECTS"  title="PROJECTS">
-						<Menu.Item key="IndProject">
-							<Link to="/projects#Industrial-Projects">Industrial Projects</Link>
-						</Menu.Item>
 						<Menu.Item key="ResProject">
 							<Link to="/projects#Research-Projects">Research Projects</Link>
+						</Menu.Item>
+						<Menu.Item key="IndProject">
+							<Link to="/projects#Industrial-Projects">Industrial Projects</Link>
 						</Menu.Item>
 					</SubMenu>
 					<Menu.Item key="TEACHING">TEACHING</Menu.Item>

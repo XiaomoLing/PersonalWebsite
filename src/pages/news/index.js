@@ -66,11 +66,12 @@ class News extends React.Component {
 
           {/* <Carousel effect="fade">
             <div>
-              <h3>111111111111111111111</h3>
-
+              <h3>1 Lingzi Wu and colleagues awarded Best Paper Award at the 17th International 
+                    Conference on Modeling and Applied Simulation.
+              </h3>
             </div>
             <div>
-              <h3>22222222222222222</h3>
+              <h3>2</h3>
             </div>
           </Carousel> */}
 
