@@ -3,7 +3,7 @@ import React from "react";
 import "./App.css";
 import { DatePicker } from "antd";
 import AppLayout from "./pages/layout";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route, Link, HashRouter } from "react-router-dom";
 import About from "./pages/about";
 import News from "./pages/news";
 import Publications from "./pages/publications";
@@ -12,7 +12,7 @@ import Projects from "./pages/projects";
 
 function App() {
 	return (
-		<Router basename={process.env.PUBLIC_URL}>
+		<HashRouter>
 			<Switch>
 				<Route exact path="/about">
 					<About />
@@ -37,7 +37,7 @@ function App() {
 				{/* <Route component={About}></Route> */}
 				{/* <Route><AppLayout/></Route> */}
 			</Switch>
-		</Router>
+		</HashRouter>
 	);
 }
 
