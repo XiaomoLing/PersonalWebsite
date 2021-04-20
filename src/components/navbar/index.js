@@ -21,25 +21,25 @@ class AppNavigationBar extends React.Component {
 	handleClick = (e) => {
 		switch (e.key) {
 			case "ABOUT":
-				this.props.history.push("/PersonalWebsite/about");
+				this.props.history.push("/about");
 				break;
 			case "NEWS":
-				this.props.history.push("/PersonalWebsite/news");
+				this.props.history.push("/news");
 				break;
 			case "PUBLICATIONS":
-				this.props.history.push("/PersonalWebsite/publications");
+				this.props.history.push("/publications");
 				break;
 			case "TEACHING":
-				this.props.history.push("/PersonalWebsite/teaching");
+				this.props.history.push("/teaching");
 				break;
 			case "IndProject":
-				this.props.history.push("/PersonalWebsite/projects#Industrial-Projects");
+				this.props.history.push("/projects#Industrial-Projects");
 				break;
 			case "ResProject":
-				this.props.history.push("/PersonalWebsite/projects#Research-Projects");
+				this.props.history.push("/projects#Research-Projects");
 				break;
 			default:
-				this.props.history.push("/PersonalWebsite/");
+				this.props.history.push("/");
 				break;
 		}
 

@@ -14,24 +14,24 @@ function App() {
 	return (
 		<Router basename={process.env.PUBLIC_URL}>
 			<Switch>
-				<Route exact path="/PersonalWebsite/about">
+				<Route exact path="/about">
 					<About />
 				</Route>
-				<Route exact path="/PersonalWebsite/teaching">
+				<Route exact path="/teaching">
 					<Teaching />
 				</Route>
-				<Route exact path="/PersonalWebsite/news">
+				<Route exact path="/news">
 					<News />
 				</Route>
-				<Route exact path="/PersonalWebsite/publications">
+				<Route exact path="/publications">
 					<Publications />
 				</Route>
-				<Route exact path="/PersonalWebsite/projects">
+				<Route exact path="/projects">
 					<Projects />
 				</Route>
 				
 				{/* path="" put in the end */}
-				<Route exact path="/PersonalWebsite">
+				<Route exact path="/">
 					<About />
 				</Route>
 				{/* <Route component={About}></Route> */}
