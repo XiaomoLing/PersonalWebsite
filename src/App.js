@@ -14,24 +14,24 @@ function App() {
 	return (
 		<Router>
 			<Switch>
-				<Route exact path="/about">
+				<Route exact path="/PersonalWebsite/about">
 					<About />
 				</Route>
-				<Route exact path="/teaching">
+				<Route exact path="/PersonalWebsite/teaching">
 					<Teaching />
 				</Route>
-				<Route exact path="/news">
+				<Route exact path="/PersonalWebsite/news">
 					<News />
 				</Route>
-				<Route exact path="/publications">
+				<Route exact path="/PersonalWebsite/publications">
 					<Publications />
 				</Route>
-				<Route exact path="/projects">
+				<Route exact path="/PersonalWebsite/projects">
 					<Projects />
 				</Route>
 				
 				{/* path="" put in the end */}
-				<Route exact path="">
+				<Route exact path="/PersonalWebsite">
 					<About />
 				</Route>
 				{/* <Route component={About}></Route> */}
