@@ -56,7 +56,7 @@ class Projects extends React.Component {
                 enabling real-time input model calibration for simulation. 
               </Paragraph>  
 
-              <Title level={5}>Automating Data Preprocessing in Enhancing Construction Digitalization </Title>
+              <Title level={5}>Automating Data Preprocessing in Enhancing Construction Digitalization (2019-2020)</Title>
               <Paragraph >
                 Reflecting the highly-fragmented environment, construction data are segmented (stored in 
                 separate databases), noisy, and messy, thus constantly require tedious manual manipulation 
