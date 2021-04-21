@@ -26,7 +26,6 @@ class Teaching extends React.Component {
           display: 'inline'
         }}>
           
-
           <Divider> <Title level={4}>TEACHING PHILOSOPHY</Title></Divider>
 
           <Paragraph >
@@ -195,13 +194,10 @@ class Teaching extends React.Component {
           <Paragraph >
             “Lingzi is open and honest with her students. She is always honest with me when she doesn’t know the answers to my questions. More than simply following up on the answers later, she spends time in exploring the solutions with me together and demonstrates her approaches in solving problems.”
           </Paragraph>
-
-
           
         </div>
         
       </AppLayout>
-
       
     );
   }
