@@ -82,7 +82,7 @@ class Publications extends React.Component {
           <Paragraph >
           < Text strong>Wu, L.</Text>,
              & AbouRizk, S. (2021) “Towards construction’s digital future: a roadmap for enhancing data value” 
-             9th CSCE International Construction Specialty Conference, Niagara Falls, Canada [Under Review] 
+             9th CSCE International Construction Specialty Conference, Niagara Falls, Canada [In Press] 
           </Paragraph>
 
           <Paragraph >

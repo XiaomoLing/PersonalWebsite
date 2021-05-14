@@ -61,7 +61,7 @@ class News extends React.Component {
           <Title level={5}>Alberta Graduate Excellence Scholarship ($12,000)...................................................................................2020</Title>
           <Title level={5}>Ledcor Graduate Scholarship in Construction Engineering and Management ($2,500)...................2020</Title>
           <Title level={5}>Queen Elizabeth II Graduate Scholarship – Doctoral Level ($7,500).......................................................2018</Title>
-          <Title level={5}>Outstanding Undergraduate Student Award ($4,000)...............................................................................2018</Title>
+          <Title level={5}>Outstanding Undergraduate Student Award ($4,000)...............................................................................2008</Title>
           <Title level={5}>Tianjin University Outstanding Student Award ($1,000).............................................................2007 & 2008</Title>
 
           {/* <Carousel effect="fade">

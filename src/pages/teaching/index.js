@@ -59,7 +59,7 @@ class Teaching extends React.Component {
             saying goes, “Give a man a fish and you feed him for a day; teach a man to fish and you feed him for a 
             lifetime.” Beyond engaging my students through diverse learning activities, I have been focusing my 
             teaching on designing sustained, significant and positive learning experiences through 1) motivating 
-            self-directed learning, 2) nurturing self-directed learning skills, and 3) encouraging inclusivity and 
+            self-directed learning, 2) nurturing personal, technical, and transferable skills, and 3) encouraging inclusivity and 
             diversity. Upon graduation, I hope my students will not only obtain a set of hard skills as a trained 
             engineer, but also a set of soft skills that will support them navigating through any storms their future 
             life imposes. 
@@ -79,7 +79,7 @@ class Teaching extends React.Component {
             Additionally, I am fully aware that “every student is a person who is becoming”  —they each have their own personal and career goals. I will maintain honest two-way communication with all students and create an open and positive learning environment, where they feel comfortable to ask questions and seek help. I will actively listen to their concerns and needs, in adjusting my courses content to accommodate a broader interest. By building trust and mutual understanding, I expect to encourage inquiring minds, connect with students with diverse backgrounds and various career goals, thus achieving this critical first step—motivation to learn. 
           </Paragraph>
 
-          <Title level={5}>Ability to learn: soft and hard skills  </Title>        
+          <Title level={5}>Ability to learn—personal, technical, and transferable skills </Title>        
           <Paragraph >
             Today, any factual content is easily and near-instantaneously accessible to students via diverse devices. 
             Rapidly changing technology and society challenge educators to focus on fostering a set of soft skills 
@@ -90,8 +90,8 @@ class Teaching extends React.Component {
             First, I will continue to organize my lecture materials in a logical and systematic manner that focuses 
             on non-obvious linkages and hidden principles beneath the scattered knowledge areas—demonstrating how to 
             gather meaningful understanding from available factual content. Additionally, I will innovate in how I 
-            deliver lectures, conduct assessments, and develop courses, aiming at nurturing critical soft skills through 
-            the training of hard skills. For instance, developing group projects to encourage collaborative work; 
+            deliver lectures, conduct assessments, and develop courses, aiming at training personal, technical, and 
+            transferable skills through student participatory learning. For instance, developing group projects to encourage collaborative work; 
             designing open-book exams to assess problem-solving skills; bringing in peer review of assignments to train 
             critical thinking skills; and introducing workshops where students can practice their presentation skills 
             through teaching each other on their chosen/assigned topic—as the Latin principle Docendo discimus: “The 
