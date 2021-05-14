@@ -50,7 +50,7 @@ class Publications extends React.Component {
 
           <Paragraph >
             <Text strong>Wu, L.</Text>,
-             & AbouRizk, S. (2021) “A numerical-based approach for updating simulation input in real time” 
+             & AbouRizk, S. (2021) “Numerical-based approach for updating simulation input in real time” 
              <em>Journal of Computing in Civil Engineering</em>, 35(2), 04020067. 
              <Link href="https://doi.org/10.1061/(ASCE)CP.1943-5487.0000948" target="_blank">
               https://doi.org/10.1061/(ASCE)CP.1943-5487.0000948
@@ -88,7 +88,7 @@ class Publications extends React.Component {
           <Paragraph >
             <Text strong>Wu, L.</Text>,
              Li, Z., & AbouRizk, S. (2020) “Automation in extraction and sharing information between BIM and 
-             project management database” International Conference on Construction and Real Estate Management 
+             project management databases” International Conference on Construction and Real Estate Management 
              (ICCREM), Stockholm, Sweden. 
              <Link href="https://doi.org/10.1061/9780784483237.005" target="_blank">
              https://doi.org/10.1061/9780784483237.005
