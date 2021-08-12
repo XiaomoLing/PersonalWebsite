@@ -32,21 +32,24 @@ class Publications extends React.Component {
           <Paragraph >
             <Text strong>Wu, L.</Text>         
               , Li, Z., & AbouRizk, S., “Automating common data pre-processing steps for improved data-driven 
-              decision-support in industrial construction.” <em>Journal of Computing in Civil Engineering</em>, [Under Review]
+              decision-support in industrial construction.” <em>Journal of Computing in Civil Engineering</em>, [Revised and Resubmitted]
           </Paragraph>   
 
           <Paragraph >
             <Text strong>Wu, L.</Text>
             , Ji, W., Feng, B., Hermann U., & AbouRizk, S. “Intelligent Data-Driven Approach for Enhancing 
-            Preliminary Resource Planning in Industrial Construction.” <em>Automation in Construction</em>,  [Revised and Resubmitted]
+            Preliminary Resource Planning in Industrial Construction.” <em>Automation in Construction</em>, 130, 103846.
+            <Link href="https://doi.org/10.1016/j.autcon.2021.103846" target="_blank">
+            https://doi.org/10.1016/j.autcon.2021.103846
+            </Link>
           </Paragraph>
           <em></em>
-          <Paragraph >
+{/*           <Paragraph >
             Ali, M., Mohamed, E., 
             <Text strong>Wu, L.</Text>,
              & AbouRizk, S. “A generic framework for simulation-based optimization using HLA.” 
              <em>Annals of Operations Research</em>, [Under Review]
-          </Paragraph>
+          </Paragraph> */}
 
           <Paragraph >
             <Text strong>Wu, L.</Text>,

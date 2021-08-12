@@ -140,6 +140,8 @@ class Teaching extends React.Component {
 
           <Title level={4}>Guest Lecturer </Title>
           <Paragraph >
+            Cost Estimating in Construction  （Jul 2021） <br></br>
+            Project Planning and Scheduling using CPM  （Jun 2021） <br></br>
             Program Evaluation and Review Technique  (Mar 2021) <br></br>
             Introduction to Technology-Based Startups  (Mar 2021 & Nov 2020) <br></br>
             Construction Drawings and Specifications   (Feb 2021) <br></br>
@@ -176,7 +178,7 @@ class Teaching extends React.Component {
           <Title level={4}>Coaching </Title>
           {/* <Title level={5}>Ski Instructor </Title> */}
           <Paragraph >
-            <Text strong>Ski Instructor    (2018 to Current)</Text><br></br>           
+            <Text strong>Ski Instructor    (2018 to 2021)</Text><br></br>           
             Part-time Ski instructor at Banff Sunshine Village Ski Resort     
           </Paragraph>
 
