@@ -157,13 +157,17 @@ class Teaching extends React.Component {
             CIV E 303 Project Management       (2018 Winter)
           </Paragraph>
 
-          <Title level={4}>Mentoring</Title>
+          <Title level={4}>Coaching and Mentoring</Title>
           <Title level={5}>    </Title>
           <Paragraph >
             <Text strong>Mentor for Graduate Research Students    (Current)</Text><br></br>  
             Various MEng, MSc, and PhD students 
           </Paragraph>     
-
+          <Paragraph >
+            <Text strong>Supervisor for MEng Students    (2021)</Text><br></br>  
+            Students: Emily (Kunkun) Li* <br></br>
+             * underrepresented populations 
+          </Paragraph>   
           <Paragraph >
           <Text strong>Supervisor for Undergraduate Research Students    (2019)</Text><br></br>           
             Students: Zuofu Li*, and Baoli Feng* <br></br>
@@ -175,14 +179,17 @@ class Teaching extends React.Component {
             Student: Alex Barber-Cross 
           </Paragraph>     
 
-          <Title level={4}>Coaching </Title>
+          <Title level={4}>Ski Instructor </Title>
           {/* <Title level={5}>Ski Instructor </Title> */}
           <Paragraph >
-            <Text strong>Ski Instructor    (2018 to 2021)</Text><br></br>           
-            Part-time Ski instructor at Banff Sunshine Village Ski Resort     
+            <Text strong>Part-time Ski instructor at Banff Sunshine Village Ski Resort    (2018 to 2021)</Text><br></br>                 
           </Paragraph>
 
           <Divider> <Title level={4}>REPRESENTATIVE STUDENT COMMENTS</Title> </Divider>
+
+          <Paragraph >
+            “Dr. Wu has a great personality and is always willing to help her students. She is knowledgeable about the construction industry and good at explaining complex concepts. It has been a great experience working on my Master of Engineering capstone project under her supervision. She was the one who got me interested in the research study."
+          </Paragraph>
 
           <Paragraph >
             “Lingzi Wu was knowledgeable about the course materials and understood the concepts very well which made her capable of clearly explaining concepts. Also, she put in the time and effort to help students in understanding a given problem and relating it to the real world.”

@@ -31,13 +31,17 @@ class Publications extends React.Component {
           <Divider> <Title level={4}>JOURNAL PAPERS</Title></Divider>
           <Paragraph >
             <Text strong>Wu, L.</Text>         
-              , Li, Z., & AbouRizk, S., “Automating common data pre-processing steps for improved data-driven 
-              decision-support in industrial construction.” <em>Journal of Computing in Civil Engineering</em>, [Revised and Resubmitted]
+              , Li, Z., & AbouRizk, S., (2021) “Automating common data integration for improved data-driven 
+              decision-support in industrial construction.” <em>Journal of Computing in Civil Engineering</em>, [Forthcoming]
+              <Link href="https://doi.org/10.1061/(ASCE)CP.1943-5487.0001001" target="_blank">
+              https://doi.org/10.1061/(ASCE)CP.1943-5487.0001001
+              </Link>
+              
           </Paragraph>   
 
           <Paragraph >
             <Text strong>Wu, L.</Text>
-            , Ji, W., Feng, B., Hermann U., & AbouRizk, S. “Intelligent Data-Driven Approach for Enhancing 
+            , Ji, W., Feng, B., Hermann U., & AbouRizk, S. (2021) “Intelligent Data-Driven Approach for Enhancing 
             Preliminary Resource Planning in Industrial Construction.” <em>Automation in Construction</em>, 130, 103846.
             <Link href="https://doi.org/10.1016/j.autcon.2021.103846" target="_blank">
             https://doi.org/10.1016/j.autcon.2021.103846

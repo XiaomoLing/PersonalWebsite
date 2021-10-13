@@ -38,7 +38,7 @@ class Projects extends React.Component {
                 <Title level={4}>RESEARCH PROJECTS</Title>        
               </Divider>
 
-              <Title level={5}>Data-Driven Decision Support System for Construction (2017-Current) </Title>
+              <Title level={5}>Construction's Digital Future: Smart Data-Driven Decision Support Systems (2017-Current) </Title>
               <Paragraph >
                 I have implemented various modeling techniques (e.g. discrete event simulation, distributed 
                 simulation (or High Level Architecture), agent-based modeling) and machine learning 
