@@ -22,10 +22,16 @@ class About extends React.Component {
         <div style={{
           display: 'inline'
         }}>
-          <Title level={2} style={{textAlign: "center"}}>WELCOME TO MY PERSONAL WEBSITE！</Title> 
-            
-          <Row>
-            <Col span={12}>
+          <Title level={2} style={{
+            textAlign: "center", 
+            paddingTop: "25px",
+            paddingBottom: "25px",
+          }}>WELCOME TO MY PERSONAL WEBSITE！</Title> 
+          
+          <Row justify="space-around">
+            <Col span={10} style={{
+              marginLeft: "5%"
+            }}>
               <img
                 width={200}
                 src={`${process.env.PUBLIC_URL}/images/IMG_8880_R3.jpg`} 
@@ -51,7 +57,9 @@ class About extends React.Component {
               </Paragraph> 
             </Col>
 
-            <Col span = {12}>
+            <Col span = {10} style={{
+              marginRight: "5%"
+            }}>
               
               <Title level={4} style={{textAlign: "center"}}>BRIEF BIOGRAPHY</Title>
               

@@ -3,11 +3,6 @@ import ReactDOM from "react-dom";
 import "antd/dist/antd.css";
 import "./navbar.css";
 import { Menu } from "antd";
-import {
-	MailOutlined,
-	AppstoreOutlined,
-	SettingOutlined,
-} from "@ant-design/icons";
 import { withRouter } from "react-router-dom";
 import { HashLink as Link } from 'react-router-hash-link';
 
