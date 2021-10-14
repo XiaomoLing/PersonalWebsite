@@ -45,32 +45,24 @@ class AppNavigationBar extends React.Component {
 	render() {
 		const { current } = this.state;
 		return (
-			// ABOUT
-			// NEWS
-			// PUBLICATIONS
-			// PROJECTS
-			// TEACHING
-			// PEOPLE
-			// OPPORTUNITIES
-			<div className="center">
-				<Menu onClick={this.handleClick} selectedKeys={[current]} mode="horizontal">
-					<Menu.Item key="ABOUT">ABOUT</Menu.Item>
-					<Menu.Item key="NEWS">NEWS</Menu.Item>
-					<Menu.Item key="PUBLICATIONS" >
-						PUBLICATIONS
+			<Menu onClick={this.handleClick} selectedKeys={[current]} mode="horizontal" className="center">
+				<Menu.Item key="ABOUT">ABOUT</Menu.Item>
+				<Menu.Item key="NEWS">NEWS</Menu.Item>
+				<Menu.Item key="PUBLICATIONS" >
+					PUBLICATIONS
+				</Menu.Item>
+				<SubMenu key="PROJECTS"  title="PROJECTS">
+					<Menu.Item key="ResProject">
+						<Link to="/projects#Research-Projects">Research Projects</Link>
 					</Menu.Item>
-					<SubMenu key="PROJECTS"  title="PROJECTS">
-						<Menu.Item key="ResProject">
-							<Link to="/projects#Research-Projects">Research Projects</Link>
-						</Menu.Item>
-						<Menu.Item key="IndProject">
-							<Link to="/projects#Industrial-Projects">Industrial Projects</Link>
-						</Menu.Item>
-					</SubMenu>
-					<Menu.Item key="TEACHING">TEACHING</Menu.Item>
-				</Menu>
-			</div>
+					<Menu.Item key="IndProject">
+						<Link to="/projects#Industrial-Projects">Industrial Projects</Link>
+					</Menu.Item>
+				</SubMenu>
+				<Menu.Item key="TEACHING">TEACHING</Menu.Item>
+			</Menu>
 		);
+		
 	}
 }
 

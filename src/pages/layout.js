@@ -1,8 +1,6 @@
 import React from 'react';
 import {Layout, } from 'antd'
 import AppNavigationBar from '../components/navbar'
-// import { cyan } from '@ant-design/colors';
-import { Image } from 'antd';
 const { Header, Footer, Sider, Content } = Layout;
 const layoutStyle = {
   minHeight: '100vh',
@@ -25,9 +23,6 @@ function AppLayout({children, style}) {
     <Layout style={layoutStyle}>
       <Header style={{
         backgroundColor: 'white',
-        padding: "0",
-        display: 'flex',
-        justifyContent: "center"
       }}>
         <AppNavigationBar ></AppNavigationBar>
       </Header>
