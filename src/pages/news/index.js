@@ -38,10 +38,8 @@ class News extends React.Component {
             and Inclusion Initiative (DEII) Cohort. DEII seek to nurture a diverse 
             population of emerging scholars teaching and researching the built environment 
             to advance socio-ecological and spatial justice, equity, and inclusion. 
-            More information can be found at 
-            <Link href="https://www.deansequityandinclusioninitiative.com/" target="_blank">
-            https://www.deansequityandinclusioninitiative.com
-            </Link>.
+            More information can be found <Link href="https://www.deansequityandinclusioninitiative.com/" target="_blank">
+            here</Link>.
 
 
             {/* <Link href="https://www.deansequityandinclusioninitiative.com/" target="_blank"> here </Link> */}
@@ -51,9 +49,8 @@ class News extends React.Component {
           <Paragraph >
             Lingzi Wu will join this esteemed cohort of new interdisciplinary faculty to the 
             College of Built environment at the University of Washington. 
-            Read about each of the full-time tenure-track faculty 
-            <Link href="https://be.uw.edu/blog/2022/04/13/cbe-welcomes-new-cohort-of-faculty/?mkt_tok=MTMxLUFRTy0yMjUAAAGDwrv2_fFh5AO-zCOH415AqI64BFS__bD2pdo1DMMOwSKnmPxnY4jOg1UYVcZ9JGDWzaxJeMz5met-tl1_NVgDr16LGapgrpIQS-3Qt4_KObfQhjc" target="_blank"> 
-            here </Link>            
+            Read about each of the full-time tenure-track faculty <Link href="https://be.uw.edu/blog/2022/04/13/cbe-welcomes-new-cohort-of-faculty/?mkt_tok=MTMxLUFRTy0yMjUAAAGDwrv2_fFh5AO-zCOH415AqI64BFS__bD2pdo1DMMOwSKnmPxnY4jOg1UYVcZ9JGDWzaxJeMz5met-tl1_NVgDr16LGapgrpIQS-3Qt4_KObfQhjc" target="_blank"> 
+            here</Link>.         
         
 
           </Paragraph>
