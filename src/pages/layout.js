@@ -28,15 +28,16 @@ function AppLayout({children, style}) {
       </Header>
       <Content style={{...contentStyle, ...style}}>{children}</Content>
       <Footer style={{
-        backgroundColor: 'white',
+        backgroundColor: 'white', // rgb(51, 0, 111)
         minHeight: '8vh',
         padding: "0",
         display: 'flex',
         justifyContent: "center"
       }}> 
         <img
-          width={200}
-          src={`${process.env.PUBLIC_URL}/images/UA-1C-TINT.png`} 
+          width={600}
+          height = {50}
+          src={`${process.env.PUBLIC_URL}/images/UW_Left_Purple_RGB.png`} 
         />
       </Footer>
     </Layout>

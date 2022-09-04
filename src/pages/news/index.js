@@ -10,7 +10,7 @@ import AppLayout from '../layout';
 import { Carousel } from 'antd';
 import { Divider } from 'antd';
 
-const { Paragraph, Text,Title } = Typography;
+const { Paragraph, Text,Title,Link } = Typography;
 const { SubMenu } = Menu;
 
 class News extends React.Component {
@@ -30,6 +30,34 @@ class News extends React.Component {
           <Divider>
             <Title level={4}>NEWS</Title>        
           </Divider>
+
+          <Title level={5}>Fellow for the 2022 Deans Equity and Inclusion Initiative (DEII) Cohort -- July, 2022</Title>
+
+          <Paragraph >
+            Lingzi Wu was nominated and selected as a fellow for the 2022 Deans Equity 
+            and Inclusion Initiative (DEII) Cohort. DEII seek to nurture a diverse 
+            population of emerging scholars teaching and researching the built environment 
+            to advance socio-ecological and spatial justice, equity, and inclusion. 
+            More information can be found at 
+            <Link href="https://www.deansequityandinclusioninitiative.com/" target="_blank">
+            https://www.deansequityandinclusioninitiative.com
+            </Link>.
+
+
+            {/* <Link href="https://www.deansequityandinclusioninitiative.com/" target="_blank"> here </Link> */}
+          </Paragraph>
+
+          <Title level={5}>College of Built Environment (UW) Welcomes New Cohort of Faculty -- March, 2022</Title>
+          <Paragraph >
+            Lingzi Wu will join this esteemed cohort of new interdisciplinary faculty to the 
+            College of Built environment at the University of Washington. 
+            Read about each of the full-time tenure-track faculty 
+            <Link href="https://be.uw.edu/blog/2022/04/13/cbe-welcomes-new-cohort-of-faculty/?mkt_tok=MTMxLUFRTy0yMjUAAAGDwrv2_fFh5AO-zCOH415AqI64BFS__bD2pdo1DMMOwSKnmPxnY4jOg1UYVcZ9JGDWzaxJeMz5met-tl1_NVgDr16LGapgrpIQS-3Qt4_KObfQhjc" target="_blank"> 
+            here </Link>            
+        
+
+          </Paragraph>
+
           <Title level={5}>Best Paper at MAS 2018</Title>
 
           <Paragraph >
@@ -58,6 +86,7 @@ class News extends React.Component {
             <Title level={4}>AWARDS</Title>        
           </Divider>
 
+          <Title level={5}>ASCE Outstanding Reviewer, <em>Journal of Construction Engineering and Management</em>.......................2021</Title>        
           <Title level={5}>Alberta Graduate Excellence Scholarship ($12,000)...................................................................................2020</Title>
           <Title level={5}>Ledcor Graduate Scholarship in Construction Engineering and Management ($2,500)...................2020</Title>
           <Title level={5}>Queen Elizabeth II Graduate Scholarship – Doctoral Level ($7,500).......................................................2018</Title>

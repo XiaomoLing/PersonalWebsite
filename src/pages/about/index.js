@@ -46,14 +46,14 @@ class About extends React.Component {
                   Educator
                 </Title>
 
-                <Title level={5}>Postdoctoral Fellow</Title>
-                <Text underline><a href="lingzi1@ualberta.ca">lingzi1@ualberta.ca</a></Text>
+                <Title level={5}>Assistant Professor</Title>
+                <Text underline><a href="lingwu@uw.edu">lingwu@uw.edu</a></Text>
               </Paragraph> 
 
               <Paragraph >           
-                Hole School of Construction,<br></br>
-                Department of Civil and Environmental Engineering,<br></br>
-                University of Alberta, AB
+                Department of Construction Management<br></br>
+                College of Built Environments<br></br>
+                University of Washington
               </Paragraph> 
             </Col>
 
@@ -64,8 +64,10 @@ class About extends React.Component {
               <Title level={4} style={{textAlign: "center"}}>BRIEF BIOGRAPHY</Title>
               
               <Paragraph >           
-                I am currently a postdoctoral fellow in the Department of Civil and Environmental 
-                Engineering at University of Alberta.
+               I’m an Assistant Professor with the Department of Construction Management (CM) at the University of 
+               Washington (UW). Prior to joining UW in September 2022, I served as a postdoctoral fellow in the 
+               Department of Civil and Environmental Engineering at University of Alberta, where I received my 
+               MSc and PhD in Construction Engineering and Management in 2013 and 2020 respectively.
               </Paragraph> 
               <Paragraph >           
                 My passion for research extends far beyond my professional life. It intertwines into
