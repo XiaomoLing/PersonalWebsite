@@ -32,7 +32,9 @@ function AppLayout({children, style}) {
         minHeight: '8vh',
         padding: "0",
         display: 'flex',
-        justifyContent: "center"
+        justifyContent: "center",
+        paddingTop: "20px", 
+        paddingBottom: "20px"
       }}> 
         <img
           width={600}
