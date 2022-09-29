@@ -26,7 +26,7 @@ class About extends React.Component {
             textAlign: "center", 
             paddingTop: "25px",
             paddingBottom: "25px",
-          }}>WELCOME TO MY PERSONAL WEBSITE！</Title> 
+          }}>LINGZI WU | RESEARCH GROUP</Title> 
           
           <Row justify="space-around">
             <Col span={10} style={{
@@ -73,7 +73,7 @@ class About extends React.Component {
                 My passion for research extends far beyond my professional life. It intertwines into
                 my everyday life, and is embedded in my life philosophy—live to learn, and learn to live. 
                 My curious mind is a relentless engine drives me to discover new ideas, concepts, and technologies, 
-                to challenge the status quo, and to improve myself and the world around me. Through developing the 
+                to challenge the status quo, and to improve myself and the world around me. Through developing 
                 state-of-art technologies (e.g., simulation, automation, and smart sensors), and adapting 
                 interdisciplinary methods (e.g., machine learning, artificial intelligence, and data analytics), 
                 my research is expected to solve practical challenges, advance the body of knowledge in engineering 

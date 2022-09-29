@@ -1,10 +1,9 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+
 import 'antd/dist/antd.css';
 import './index.css';
 import { Menu } from 'antd';
-import { MailOutlined, AppstoreOutlined, SettingOutlined } from '@ant-design/icons';
-import { withRouter } from "react-router-dom";
+
 import { Typography } from 'antd';
 import AppLayout from '../layout';
 import { Divider } from 'antd';

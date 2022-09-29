@@ -33,6 +33,9 @@ class AppNavigationBar extends React.Component {
 			case "ResProject":
 				this.props.history.push("/projects#Research-Projects");
 				break;
+			case "TEAM":
+				this.props.history.push("/team");
+				break;
 			default:
 				this.props.history.push("/");
 				break;
@@ -60,6 +63,7 @@ class AppNavigationBar extends React.Component {
 					</Menu.Item>
 				</SubMenu>
 				<Menu.Item key="TEACHING">TEACHING</Menu.Item>
+				<Menu.Item key="TEAM">TEAM</Menu.Item>
 			</Menu>
 		);
 		

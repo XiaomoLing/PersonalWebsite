@@ -9,6 +9,7 @@ import News from "./pages/news";
 import Publications from "./pages/publications";
 import Teaching from "./pages/teaching";
 import Projects from "./pages/projects";
+import Team from "./pages/team";
 
 function App() {
 	return (
@@ -19,6 +20,9 @@ function App() {
 				</Route>
 				<Route exact path="/teaching">
 					<Teaching />
+				</Route>
+				<Route exact path="/team">
+					<Team />
 				</Route>
 				<Route exact path="/news">
 					<News />
