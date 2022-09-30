@@ -6,7 +6,7 @@ import './index.css';
 import { Typography } from 'antd';
 import AppLayout from '../layout';
 import { Divider } from 'antd';
-
+import { Row, Col } from 'antd';
 const { Paragraph, Text, Title } = Typography;
 
 
@@ -72,8 +72,45 @@ class Team extends React.Component {
                 <Title level={4}>TEAM MEMBER</Title>        
               </Divider>
     
-              <Title level={5}>Kimi and Gigi |<em>Happiness Coordinators </em></Title>        
-              <Title level={5}>Mammoet and Riceball |<em>Team Supervisors </em></Title>
+              <Row justify="space-around">
+            <Col span={10} style={{
+              marginLeft: "5%"
+            }}>
+              <img
+                width={350}
+                src={`${process.env.PUBLIC_URL}/images/KimiGigi Circle.png`} 
+              />
+              <Paragraph ></Paragraph>        
+              
+              <Paragraph >         
+                <Title level={5}>Kimi and Gigi |<em> Happiness Coordinators </em></Title>        
+
+              </Paragraph> 
+
+
+            </Col>
+
+            <Col span = {10} style={{
+              marginRight: "5%"
+            }}>
+              
+              <img
+                width={350}
+                src={`${process.env.PUBLIC_URL}/images/KimiGigi Circle.png`} 
+              />
+              <Paragraph ></Paragraph>        
+              
+              <Paragraph >                
+                <Title level={5}>Mammoet and Riceball |<em> Team Supervisors </em></Title>
+              </Paragraph>
+              
+
+            </Col>
+          </Row>
+
+    
+              
+ 
 
     
             
