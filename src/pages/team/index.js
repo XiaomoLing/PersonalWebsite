@@ -28,8 +28,6 @@ class Team extends React.Component {
               <Divider>
                 <Title level={4}>WE ARE HIRING!</Title>        
               </Divider>
-                    
-              {/* <Title level={5}>Best Paper at MAS 2018</Title> */}
     
               <Paragraph >
                 <Text strong>
@@ -62,7 +60,6 @@ class Team extends React.Component {
                 Students who pursue and receive funding through outside scholarships or 
                 fellowships greatly increase their likelihood of admission. I keep the 
                 team moderately sized so that I can work closely with every student in the group.
-
               </Paragraph>
 
               <Paragraph >
@@ -83,27 +80,19 @@ class Team extends React.Component {
                             <li>
                              A subject line of “Prospective Student_Undergrad/MSc/PhD_Firstname Lastname”
                             </li>
-                            <li>
-                             Your latest CV,
-                            </li>
-                            <li>
-                            Your transcript, and
-                            </li>
+                            <li>Your latest CV,</li>
+                            <li>Your transcript, and</li>
                             <li>
                              One example of past work (e.g., published/unpublished paper, project, report etc.) Please clearly identify your contribution if there are multiple authors. 
                             </li>
-                        
                         </ol>
                       </li>  
                 </ol>
-
-
               </Paragraph>
 
               <Paragraph>
                 Please note that due to the volume of emails, I am generally unable to acknowledge receipt.
               </Paragraph>
-
     
               <Divider>
                 <Title level={4}>TEAM MEMBER</Title>        
@@ -113,17 +102,19 @@ class Team extends React.Component {
             <Col span={10} style={{
               marginLeft: "5%"
             }}>
-              <img
-                width={350}
-                src={`${process.env.PUBLIC_URL}/images/KimiGigi Circle.png`} 
-              />
-              <Paragraph ></Paragraph>        
-              
+
               <Paragraph >         
+                <Title level={5}>Elnaz Jafari |<em> MSc Student</em><br></br>
+                co-supervised</Title>  
+               </Paragraph> 
+
+              <Paragraph >  
+                <img
+                  width={350}
+                  src={`${process.env.PUBLIC_URL}/images/KimiGigi Circle.png`} 
+                />
                 <Title level={5}>Kimi and Gigi |<em> Happiness Coordinators </em></Title>        
-
               </Paragraph> 
-
 
             </Col>
 
@@ -145,12 +136,7 @@ class Team extends React.Component {
             </Col>
           </Row>
 
-    
-              
- 
 
-    
-            
             </div>
             
           </AppLayout>
