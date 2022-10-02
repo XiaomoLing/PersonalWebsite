@@ -29,3 +29,15 @@ https://itconnect.uw.edu/tools-services-support/storage-hosting/shared-hosting/
 https://itconnect.uw.edu/tools-services-support/storage-hosting/shared-hosting/ssh/  
 https://itconnect.uw.edu/tools-services-support/storage-hosting/shared-hosting/web-development-environments/  
 Your URL is http://faculty.washington.edu/lingwu
+
+
+sftp lingwu@ovid.u.washington.edu
+
+### everytime you want to push sth to server, do:   
+npm run build   
+
+# push build files to the server
+
+    1. cd build
+    2. sftp lingwu@ovid.u.washington.edu
+    3. put -r *
