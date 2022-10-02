@@ -33,11 +33,12 @@ Your URL is http://faculty.washington.edu/lingwu
 
 sftp lingwu@ovid.u.washington.edu
 
-### everytime you want to push sth to server, do:   
+# everytime you want to push sth to server, do:   
 npm run build   
 
 # push build files to the server
 
     1. cd build
     2. sftp lingwu@ovid.u.washington.edu
-    3. put -r *
+    3. cd public_html
+    4. put -r *
