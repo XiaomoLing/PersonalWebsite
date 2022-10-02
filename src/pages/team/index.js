@@ -121,21 +121,45 @@ class Team extends React.Component {
             <Col span = {10} style={{
               marginRight: "5%"
             }}>
-              
-              <img
+              <Paragraph >             
+              {/* <img
                 width={350}
                 src={`${process.env.PUBLIC_URL}/images/KimiGigi Circle.png`} 
               />
-              <Paragraph ></Paragraph>        
+              </Paragraph>        
               
-              <Paragraph >                
-                <Title level={5}>Mammoet and Riceball |<em> Team Supervisors </em></Title>
+              <Paragraph >                 */}
+                <Title level={5}>Zuofu (Chris) Li |<em> Website Developer </em></Title>
               </Paragraph>
               
 
             </Col>
           </Row>
 
+
+              <Divider>
+                <Title level={4}>FORMER STUDENTS</Title>        
+              </Divider>
+
+              <Paragraph >         
+                <Title level={5}>Xiang Mao  |<em> MEng Student</em><br></br>
+                co-supervised</Title>  
+              </Paragraph> 
+
+              <Paragraph >         
+                <Title level={5}>Kunkun Li |<em> MEng Student</em><br></br>
+                co-supervised</Title>  
+              </Paragraph> 
+
+              <Paragraph >         
+                <Title level={5}>Zuofu Li |<em> Undergraduate Coop Student</em><br></br>
+                co-supervised</Title>  
+              </Paragraph> 
+
+              <Paragraph >         
+                <Title level={5}>Baoli Feng |<em> Undergraduate Research Student</em><br></br>
+                co-supervised</Title>  
+              </Paragraph> 
 
             </div>
             
