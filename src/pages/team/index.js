@@ -7,7 +7,7 @@ import { Typography } from 'antd';
 import AppLayout from '../layout';
 import { Divider } from 'antd';
 import { Row, Col } from 'antd';
-const { Paragraph, Text, Title } = Typography;
+const { Paragraph, Text, Title, Link} = Typography;
 
 
 
@@ -38,18 +38,23 @@ class Team extends React.Component {
               </Paragraph>
     
               <Paragraph >
-                 We are always on the lookout for exceptionally bright and eager students to join our 
+                We are always on the lookout for exceptionally bright and eager students to join our 
                 team. I supervise undergraduate, MASc and PhD students in Construction Management 
                 at UW. I am looking for students who are:
-
-                     1. passionate about challenging the status quo;
-
-                     2. driven by problem solving;
-
-                     3. good communicators; and
-
-                     4. independent and creative thinkers.
-
+                <ul>
+                  <li>
+                    passionate about challenging the status quo; 
+                  </li>
+                  <li>
+                    problem solver; 
+                  </li>
+                  <li>
+                    good communicators; and 
+                  </li>
+                  <li>
+                    independent and critical thinkers.
+                  </li>
+                </ul>
               </Paragraph>
     
               <Paragraph >
@@ -62,10 +67,42 @@ class Team extends React.Component {
 
               <Paragraph >
                If you would like to join our team, please do the following:
+                <ol>
+                    <li>
+                      Review our recent work on this website to ensure it aligns with your research interests.
+                    </li>
+                    <li>
+                      Review information about the programs (
+                      <Link href="https://cm.be.uw.edu/students/grad-prof-programs/graduate-admission/" target="_blank">
+                      MSc </Link>and <Link href="https://be.uw.edu/academics/phd/admissions-overview/" target="_blank">
+                      BE Ph.D</Link>) and be sure you meet all the criteria.
+                    </li>
+                    <li>
+                      Contact Dr. Lingzi Wu by email with:
+                        <ol>
+                            <li>
+                             A subject line of “Prospective Student_Undergrad/MSc/PhD_Firstname Lastname”
+                            </li>
+                            <li>
+                             Your latest CV,
+                            </li>
+                            <li>
+                            Your transcript, and
+                            </li>
+                            <li>
+                             One example of past work (e.g., published/unpublished paper, project, report etc.) Please clearly identify your contribution if there are multiple authors. 
+                            </li>
+                        
+                        </ol>
+                      </li>  
+                </ol>
+
 
               </Paragraph>
 
-
+              <Paragraph>
+                Please note that due to the volume of emails, I am generally unable to acknowledge receipt.
+              </Paragraph>
 
     
               <Divider>
