@@ -6,7 +6,7 @@ open in terminal
 code . #open VS Code
 
 ## in VS Code terminal
-get pull #to check whether the latest?
+git pull #to check whether the latest?
 npm start # to start a local host
 
 
