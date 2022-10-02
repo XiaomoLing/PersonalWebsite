@@ -20,8 +20,12 @@ git push
 npm run deploy
 
 
+ovid.u.washington.edu  
+ssh user_name@host(IP/Domain_name)  
+
+
 ## UW Web hosting resources
-https://itconnect.uw.edu/tools-services-support/storage-hosting/shared-hosting/
-https://itconnect.uw.edu/tools-services-support/storage-hosting/shared-hosting/ssh/
-https://itconnect.uw.edu/tools-services-support/storage-hosting/shared-hosting/web-development-environments/
+https://itconnect.uw.edu/tools-services-support/storage-hosting/shared-hosting/  
+https://itconnect.uw.edu/tools-services-support/storage-hosting/shared-hosting/ssh/  
+https://itconnect.uw.edu/tools-services-support/storage-hosting/shared-hosting/web-development-environments/  
 Your URL is http://faculty.washington.edu/lingwu
