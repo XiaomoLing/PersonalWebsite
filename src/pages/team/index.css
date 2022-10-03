@@ -1,0 +1,19 @@
+.background {
+    background-image: url("./2021_KimiGigi_editRP.jpg");
+    border-radius: 20%;
+    width: 350px;
+    border: 1px;
+    height: 350px;
+    background-size: contain;
+    background-position: center;
+}
+
+.zuofubg {
+    background-image: url("./ali.jpg");
+    border-radius: 20%;
+    width: 350px;
+    border: 1px;
+    height: 350px;
+    background-size: contain;
+    background-position: center;
+}
