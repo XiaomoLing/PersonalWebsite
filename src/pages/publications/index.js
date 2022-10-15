@@ -33,7 +33,7 @@ class Publications extends React.Component {
           <Paragraph >
             <Text strong>Wu, L.</Text>         
               , Jafari, P., Mohamed, E., & AbouRizk, S., “Credible interval estimate of safety leading 
-              indicators for construction safety management.” <em>Safety Science</em>, [Under Revision, Sep 2022]
+              indicators for construction safety management.” <em>Safety Science</em>, [Revision, Oct 2022]
           </Paragraph>   
           
           <Paragraph >
@@ -101,11 +101,11 @@ class Publications extends React.Component {
           <Paragraph >
              Ali, M., Mohamed, E., 
           < Text strong>Wu, L.</Text>,
-             Li K., & AbouRizk, S. “A generic framework for simulation-based optimization using high-level architecture” 
-             International Multidisciplinary Modeling & Simulation Multiconference 2022. [accepted]
-             {/* <Link href="https://doi.org/10.1007/978-981-19-1029-6_17" target="_blank">
-             https://doi.org/10.1007/978-981-19-1029-6_17 
-             </Link>  */}
+             Li K., & AbouRizk, S. (2022) “A generic framework for simulation-based optimization using high-level architecture” 
+             <em>Proceddings of the 21st International Conference on Modelling and Applied Simulation (MAS), 19th International Multidisciplinary 
+              Modeling & Simulation Multiconference</em>, 2724-0037 <Link href="https://doi.org/10.46354/i3m.2022.mas.005" target="_blank">
+             https://doi.org/10.46354/i3m.2022.mas.005  
+             </Link> 
           </Paragraph>
 
           <Paragraph >

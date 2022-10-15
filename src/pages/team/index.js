@@ -24,7 +24,7 @@ class Team extends React.Component {
 					}}
 				>
 					<Divider>
-						<Title level={4}>WE ARE HIRING!</Title>
+						<Title level={4}>JOIN US TODAY TO MAKE AN IMPACT!</Title>
 					</Divider>
 
 					<Paragraph>
@@ -115,7 +115,7 @@ class Team extends React.Component {
 								</Title>
 							</Paragraph>
 
-							<div className="background"></div>
+							<div className="kimigigibg"></div>
 							<Paragraph>
 								<Title level={5} style={{ textAlign: "center" }}>
 									Kimi and Gigi |<em> Happiness Coordinators </em>
@@ -124,13 +124,13 @@ class Team extends React.Component {
 						</Col>
 
 						<Col span={8} style={{ justifyContent: "center", display: "grid" }}>
+							<div className="zuofubg"></div>
 							<Paragraph style={{ height: "50px" }}>
 								<Title level={5} style={{ textAlign: "center" }}>
 									Zuofu (Chris) Li |<em> Website Developer </em>
 								</Title>
 							</Paragraph>
-							<div className="zuofubg"></div>
-							<div style={{ height:"32px" }}></div>
+									<div style={{ height:"32px" }}></div>
 						</Col>
 					</Row>
 
