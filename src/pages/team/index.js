@@ -1,5 +1,6 @@
 import React from "react";
-
+import { UserOutlined } from "@ant-design/icons";
+import { Avatar } from "antd";
 import "./index.css";
 
 import { Typography } from "antd";
@@ -107,31 +108,38 @@ class Team extends React.Component {
 
 					<Row justify="space-around">
 						<Col span={8} style={{ justifyContent: "center", display: "grid" }}>
-						<div className="NAbg"></div>
-							<Paragraph style={{ height: "50px" }}>
+							<Avatar
+								size={250}
+								style={{ borderRadius: "20%" }}
+								shape="square"
+								icon={<UserOutlined />}
+							/>
+
+							<Paragraph style={{ marginTop: "20px" }}>
 								<Title level={5} style={{ textAlign: "center" }}>
 									Elnaz Jafari |<em> MSc Student</em>
 									<br></br>
 									co-supervised
 								</Title>
 							</Paragraph>
-							
+						</Col>
+
+						<Col span={8} style={{ justifyContent: "center", display: "grid" }}>
+							<div className="zuofubg"></div>
+							<Paragraph style={{}}>
+								<Title level={5} style={{ textAlign: "center" }}>
+									Zuofu (Chris) Li |<em> Website Developer </em>
+								</Title>
+							</Paragraph>
+						</Col>
+
+						<Col span={8} style={{ justifyContent: "center", display: "grid" }}>
 							<div className="kimigigibg"></div>
 							<Paragraph>
 								<Title level={5} style={{ textAlign: "center" }}>
 									Kimi and Gigi |<em> Happiness Coordinators </em>
 								</Title>
 							</Paragraph>
-						</Col>
-
-						<Col span={8} style={{ justifyContent: "center", display: "grid" }}>
-							<div className="zuofubg"></div>
-							<Paragraph style={{ height: "50px" }}>
-								<Title level={5} style={{ textAlign: "center" }}>
-									Zuofu (Chris) Li |<em> Website Developer </em>
-								</Title>
-							</Paragraph>
-									<div style={{ height:"32px" }}></div>
 						</Col>
 					</Row>
 

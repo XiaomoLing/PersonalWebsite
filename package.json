@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://XiaomoLing.github.io/PersonalWebsite",
   "dependencies": {
+    "@ant-design/icons": "^4.7.0",
     "antd": "^4.9.4",
     "gh-pages": "^3.1.0",
     "react": "^17.0.1",
