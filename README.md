@@ -16,10 +16,10 @@ git add .
 git commit -m "你的任何comments"
 git push
 
-## deploy the website?
+## deploy the website to Github server
 npm run deploy
 
-
+#### 
 ovid.u.washington.edu  
 ssh user_name@host(IP/Domain_name)  
 
