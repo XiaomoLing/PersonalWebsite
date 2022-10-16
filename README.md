@@ -12,9 +12,9 @@ npm start # to start a local host
 
 
 ## after finish updating, open a new bash, and (USE VS CODE UI INSTEAD)
-git add .
-git commit -m "你的任何comments"
-git push
+### git add . (not update "package.json")
+### git commit -m "你的任何comments"
+### git push
 
 ## deploy the website to Github server
 npm run deploy

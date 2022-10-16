@@ -107,6 +107,7 @@ class Team extends React.Component {
 
 					<Row justify="space-around">
 						<Col span={8} style={{ justifyContent: "center", display: "grid" }}>
+						<div className="NAbg"></div>
 							<Paragraph style={{ height: "50px" }}>
 								<Title level={5} style={{ textAlign: "center" }}>
 									Elnaz Jafari |<em> MSc Student</em>
@@ -114,7 +115,7 @@ class Team extends React.Component {
 									co-supervised
 								</Title>
 							</Paragraph>
-
+							
 							<div className="kimigigibg"></div>
 							<Paragraph>
 								<Title level={5} style={{ textAlign: "center" }}>

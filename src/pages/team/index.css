@@ -9,7 +9,7 @@
 }
 
 .zuofubg {
-    background-image: url("./ali.jpg");
+    background-image: url("./ZuofuLi.jpg");
     border-radius: 20%;
     width: 250px;
     border: 1px;
@@ -19,11 +19,11 @@
 }
 
 .NAbg {
-    background-image: url("./ali.jpg");
+    background-image: url("./NAbg.jpg");
     border-radius: 20%;
-    width: 350px;
+    width: 250px;
     border: 1px;
-    height: 350px;
+    height: 250px;
     background-size: contain;
     background-position: center;
 }
