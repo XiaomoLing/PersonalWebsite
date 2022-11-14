@@ -137,9 +137,17 @@ class Teaching extends React.Component {
           </Paragraph>
           <Divider> <Title level={4}>TEACHING & MENTORING EXPERIENCES</Title> </Divider>
 
+          <Title level={4}>Principal Instructor</Title>
+          <Paragraph >
+            CM 588 Construction Operations And Productivity （Winter 2023） <br></br>
+            CM 449 Construction Plan Reading and Estimating （Autumn 2022） <br></br>
+
+          </Paragraph>
+
           <Title level={4}>Guest Lecturer </Title>
           <Paragraph >
-            Cost Estimating in Construction  （Jul 2021） <br></br>
+            Cost Estimating in Construction  （Feb 2022 & Jul 2021） <br></br>
+            Construction Digital Twins (Oct 2021)
             Project Planning and Scheduling using CPM  （Jun 2021） <br></br>
             Program Evaluation and Review Technique  (Mar 2021) <br></br>
             Introduction to Technology-Based Startups  (Mar 2021 & Nov 2020) <br></br>
@@ -156,7 +164,7 @@ class Teaching extends React.Component {
             CIV E 303 Project Management       (2018 Winter)
           </Paragraph>
 
-          <Title level={4}>Coaching and Mentoring</Title>
+          {/* <Title level={4}>Coaching and Mentoring</Title>
           <Title level={5}>    </Title>
           <Paragraph >
             <Text strong>Mentor for Graduate Research Students    (Current)</Text><br></br>  
@@ -166,22 +174,22 @@ class Teaching extends React.Component {
             <Text strong>Supervisor for MEng Students    (2021)</Text><br></br>  
             Students: Emily (Kunkun) Li* <br></br>
              * underrepresented populations 
-          </Paragraph>   
-          <Paragraph >
-          <Text strong>Supervisor for Undergraduate Research Students    (2019)</Text><br></br>           
+          </Paragraph>    */}
+          {/* <Paragraph >
+            <Text strong>Supervisor for Undergraduate Research Students    (2019)</Text><br></br>           
             Students: Zuofu Li*, and Baoli Feng* <br></br>
              * underrepresented populations 
-          </Paragraph>   
+          </Paragraph>    */}
 
-          <Paragraph >
+          {/* <Paragraph >
             <Text strong>Supervisor for WISEST (Women in Scholarship, Engineering, Science and Technology) Summer Research Program   (2018)</Text><br></br>  
             Student: Alex Barber-Cross 
-          </Paragraph>     
+          </Paragraph>      */}
 
           <Title level={4}>Ski Instructor </Title>
           {/* <Title level={5}>Ski Instructor </Title> */}
           <Paragraph >
-            <Text strong>Part-time Ski instructor at Banff Sunshine Village Ski Resort    (2018 to 2021)</Text><br></br>                 
+            Part-time Ski instructor at Banff Sunshine Village Ski Resort    (2018 to 2021)<br></br>                 
           </Paragraph>
 
           <Divider> <Title level={4}>REPRESENTATIVE STUDENT COMMENTS</Title> </Divider>

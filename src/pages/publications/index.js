@@ -102,7 +102,7 @@ class Publications extends React.Component {
              Ali, M., Mohamed, E., 
           < Text strong>Wu, L.</Text>,
              Li K., & AbouRizk, S. (2022) “A generic framework for simulation-based optimization using high-level architecture” 
-             <em>Proceddings of the 21st International Conference on Modelling and Applied Simulation (MAS), 19th International Multidisciplinary 
+             <em>Proceedings of the 21st International Conference on Modelling and Applied Simulation (MAS), 19th International Multidisciplinary 
               Modeling & Simulation Multiconference</em>, 2724-0037 <Link href="https://doi.org/10.46354/i3m.2022.mas.005" target="_blank">
              https://doi.org/10.46354/i3m.2022.mas.005  
              </Link> 

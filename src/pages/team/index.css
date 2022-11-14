@@ -17,3 +17,22 @@
     background-size: contain;
     background-position: center;
 }
+.mingwanbg {
+    background-image: url("./Mingwan_Zhang.jpg");
+    border-radius: 20%;
+    width: 250px;
+    border: 1px;
+    height: 250px;
+    background-size: contain;
+    background-position: center;
+}
+
+.shaojiabg {
+    background-image: url("./Shaojia_Fan.jpg");
+    border-radius: 20%;
+    width: 250px;
+    border: 1px;
+    height: 250px;
+    background-size: contain;
+    background-position: center;
+}

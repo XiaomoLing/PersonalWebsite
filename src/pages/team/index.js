@@ -105,7 +105,6 @@ class Team extends React.Component {
 					<Divider>
 						<Title level={4}>TEAM MEMBER</Title>
 					</Divider>
-
 					<Row justify="space-around">
 						<Col span={8} style={{ justifyContent: "center", display: "grid" }}>
 							<Avatar
@@ -117,7 +116,47 @@ class Team extends React.Component {
 
 							<Paragraph style={{ marginTop: "20px" }}>
 								<Title level={5} style={{ textAlign: "center" }}>
-									Elnaz Jafari |<em> MSc Student</em>
+									Sean Zhao |<em> MSc</em>
+									<br></br>
+									co-supervised
+								</Title>
+							</Paragraph>
+						</Col>
+
+						<Col span={8} style={{ justifyContent: "center", display: "grid" }}>
+							<div className="mingwanbg"></div>
+							<Paragraph style={{}}>
+								<Title level={5} style={{ textAlign: "center" }}>
+									Mingwan Zhang |<em> MLA </em>
+									<br></br>
+									co-supervised
+								</Title>
+							</Paragraph>
+						</Col>
+
+						<Col span={8} style={{ justifyContent: "center", display: "grid" }}>
+							<div className="shaojiabg"></div>
+							<Paragraph>
+								<Title level={5} style={{ textAlign: "center" }}>
+									Shaojia Fan |<em> MLA</em>
+									<br></br>
+									co-supervised
+								</Title>
+							</Paragraph>
+						</Col>
+					</Row>
+					<Row justify="space-around">
+						<Col span={8} style={{ justifyContent: "center", display: "grid" }}>
+							<Avatar
+								size={250}
+								style={{ borderRadius: "20%" }}
+								shape="square"
+								icon={<UserOutlined />}
+							/>
+
+							<Paragraph style={{ marginTop: "20px" }}>
+								<Title level={5} style={{ textAlign: "center" }}>
+									Elnaz Jafari |<em> MSc</em>
 									<br></br>
 									co-supervised
 								</Title>
@@ -148,35 +187,45 @@ class Team extends React.Component {
 					</Divider>
 
 					<Paragraph>
-						<Title level={5}>
+						<Text strong>
 							Xiang Mao |<em> MEng Student</em>
 							<br></br>
-							co-supervised
-						</Title>
+						</Text>
+						co-supervised
 					</Paragraph>
 
 					<Paragraph>
-						<Title level={5}>
+						<Text strong>
 							Kunkun Li |<em> MEng Student</em>
 							<br></br>
-							co-supervised
-						</Title>
+						</Text>
+						co-supervised
 					</Paragraph>
 
 					<Paragraph>
-						<Title level={5}>
-							Zuofu Li |<em> Undergraduate Coop Student</em>
+						<Text strong>
+							Zuofu Li |<em> Undergraduate Research Student</em>
 							<br></br>
-							co-supervised
-						</Title>
+						</Text>
+						co-supervised
 					</Paragraph>
 
 					<Paragraph>
-						<Title level={5}>
+						
+						<Text strong>
 							Baoli Feng |<em> Undergraduate Research Student</em>
 							<br></br>
-							co-supervised
-						</Title>
+						</Text>
+						co-supervised
+					</Paragraph>
+
+					<Paragraph>
+
+						<Text strong>
+							Alex Barber-Cross |<em> Grade 11</em> <br></br>	
+						</Text>
+						WISEST (Women in Scholarship, Engineering, Science and Technology) Summer Research Program (2018)
+					
 					</Paragraph>
 				</div>
 			</AppLayout>

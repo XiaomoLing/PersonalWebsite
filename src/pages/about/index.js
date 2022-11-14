@@ -39,7 +39,7 @@ class About extends React.Component {
               <Paragraph ></Paragraph>        
               
               <Paragraph >         
-                <Title level={3}>Lingzi Wu, PhD, EIT</Title>
+                <Title level={3}>Lingzi Wu, PhD, EIT，LEED GA</Title>
                 <Title level={4}>
                   Innovative Problem Solver |        
                   Researcher |
