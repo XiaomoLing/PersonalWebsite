@@ -2,7 +2,7 @@
   "name": "react_app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://XiaomoLing.github.io/PersonalWebsite",
+  "homepage": "./",
   "dependencies": {
     "@ant-design/icons": "^4.7.0",
     "antd": "^4.9.4",
