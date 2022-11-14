@@ -42,3 +42,5 @@ npm run build
     2. sftp lingwu@ovid.u.washington.edu
     3. cd public_html
     4. put -r *
+    5. permission error do this: 
+        chmod 755 public_html
