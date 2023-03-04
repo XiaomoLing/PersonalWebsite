@@ -139,6 +139,7 @@ class Teaching extends React.Component {
 
           <Title level={4}>Principal Instructor</Title>
           <Paragraph >
+            CM 412 Construction Practice（Spring 2023） <br></br>
             CM 588 Construction Operations And Productivity （Winter 2023） <br></br>
             CM 449 Construction Plan Reading and Estimating （Autumn 2022） <br></br>
 
@@ -146,6 +147,8 @@ class Teaching extends React.Component {
 
           <Title level={4}>Guest Lecturer </Title>
           <Paragraph >
+            BE 220 Cities, Health, & Well-Being: Construction Management Perspective (Jan 2023)
+            BE 598 Research Tools in the Built Environment: Panel Discussion (Nov 2022)
             Cost Estimating in Construction  （Feb 2022 & Jul 2021） <br></br>
             Construction Digital Twins (Oct 2021)
             Project Planning and Scheduling using CPM  （Jun 2021） <br></br>
