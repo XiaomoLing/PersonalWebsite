@@ -42,6 +42,7 @@ npm run build
     3. rm -r *
 
     // new terminal  
+    0. npm run build
     1. cd build
     2. sftp lingwu@ovid.u.washington.edu
     3. cd public_html
