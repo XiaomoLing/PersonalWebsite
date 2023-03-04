@@ -147,10 +147,10 @@ class Teaching extends React.Component {
 
           <Title level={4}>Guest Lecturer </Title>
           <Paragraph >
-            BE 220 Cities, Health, & Well-Being: Construction Management Perspective (Jan 2023)
-            BE 598 Research Tools in the Built Environment: Panel Discussion (Nov 2022)
+            BE 220 Cities, Health, & Well-Being: Construction Management Perspective (Jan 2023)<br></br>
+            BE 598 Research Tools in the Built Environment: Panel Discussion (Nov 2022)<br></br>
             Cost Estimating in Construction  （Feb 2022 & Jul 2021） <br></br>
-            Construction Digital Twins (Oct 2021)
+            Construction Digital Twins (Oct 2021)<br></br>
             Project Planning and Scheduling using CPM  （Jun 2021） <br></br>
             Program Evaluation and Review Technique  (Mar 2021) <br></br>
             Introduction to Technology-Based Startups  (Mar 2021 & Nov 2020) <br></br>
