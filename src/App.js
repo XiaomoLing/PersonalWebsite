@@ -3,7 +3,13 @@ import React from "react";
 import "./App.css";
 import { DatePicker } from "antd";
 import AppLayout from "./pages/layout";
-import { BrowserRouter as Router, Switch, Route, Link, HashRouter } from "react-router-dom";
+import {
+	BrowserRouter as Router,
+	Switch,
+	Route,
+	Link,
+	HashRouter,
+} from "react-router-dom";
 import About from "./pages/about";
 import News from "./pages/news";
 import Publications from "./pages/publications";
@@ -33,9 +39,9 @@ function App() {
 				<Route exact path="/projects">
 					<Projects />
 				</Route>
-				
+
 				{/* path="" put in the end */}
-				<Route exact path="/">
+				<Route path="*">
 					<About />
 				</Route>
 				{/* <Route component={About}></Route> */}

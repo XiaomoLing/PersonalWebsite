@@ -10,6 +10,7 @@ import { Row, Col } from "antd";
 const { Paragraph, Text, Title, Link } = Typography;
 // import KimiGigi from "./"
 
+const { innerWidth: width, innerHeight: height } = window;
 class Team extends React.Component {
 	state = {
 		current: "mail",
@@ -25,7 +26,9 @@ class Team extends React.Component {
 					}}
 				>
 					<Divider>
-						<Title level={4}>JOIN US TODAY TO MAKE AN IMPACT!</Title>
+						<Title level={4} style={{ whiteSpace: `${width < 768 ? "normal" : ""}` }}>
+							JOIN US TODAY TO MAKE AN IMPACT!
+						</Title>
 					</Divider>
 
 					<Paragraph>
@@ -106,7 +109,12 @@ class Team extends React.Component {
 						<Title level={4}>TEAM MEMBER</Title>
 					</Divider>
 					<Row justify="space-around">
-						<Col span={8} style={{ justifyContent: "center", display: "grid" }}>
+						<Col
+							xl={8}
+							md={12}
+							xs={24}
+							style={{ justifyContent: "center", display: "grid" }}
+						>
 							<Avatar
 								size={250}
 								style={{ borderRadius: "20%" }}
@@ -123,7 +131,12 @@ class Team extends React.Component {
 							</Paragraph>
 						</Col>
 
-						<Col span={8} style={{ justifyContent: "center", display: "grid" }}>
+						<Col
+							xl={8}
+							md={12}
+							xs={24}
+							style={{ justifyContent: "center", display: "grid" }}
+						>
 							<div className="mingwanbg"></div>
 							<Paragraph style={{}}>
 								<Title level={5} style={{ textAlign: "center" }}>
@@ -134,7 +147,12 @@ class Team extends React.Component {
 							</Paragraph>
 						</Col>
 
-						<Col span={8} style={{ justifyContent: "center", display: "grid" }}>
+						<Col
+							xl={8}
+							md={12}
+							xs={24}
+							style={{ justifyContent: "center", display: "grid" }}
+						>
 							<div className="shaojiabg"></div>
 							<Paragraph>
 								<Title level={5} style={{ textAlign: "center" }}>
@@ -146,7 +164,12 @@ class Team extends React.Component {
 						</Col>
 					</Row>
 					<Row justify="space-around">
-						<Col span={8} style={{ justifyContent: "center", display: "grid" }}>
+						<Col
+							xl={8}
+							md={12}
+							xs={24}
+							style={{ justifyContent: "center", display: "grid" }}
+						>
 							<Avatar
 								size={250}
 								style={{ borderRadius: "20%" }}
@@ -163,7 +186,12 @@ class Team extends React.Component {
 							</Paragraph>
 						</Col>
 
-						<Col span={8} style={{ justifyContent: "center", display: "grid" }}>
+						<Col
+							xl={8}
+							md={12}
+							xs={24}
+							style={{ justifyContent: "center", display: "grid" }}
+						>
 							<div className="zuofubg"></div>
 							<Paragraph style={{}}>
 								<Title level={5} style={{ textAlign: "center" }}>
@@ -172,7 +200,12 @@ class Team extends React.Component {
 							</Paragraph>
 						</Col>
 
-						<Col span={8} style={{ justifyContent: "center", display: "grid" }}>
+						<Col
+							xl={8}
+							md={12}
+							xs={24}
+							style={{ justifyContent: "center", display: "grid" }}
+						>
 							<div className="kimigigibg"></div>
 							<Paragraph>
 								<Title level={5} style={{ textAlign: "center" }}>
@@ -211,7 +244,6 @@ class Team extends React.Component {
 					</Paragraph>
 
 					<Paragraph>
-						
 						<Text strong>
 							Baoli Feng |<em> Undergraduate Research Student</em>
 							<br></br>
@@ -220,12 +252,11 @@ class Team extends React.Component {
 					</Paragraph>
 
 					<Paragraph>
-
 						<Text strong>
-							Alex Barber-Cross |<em> Grade 11</em> <br></br>	
+							Alex Barber-Cross |<em> Grade 11</em> <br></br>
 						</Text>
-						WISEST (Women in Scholarship, Engineering, Science and Technology) Summer Research Program (2018)
-					
+						WISEST (Women in Scholarship, Engineering, Science and Technology) Summer
+						Research Program (2018)
 					</Paragraph>
 				</div>
 			</AppLayout>
