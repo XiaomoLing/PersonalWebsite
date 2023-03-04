@@ -47,11 +47,13 @@ npm run build
     2. sftp lingwu@ovid.u.washington.edu
     3. cd public_html
     4. put -r *
+
+
+    // back to the ssh terminal
+    
     5. mkdir static
     6. mv css static
     7. mv js static
     8. mv media static
-    5. permission error do this: 
-        // new terminal
-        ssh lingwu@ovid.u.washington.edu
-        chmod 755 public_html
+    9. cd ..
+    10. chmod 755 public_html (permission error do this)
