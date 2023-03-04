@@ -133,12 +133,8 @@ class Team extends React.Component {
 							xs={24}
 							style={{ justifyContent: "center", display: "grid" }}
 						>
-							<Avatar
-								size={250}
-								style={{ borderRadius: "20%" }}
-								shape="square"
-								icon={<UserOutlined />}
-							/>
+						<div className="MiriamCcarita"></div>
+
 							<Paragraph style={{}}>
 								<Title level={5} style={{ textAlign: "center" }}>
 									Miriam Ccarita Cruz |<em> MSc </em>
@@ -173,7 +169,6 @@ class Team extends React.Component {
 						>
 							
 							<div className="seanZhao"></div>
-
 							<Paragraph style={{ marginTop: "20px" }}>
 								<Title level={5} style={{ textAlign: "center" }}>
 									Sean Zhao |<em> MSc</em>

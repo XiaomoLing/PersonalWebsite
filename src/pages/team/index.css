@@ -38,7 +38,18 @@
 }
 
 .seanZhao {
-    background-image: url("./Sean\ Zhao.jpg");
+    background-image: url("./Sean_Zhao.jpg");
+    border-radius: 20%;
+    width: 250px;
+    border: 1px;
+    height: 250px;
+    background-size: contain;
+    background-position: center;
+}
+
+
+.MiriamCcarita {
+    background-image: url("./Miriam_Ccarita.jpg");
     border-radius: 20%;
     width: 250px;
     border: 1px;
