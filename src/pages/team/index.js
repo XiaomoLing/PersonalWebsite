@@ -115,12 +115,64 @@ class Team extends React.Component {
 							xs={24}
 							style={{ justifyContent: "center", display: "grid" }}
 						>
+							
+							{/* <div className="seanZhao"></div>
+
+							<Paragraph style={{ marginTop: "20px" }}>
+								<Title level={5} style={{ textAlign: "center" }}>
+									Sean Zhao |<em> MSc</em>
+									<br></br>
+									co-supervised
+								</Title>
+							</Paragraph> */}
+						</Col>
+
+						<Col
+							xl={8}
+							md={12}
+							xs={24}
+							style={{ justifyContent: "center", display: "grid" }}
+						>
 							<Avatar
 								size={250}
 								style={{ borderRadius: "20%" }}
 								shape="square"
 								icon={<UserOutlined />}
 							/>
+							<Paragraph style={{}}>
+								<Title level={5} style={{ textAlign: "center" }}>
+									Miriam Ccarita Cruz |<em> MSc </em>
+									<br></br>
+									Supervised
+								</Title>
+							</Paragraph>
+						</Col>
+
+						<Col
+							xl={8}
+							md={12}
+							xs={24}
+							style={{ justifyContent: "center", display: "grid" }}
+						>
+							{/* <div className="shaojiabg"></div>
+							<Paragraph>
+								<Title level={5} style={{ textAlign: "center" }}>
+									Shaojia Fan |<em> MLA</em>
+									<br></br>
+									co-supervised
+								</Title>
+							</Paragraph> */}
+						</Col>
+					</Row>
+					<Row justify="space-around">
+						<Col
+							xl={8}
+							md={12}
+							xs={24}
+							style={{ justifyContent: "center", display: "grid" }}
+						>
+							
+							<div className="seanZhao"></div>
 
 							<Paragraph style={{ marginTop: "20px" }}>
 								<Title level={5} style={{ textAlign: "center" }}>
