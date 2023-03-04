@@ -37,10 +37,20 @@ sftp lingwu@ovid.u.washington.edu
 npm run build   
 
 # push build files to the server
+    1. ssh lingwu@ovid.u.washington.edu
+    2. cd public_html
+    3. rm -r *
 
+    // new terminal  
     1. cd build
     2. sftp lingwu@ovid.u.washington.edu
     3. cd public_html
     4. put -r *
+    5. mkdir static
+    6. mv css static
+    7. mv js static
+    8. mv media static
     5. permission error do this: 
+        // new terminal
+        ssh lingwu@ovid.u.washington.edu
         chmod 755 public_html

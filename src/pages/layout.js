@@ -1,6 +1,7 @@
 import React from "react";
 import { Layout } from "antd";
 import AppNavigationBar from "../components/navbar";
+import footerImg from "./UW_Left_Purple_RGB.png"
 const { Header, Footer, Sider, Content } = Layout;
 const { innerWidth: width, innerHeight: height } = window;
 
@@ -49,7 +50,7 @@ function AppLayout({ children, style }) {
 						maxWidth: "600px",
 						width: "90vw",
 					}}
-					src={`${process.env.PUBLIC_URL}/images/UW_Left_Purple_RGB.png`}
+					src={footerImg}
 				/>
 			</Footer>
 		</Layout>
