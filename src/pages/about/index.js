@@ -44,7 +44,7 @@ function About() {
 								<Paragraph></Paragraph>
 
 								<Paragraph>
-									<Title level={3}>Lingzi Wu, PhD, EIT，LEED GA</Title>
+									<Title level={3}>Lingzi Wu, PhD, PEng, LEED GA</Title>
 									<Title level={4}>
 										Innovative Problem Solver | Researcher | Educator
 									</Title>
@@ -124,7 +124,7 @@ function About() {
 							<Paragraph></Paragraph>
 
 							<Paragraph>
-								<Title level={3}>Lingzi Wu, PhD, EIT，LEED GA</Title>
+								<Title level={3}>Lingzi Wu, PhD, PEng, LEED GA</Title>
 								<Title level={4}>
 									Innovative Problem Solver | Researcher | Educator
 								</Title>

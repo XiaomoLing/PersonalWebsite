@@ -32,8 +32,9 @@ class Publications extends React.Component {
 
           <Paragraph >
             <Text strong>Wu, L.</Text>         
-              , Jafari, P., Mohamed, E., & AbouRizk, S., “Credible interval estimate of safety leading 
-              indicators for construction safety management.” <em>Safety Science</em>, [Revision, Oct 2022]
+              , Jafari, P., Mohamed, E., & AbouRizk, S., Machine learning-based Bayesian framework 
+              for interval estimate on construction incident prediction.” <em>Journal of Construction Engineering 
+                and Management</em>, [Revision, Mar 2023]
           </Paragraph>   
           
           <Paragraph >
@@ -87,15 +88,31 @@ class Publications extends React.Component {
           </Paragraph>
 
           <Divider> <Title level={4}>CONFERENCE PAPERS</Title></Divider>
+          
+          <Paragraph >
+              Li K., & <Text strong>Wu, L.</Text>
+              “Monte Carlo-enabled dynamic multiple-criteria decision analysis for selecting sustainable construction methods: a wind farm case study” 
+              Canadian Society of Civil Engineering Annual Conference 2023 [Submitted Mar 2023]
+             {/* <em>Proceedings of the 2022 Winter Simulation Conference</em>, 2409-2420. <Link href="https://doi.org/10.1109/WSC57314.2022.10015329" target="_blank">
+             https://doi.org/10.1109/WSC57314.2022.10015329  */}
+             {/* </Link>  */}
+          </Paragraph>
 
+          <Paragraph >
+             Jafari, E., <Text strong>Wu, L.</Text>, & AbouRizk, S. 
+             “Construction supply chain analysis on forecasting the demand for small equipment, tools, and consumables for industrial construction projects” 
+             Canadian Society of Civil Engineering Annual Conference 2023 [Submitted Mar 2023]             
+             {/* <em>Proceedings of the 2022 Winter Simulation Conference</em>, 2409-2420. <Link href="https://doi.org/10.1109/WSC57314.2022.10015329" target="_blank">
+             https://doi.org/10.1109/WSC57314.2022.10015329 
+             </Link>  */}
+          </Paragraph>
 
           <Paragraph >
           < Text strong>Wu, L.</Text>,
              Li K., & AbouRizk, S. “System dynamics of construction supply chain management in industrial modularized construction projects” 
-             Winter Simulation Conference 2022. [acceppted]
-             {/* <Link href="https://doi.org/10.1007/978-981-19-1029-6_17" target="_blank">
-             https://doi.org/10.1007/978-981-19-1029-6_17 
-             </Link>  */}
+             <em>Proceedings of the 2022 Winter Simulation Conference</em>, 2409-2420. <Link href="https://doi.org/10.1109/WSC57314.2022.10015329" target="_blank">
+             https://doi.org/10.1109/WSC57314.2022.10015329 
+             </Link> 
           </Paragraph>
 
           <Paragraph >
@@ -103,7 +120,7 @@ class Publications extends React.Component {
           < Text strong>Wu, L.</Text>,
              Li K., & AbouRizk, S. (2022) “A generic framework for simulation-based optimization using high-level architecture” 
              <em>Proceedings of the 21st International Conference on Modelling and Applied Simulation (MAS), 19th International Multidisciplinary 
-              Modeling & Simulation Multiconference</em>, 2724-0037 <Link href="https://doi.org/10.46354/i3m.2022.mas.005" target="_blank">
+              Modeling & Simulation Multiconference</em>, 2724-0037. <Link href="https://doi.org/10.46354/i3m.2022.mas.005" target="_blank">
              https://doi.org/10.46354/i3m.2022.mas.005  
              </Link> 
           </Paragraph>

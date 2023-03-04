@@ -38,6 +38,19 @@ class Projects extends React.Component {
                 <Title level={4}>RESEARCH PROJECTS</Title>        
               </Divider>
 
+              <Title level={5}>Innovative Tool for Owners: Owner Typology Assessment and Project Delivery Method Considerations (2022 – 2023) </Title>
+              <Paragraph >
+                This project aims to develop a digital tool for owners to assess their decision-making profile and 
+                understand the challenges and alignments between this profile and project delivery for improved 
+                selection and management of project delivery methods. This tool improves the selection process 
+                as it allows individual owners to select 
+                delivery methods that best align with their organization’s communication and decision-making 
+                structure and organizational culture, while also providing the ability for owners to predict 
+                areas of tension within their selected project delivery method that they can then plan for and 
+                manage in advance. This will inspire the development of innovative project management approaches that target 
+                organizational tensions
+              </Paragraph>  
+
               <Title level={5}>Construction's Digital Future: Smart Data-Driven Decision Support Systems (2017-Current) </Title>
               <Paragraph >
                 I have implemented various modeling techniques (e.g. discrete event simulation, distributed 
