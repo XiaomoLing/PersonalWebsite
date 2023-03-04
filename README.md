@@ -34,7 +34,7 @@ Your URL is http://faculty.washington.edu/lingwu
 sftp lingwu@ovid.u.washington.edu
 
 # everytime you want to push sth to server, do:   
-npm run build   
+<!-- npm run build    -->
 
 # push build files to the server
     1. ssh lingwu@ovid.u.washington.edu
