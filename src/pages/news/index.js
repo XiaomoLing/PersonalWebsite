@@ -30,7 +30,15 @@ class News extends React.Component {
           <Divider>
             <Title level={4}>NEWS</Title>        
           </Divider>
+          <Title level={5}>Appoinment as an Assistant Specialty Editor in <em>Journal of Construction Engineering and Management</em> -- Mar 2023</Title>
 
+          <Paragraph >
+            Lingzi Wu was selected as a as an Assistant Specialty Editor effective March 20, 2023
+            in the Project Planning and Design Specialty Area for the ASCE 
+            <em> Journal of Construction Engineering and Management </em>(JCEM).
+            {/* The announcement can be found <Link href="https://www.deansequityandinclusioninitiative.com/" target="_blank">
+            here</Link>. */}
+          </Paragraph>
 
           <Title level={5}>Fellow for the 2022 Deans Equity and Inclusion Initiative (DEII) Cohort -- July, 2022</Title>
 
@@ -41,9 +49,6 @@ class News extends React.Component {
             to advance socio-ecological and spatial justice, equity, and inclusion. 
             More information can be found <Link href="https://www.deansequityandinclusioninitiative.com/" target="_blank">
             here</Link>.
-
-
-            {/* <Link href="https://www.deansequityandinclusioninitiative.com/" target="_blank"> here </Link> */}
           </Paragraph>
 
           <Title level={5}>College of Built Environment (UW) Welcomes New Cohort of Faculty -- March, 2022</Title>
@@ -96,7 +101,7 @@ class News extends React.Component {
             <Title level={4}>AWARDS</Title>        
           </Divider>
 
-          <Title level={5}>ASCE Outstanding Reviewer, <em>Journal of Construction Engineering and Management</em>, 2021</Title>        
+          <Title level={5}>ASCE Outstanding Reviewer, <em>Journal of Construction Engineering and Management</em>, 2021 & 2022</Title>        
           <Title level={5}>Alberta Graduate Excellence Scholarship ($12,000), 2020</Title>
           <Title level={5}>Ledcor Graduate Scholarship in Construction Engineering and Management ($2,500), 2020</Title>
           <Title level={5}>Queen Elizabeth II Graduate Scholarship – Doctoral Level ($7,500), 2018</Title>

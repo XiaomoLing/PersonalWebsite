@@ -108,6 +108,7 @@ class Team extends React.Component {
 					<Divider>
 						<Title level={4}>TEAM MEMBER</Title>
 					</Divider>
+
 					<Row justify="space-around">
 						<Col
 							xl={8}
@@ -115,25 +116,7 @@ class Team extends React.Component {
 							xs={24}
 							style={{ justifyContent: "center", display: "grid" }}
 						>
-							
-							{/* <div className="seanZhao"></div>
-
-							<Paragraph style={{ marginTop: "20px" }}>
-								<Title level={5} style={{ textAlign: "center" }}>
-									Sean Zhao |<em> MSc</em>
-									<br></br>
-									co-supervised
-								</Title>
-							</Paragraph> */}
-						</Col>
-
-						<Col
-							xl={8}
-							md={12}
-							xs={24}
-							style={{ justifyContent: "center", display: "grid" }}
-						>
-						<div className="MiriamCcarita"></div>
+							<div className="MiriamCcarita"></div>
 
 							<Paragraph style={{}}>
 								<Title level={5} style={{ textAlign: "center" }}>
@@ -142,75 +125,16 @@ class Team extends React.Component {
 									Supervised
 								</Title>
 							</Paragraph>
-						</Col>
-
-						<Col
-							xl={8}
-							md={12}
-							xs={24}
-							style={{ justifyContent: "center", display: "grid" }}
-						>
-							{/* <div className="shaojiabg"></div>
-							<Paragraph>
-								<Title level={5} style={{ textAlign: "center" }}>
-									Shaojia Fan |<em> MLA</em>
-									<br></br>
-									co-supervised
-								</Title>
-							</Paragraph> */}
-						</Col>
-					</Row>
-					<Row justify="space-around">
-						<Col
-							xl={8}
-							md={12}
-							xs={24}
-							style={{ justifyContent: "center", display: "grid" }}
-						>
-							
-							<div className="seanZhao"></div>
+							{/* <div className="seanZhao"></div>
 							<Paragraph style={{ marginTop: "20px" }}>
 								<Title level={5} style={{ textAlign: "center" }}>
 									Sean Zhao |<em> MSc</em>
 									<br></br>
 									co-supervised
 								</Title>
-							</Paragraph>
+							</Paragraph> */}
 						</Col>
 
-						<Col
-							xl={8}
-							md={12}
-							xs={24}
-							style={{ justifyContent: "center", display: "grid" }}
-						>
-							<div className="mingwanbg"></div>
-							<Paragraph style={{}}>
-								<Title level={5} style={{ textAlign: "center" }}>
-									Mingwan Zhang |<em> MLA </em>
-									<br></br>
-									co-supervised
-								</Title>
-							</Paragraph>
-						</Col>
-
-						<Col
-							xl={8}
-							md={12}
-							xs={24}
-							style={{ justifyContent: "center", display: "grid" }}
-						>
-							<div className="shaojiabg"></div>
-							<Paragraph>
-								<Title level={5} style={{ textAlign: "center" }}>
-									Shaojia Fan |<em> MLA</em>
-									<br></br>
-									co-supervised
-								</Title>
-							</Paragraph>
-						</Col>
-					</Row>
-					<Row justify="space-around">
 						<Col
 							xl={8}
 							md={12}
@@ -226,11 +150,45 @@ class Team extends React.Component {
 
 							<Paragraph style={{ marginTop: "20px" }}>
 								<Title level={5} style={{ textAlign: "center" }}>
-									Elnaz Jafari |<em> MSc</em>
+									Amanda Worthy |<em> PhD</em>
 									<br></br>
-									co-supervised
+									Independent study advised
 								</Title>
 							</Paragraph>
+						</Col>
+
+						<Col
+							xl={8}
+							md={12}
+							xs={24}
+							style={{ justifyContent: "center", display: "grid" }}
+						>
+							<div className="mingwanbg"></div>
+							<Paragraph style={{}}>
+								<Title level={5} style={{ textAlign: "center" }}>
+									Mingwan Zhang |<em> MLA </em>
+									<br></br>
+									Co-supervised
+								</Title>
+							</Paragraph>
+						</Col>
+					</Row>
+					<Row justify="space-around">
+						<Col
+							xl={8}
+							md={12}
+							xs={24}
+							style={{ justifyContent: "center", display: "grid" }}
+						>
+							<div className="shaojiabg"></div>
+							<Paragraph>
+								<Title level={5} style={{ textAlign: "center" }}>
+									Shaojia Fan |<em> MLA</em>
+									<br></br>
+									Co-supervised
+								</Title>
+							</Paragraph>
+
 						</Col>
 
 						<Col
@@ -265,6 +223,23 @@ class Team extends React.Component {
 					<Divider>
 						<Title level={4}>FORMER STUDENTS</Title>
 					</Divider>
+
+					
+					<Paragraph>
+						<Text strong>
+							Elnaz Jafari |<em> MSc Student</em>
+							<br></br>
+						</Text>
+						co-supervised
+					</Paragraph>					
+					
+					<Paragraph>
+						<Text strong>
+							Sean (Xianxiang) Zhao |<em> MSc Student</em>
+							<br></br>
+						</Text>
+						Supervised through a funded research project
+					</Paragraph>
 
 					<Paragraph>
 						<Text strong>

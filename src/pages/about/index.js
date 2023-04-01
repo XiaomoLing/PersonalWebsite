@@ -49,17 +49,24 @@ function About() {
 										Innovative Problem Solver | Researcher | Educator
 									</Title>
 
+								</Paragraph>
+
+								<Paragraph>
 									<Title level={5}>Assistant Professor</Title>
 									<Text underline>
 										<a href="lingwu@uw.edu">lingwu@uw.edu</a>
 									</Text>
-								</Paragraph>
-
-								<Paragraph>
 									Department of Construction Management<br></br>
 									College of Built Environments<br></br>
 									University of Washington
 								</Paragraph>
+
+								<Paragraph>
+									<Title level={5}>Adjunct Professor</Title>
+									Department of Civil and Environmental Engineering<br></br>
+									University of Alberta, CA
+								</Paragraph>
+
 							</Col>
 						</Row>
 						<Row justify="space-around">
