@@ -55,7 +55,7 @@ function About() {
 									<Title level={5}>Assistant Professor</Title>
 									<Text underline>
 										<a href="lingwu@uw.edu">lingwu@uw.edu</a>
-									</Text>
+									</Text><br></br>
 									Department of Construction Management<br></br>
 									College of Built Environments<br></br>
 									University of Washington

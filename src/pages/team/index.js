@@ -223,14 +223,13 @@ class Team extends React.Component {
 					<Divider>
 						<Title level={4}>FORMER STUDENTS</Title>
 					</Divider>
-
 					
 					<Paragraph>
 						<Text strong>
 							Elnaz Jafari |<em> MSc Student</em>
 							<br></br>
 						</Text>
-						co-supervised
+						Co-supervised
 					</Paragraph>					
 					
 					<Paragraph>
@@ -246,7 +245,7 @@ class Team extends React.Component {
 							Xiang Mao |<em> MEng Student</em>
 							<br></br>
 						</Text>
-						co-supervised
+						Co-supervised
 					</Paragraph>
 
 					<Paragraph>
@@ -254,7 +253,7 @@ class Team extends React.Component {
 							Kunkun Li |<em> MEng Student</em>
 							<br></br>
 						</Text>
-						co-supervised
+						Co-supervised
 					</Paragraph>
 
 					<Paragraph>
@@ -262,7 +261,7 @@ class Team extends React.Component {
 							Zuofu Li |<em> Undergraduate Research Student</em>
 							<br></br>
 						</Text>
-						co-supervised
+						Co-supervised
 					</Paragraph>
 
 					<Paragraph>
@@ -270,7 +269,7 @@ class Team extends React.Component {
 							Baoli Feng |<em> Undergraduate Research Student</em>
 							<br></br>
 						</Text>
-						co-supervised
+						Co-supervised
 					</Paragraph>
 
 					<Paragraph>

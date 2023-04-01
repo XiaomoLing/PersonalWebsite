@@ -30,7 +30,7 @@ class News extends React.Component {
           <Divider>
             <Title level={4}>NEWS</Title>        
           </Divider>
-          <Title level={5}>Appoinment as an Assistant Specialty Editor in <em>Journal of Construction Engineering and Management</em> -- Mar 2023</Title>
+          <Title level={5}>Appointed as an Assistant Specialty Editor in <em>Journal of Construction Engineering and Management</em> -- Mar 2023</Title>
 
           <Paragraph >
             Lingzi Wu was selected as a as an Assistant Specialty Editor effective March 20, 2023
@@ -88,9 +88,6 @@ class News extends React.Component {
             paper entitled "Linear Regression and Agent-Based Modeling Approach 
             for Equipment Market Value Prediction" from the 17th International 
             Conference on Modeling and Applied Simulation in Budapest, Hungary!
-          </Paragraph>
-
-          <Paragraph >
             The paper proposes a hybrid linear regression and simulation modeling 
             approach for uncovering patterns in historical equipment resale data 
             and to use these data, in consideration of human behavior, to simulation 
