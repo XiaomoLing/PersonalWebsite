@@ -76,7 +76,7 @@ function About() {
 								</Title>
 
 								<Paragraph>
-									I’m an Assistant Professor with the Department of Construction
+									I am an Assistant Professor in the Department of Construction
 									Management (CM) at the University of Washington (UW). Prior to joining
 									UW in September 2022, I served as a postdoctoral fellow in the
 									Department of Civil and Environmental Engineering at University of
@@ -84,26 +84,21 @@ function About() {
 									and Management in 2013 and 2020 respectively.
 								</Paragraph>
 								<Paragraph>
-									My passion for research extends far beyond my professional life. It
-									intertwines into my everyday life, and is embedded in my life
-									philosophy—live to learn, and learn to live. My curious mind is a
-									relentless engine drives me to discover new ideas, concepts, and
-									technologies, to challenge the status quo, and to improve myself and
-									the world around me. Through developing state-of-art technologies
-									(e.g., simulation, automation, and smart sensors), and adapting
-									interdisciplinary methods (e.g., machine learning, artificial
-									intelligence, and data analytics), my research is expected to solve
-									practical challenges, advance the body of knowledge in engineering and
-									management field, thus making a significant and visible impact on
-									society and the daily lives of people.
+									My passion for research extends into my everyday life 
+									and is embedded in my philosophy of living to learn and learning to live. 
+									With a curious mind that drives me to discover new ideas and technologies, 
+									I am constantly challenging the status quo to improve myself and the world 
+									around me. Through developing state-of-the-art technologies and interdisciplinary 
+									methods, my research aims to solve practical challenges and advance the body 
+									of knowledge in engineering and management fields, making a significant and 
+									visible impact on society and people's daily lives.
 								</Paragraph>
 								<Paragraph>
-									I love teaching and mentoring: My goal is to design a stimulating,
-									inclusive, and equitable learning environment for every mind, and
-									create a positive, substantial, and sustained influence on how my
-									students think, act, and feel. To participate in their journey actively
-									and positively, towards their personal and professional goals, is the
-									greatest achievement I could ever imagine.
+									As an educator, I am dedicated to creating a stimulating, inclusive, and 
+									equitable learning environment for all my students. My goal is to create a 
+									positive, substantial, and sustained influence on how my students think, act, 
+									and feel. Teaching and mentoring are a true passion of mine, and the greatest 
+									achievement I can imagine is to lhelp my students achieve their full potential.
 								</Paragraph>
 
 								<Paragraph>
@@ -166,41 +161,36 @@ function About() {
 							</Title>
 
 							<Paragraph>
-								I’m an Assistant Professor with the Department of Construction
-								Management (CM) at the University of Washington (UW). Prior to joining
-								UW in September 2022, I served as a postdoctoral fellow in the
-								Department of Civil and Environmental Engineering at University of
-								Alberta, where I received my MSc and PhD in Construction Engineering and
-								Management in 2013 and 2020 respectively.
+									I am an Assistant Professor in the Department of Construction
+									Management (CM) at the University of Washington (UW). Prior to joining
+									UW in September 2022, I served as a postdoctoral fellow in the
+									Department of Civil and Environmental Engineering at University of
+									Alberta, where I received my MSc and PhD in Construction Engineering
+									and Management in 2013 and 2020 respectively.
 							</Paragraph>
 							<Paragraph>
-								My passion for research extends far beyond my professional life. It
-								intertwines into my everyday life, and is embedded in my life
-								philosophy—live to learn, and learn to live. My curious mind is a
-								relentless engine drives me to discover new ideas, concepts, and
-								technologies, to challenge the status quo, and to improve myself and the
-								world around me. Through developing state-of-art technologies (e.g.,
-								simulation, automation, and smart sensors), and adapting
-								interdisciplinary methods (e.g., machine learning, artificial
-								intelligence, and data analytics), my research is expected to solve
-								practical challenges, advance the body of knowledge in engineering and
-								management field, thus making a significant and visible impact on
-								society and the daily lives of people.
+									My passion for research extends into my everyday life 
+									and is embedded in my philosophy of living to learn and learning to live. 
+									With a curious mind that drives me to discover new ideas and technologies, 
+									I am constantly challenging the status quo to improve myself and the world 
+									around me. Through developing state-of-the-art technologies and interdisciplinary 
+									methods, my research aims to solve practical challenges and advance the body 
+									of knowledge in engineering and management fields, making a significant and 
+									visible impact on society and people's daily lives.
 							</Paragraph>
 							<Paragraph>
-								I love teaching and mentoring: My goal is to design a stimulating,
-								inclusive, and equitable learning environment for every mind, and create
-								a positive, substantial, and sustained influence on how my students
-								think, act, and feel. To participate in their journey actively and
-								positively, towards their personal and professional goals, is the
-								greatest achievement I could ever imagine.
+									As an educator, I am dedicated to creating a stimulating, inclusive, and 
+									equitable learning environment for all my students. My goal is to create a 
+									positive, substantial, and sustained influence on how my students think, act, 
+									and feel. Teaching and mentoring are a true passion of mine, and the greatest 
+									achievement I can imagine is to lhelp my students achieve their full potential.
 							</Paragraph>
 
 							<Paragraph>
-								My research expertise and teaching interests include: project life cycle
-								management, construction sustainability, resilient design, machine
-								learning and artificial intelligence, construction informatics, data
-								analytics, simulation and automation.
+									My research expertise and teaching interests include: project life
+									cycle management, construction sustainability, resilient design,
+									machine learning and artificial intelligence, construction informatics,
+									data analytics, simulation and automation.
 							</Paragraph>
 						</Col>
 					</Row>
