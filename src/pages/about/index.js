@@ -48,14 +48,14 @@ function About() {
 									<Title level={4}>
 										Innovative Problem Solver | Researcher | Educator
 									</Title>
-
+									<Text underline>
+										<a href="lingwu@uw.edu">lingwu@uw.edu</a>
+									</Text><br></br>
 								</Paragraph>
 
 								<Paragraph>
 									<Title level={5}>Assistant Professor</Title>
-									<Text underline>
-										<a href="lingwu@uw.edu">lingwu@uw.edu</a>
-									</Text><br></br>
+
 									Department of Construction Management<br></br>
 									College of Built Environments<br></br>
 									University of Washington
@@ -135,18 +135,24 @@ function About() {
 								<Title level={4}>
 									Innovative Problem Solver | Researcher | Educator
 								</Title>
-
-								<Title level={5}>Assistant Professor</Title>
 								<Text underline>
 									<a href="lingwu@uw.edu">lingwu@uw.edu</a>
 								</Text>
+
 							</Paragraph>
 
 							<Paragraph>
+								<Title level={5}>Assistant Professor</Title>
 								Department of Construction Management<br></br>
 								College of Built Environments<br></br>
 								University of Washington
 							</Paragraph>
+							<Paragraph>
+								<Title level={5}>Adjunct Professor</Title>
+								Department of Civil and Environmental Engineering<br></br>
+								University of Alberta, CA
+							</Paragraph>
+
 						</Col>
 
 						<Col
