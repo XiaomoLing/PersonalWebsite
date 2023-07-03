@@ -34,7 +34,7 @@ class Publications extends React.Component {
             <Text strong>Wu, L.</Text>         
               , Jafari, P., Mohamed, E., & AbouRizk, S., Machine learning-based Bayesian framework 
               for interval estimate on construction incident prediction.” <em>Journal of Construction Engineering 
-                and Management</em>, [Revision, Mar 2023]
+                and Management</em>, [In Press]
           </Paragraph>   
           
           <Paragraph >
@@ -92,16 +92,23 @@ class Publications extends React.Component {
           <Paragraph >
               Li K., & <Text strong>Wu, L.</Text>
               “Monte Carlo-enabled dynamic multiple-criteria decision analysis for selecting sustainable construction methods: a wind farm case study” 
-              Canadian Society of Civil Engineering Annual Conference 2023 [Submitted Mar 2023]
+              Canadian Society of Civil Engineering Annual Conference 2023 
              {/* <em>Proceedings of the 2022 Winter Simulation Conference</em>, 2409-2420. <Link href="https://doi.org/10.1109/WSC57314.2022.10015329" target="_blank">
              https://doi.org/10.1109/WSC57314.2022.10015329  */}
              {/* </Link>  */}
           </Paragraph>
-
           <Paragraph >
-             Jafari, E., <Text strong>Wu, L.</Text>, & AbouRizk, S. 
+             Karim, R. M., Brian G., <Text strong>Wu, L.</Text>, & Mohamed, Y. 
              “Construction supply chain analysis on forecasting the demand for small equipment, tools, and consumables for industrial construction projects” 
-             Canadian Society of Civil Engineering Annual Conference 2023 [Submitted Mar 2023]             
+             Canadian Society of Civil Engineering Annual Conference 2023             
+             {/* <em>Proceedings of the 2022 Winter Simulation Conference</em>, 2409-2420. <Link href="https://doi.org/10.1109/WSC57314.2022.10015329" target="_blank">
+             https://doi.org/10.1109/WSC57314.2022.10015329 
+             </Link>  */}
+          </Paragraph>
+          <Paragraph >
+             Jafari, E., <Text strong>Wu, L.</Text>, Brian G., Malak, E. H., & AbouRizk, S. 
+             “Construction supply chain analysis on forecasting the demand for small equipment, tools, and consumables for industrial construction projects” 
+             Canadian Society of Civil Engineering Annual Conference 2023             
              {/* <em>Proceedings of the 2022 Winter Simulation Conference</em>, 2409-2420. <Link href="https://doi.org/10.1109/WSC57314.2022.10015329" target="_blank">
              https://doi.org/10.1109/WSC57314.2022.10015329 
              </Link>  */}

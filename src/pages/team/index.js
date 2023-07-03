@@ -135,13 +135,13 @@ class Team extends React.Component {
 							</Paragraph> */}
 						</Col>
 
-						<Col
+						{/* <Col
 							xl={8}
 							md={12}
 							xs={24}
 							style={{ justifyContent: "center", display: "grid" }}
-						>
-							<Avatar
+						> */}
+							{/* <Avatar
 								size={250}
 								style={{ borderRadius: "20%" }}
 								shape="square"
@@ -154,24 +154,24 @@ class Team extends React.Component {
 									<br></br>
 									Independent study advised
 								</Title>
-							</Paragraph>
-						</Col>
+							</Paragraph> */}
+						{/* </Col> */}
 
-						<Col
+						{/* <Col
 							xl={8}
 							md={12}
 							xs={24}
 							style={{ justifyContent: "center", display: "grid" }}
-						>
-							<div className="mingwanbg"></div>
-							<Paragraph style={{}}>
-								<Title level={5} style={{ textAlign: "center" }}>
+						> */}
+							{/* <div className="mingwanbg"></div>
+							<Paragraph style={{}}> */}
+								{/* <Title level={5} style={{ textAlign: "center" }}>
 									Mingwan Zhang |<em> MLA </em>
 									<br></br>
 									Co-supervised
-								</Title>
-							</Paragraph>
-						</Col>
+								</Title> */}
+							{/* </Paragraph> */}
+						{/* </Col> */}
 					</Row>
 					<Row justify="space-around">
 						<Col
@@ -183,9 +183,9 @@ class Team extends React.Component {
 							<div className="shaojiabg"></div>
 							<Paragraph>
 								<Title level={5} style={{ textAlign: "center" }}>
-									Shaojia Fan |<em> MLA</em>
+									Shaojia Fan |<em> MSc</em>
 									<br></br>
-									Co-supervised
+									Supervised
 								</Title>
 							</Paragraph>
 
@@ -223,7 +223,13 @@ class Team extends React.Component {
 					<Divider>
 						<Title level={4}>FORMER STUDENTS</Title>
 					</Divider>
-					
+					<Paragraph>
+						<Text strong>
+							Shaojia Fan and Mingwan Zhang |<em> MLA Students</em>
+							<br></br>
+						</Text>
+						Co-supervised on their MLA Graduate Project
+					</Paragraph>						
 					<Paragraph>
 						<Text strong>
 							Elnaz Jafari |<em> MSc Student</em>
