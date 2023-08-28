@@ -32,14 +32,14 @@ class Publications extends React.Component {
 
           <Paragraph >
             <Text strong>Wu, L.</Text>         
-              , Jafari, P., Mohamed, E., & AbouRizk, S., Machine learning-based Bayesian framework 
+              , Mohamed, E., Jafari, P., & AbouRizk, S., Machine learning-based Bayesian framework 
               for interval estimate on construction incident prediction.” <em>Journal of Construction Engineering 
                 and Management</em>, [In Press]
           </Paragraph>   
           
           <Paragraph >
             <Text strong>Wu, L.</Text>         
-              , Li, Z., & AbouRizk, S., (2021) “Automating common data integration for improved data-driven 
+              , Li, Z., & AbouRizk, S., (2022) “Automating common data integration for improved data-driven 
               decision-support in industrial construction.” <em>Journal of Computing in Civil Engineering</em>, 36(2), 04021037. <Link href="https://doi.org/10.1061/(ASCE)CP.1943-5487.0001001" target="_blank">
               https://doi.org/10.1061/(ASCE)CP.1943-5487.0001001
               </Link>

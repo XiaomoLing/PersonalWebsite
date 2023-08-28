@@ -110,53 +110,6 @@ class Team extends React.Component {
 					</Divider>
 
 					<Row justify="space-around">
-						<Col
-							xl={8}
-							md={12}
-							xs={24}
-							style={{ justifyContent: "center", display: "grid" }}
-						>
-							<div className="MiriamCcarita"></div>
-
-							<Paragraph style={{}}>
-								<Title level={5} style={{ textAlign: "center" }}>
-									Miriam Ccarita Cruz |<em> MSc </em>
-									<br></br>
-									Supervised
-								</Title>
-							</Paragraph>
-							{/* <div className="seanZhao"></div>
-							<Paragraph style={{ marginTop: "20px" }}>
-								<Title level={5} style={{ textAlign: "center" }}>
-									Sean Zhao |<em> MSc</em>
-									<br></br>
-									co-supervised
-								</Title>
-							</Paragraph> */}
-						</Col>
-
-						{/* <Col
-							xl={8}
-							md={12}
-							xs={24}
-							style={{ justifyContent: "center", display: "grid" }}
-						> */}
-							{/* <Avatar
-								size={250}
-								style={{ borderRadius: "20%" }}
-								shape="square"
-								icon={<UserOutlined />}
-							/>
-
-							<Paragraph style={{ marginTop: "20px" }}>
-								<Title level={5} style={{ textAlign: "center" }}>
-									Amanda Worthy |<em> PhD</em>
-									<br></br>
-									Independent study advised
-								</Title>
-							</Paragraph> */}
-						{/* </Col> */}
-
 						{/* <Col
 							xl={8}
 							md={12}
@@ -166,13 +119,98 @@ class Team extends React.Component {
 							{/* <div className="mingwanbg"></div>
 							<Paragraph style={{}}> */}
 								{/* <Title level={5} style={{ textAlign: "center" }}>
-									Mingwan Zhang |<em> MLA </em>
+									Beixuan Dong |<em> PhD </em>
 									<br></br>
-									Co-supervised
+									Co-supervised with Dr. Xinming Li (UofA)
 								</Title> */}
 							{/* </Paragraph> */}
 						{/* </Col> */}
+						{/* <Col
+							xl={8}
+							md={12}
+							xs={24}
+							style={{ justifyContent: "center", display: "grid" }}
+						>
+							<div className="MiriamCcarita"></div>
+
+							<Paragraph style={{}}>
+								<Title level={5} style={{ textAlign: "center" }}>
+									Shiqi Ding |<em> UDP PhD </em>
+									<br></br>
+									Supervised
+								</Title>
+							</Paragraph>
+
+						</Col> */}
+
+						<Col
+							xl={8}
+							md={12}
+							xs={24}
+							style={{ justifyContent: "center", display: "grid" }}
+						>
+							<Avatar
+								size={250}
+								style={{ borderRadius: "20%" }}
+								shape="square"
+								icon={<UserOutlined />}
+							/>
+
+							<Paragraph style={{ marginTop: "20px" }}>
+								<Title level={5} style={{ textAlign: "center" }}>
+									Shiqi Ding |<em> UDP PhD </em>
+									<br></br>
+									Supervised
+								</Title>
+							</Paragraph>
+						</Col>
+
+						<Col
+							xl={8}
+							md={12}
+							xs={24}
+							style={{ justifyContent: "center", display: "grid" }}
+						>
+							<Avatar
+								size={250}
+								style={{ borderRadius: "20%" }}
+								shape="square"
+								icon={<UserOutlined />}
+							/>
+
+							<Paragraph style={{ marginTop: "20px" }}>
+								<Title level={5} style={{ textAlign: "center" }}>
+									Amira Saleh |<em> PhD</em>
+									<br></br>
+									Co-Supervised (UofA)
+								</Title>
+							</Paragraph>
+						</Col>
+
+						<Col
+							xl={8}
+							md={12}
+							xs={24}
+							style={{ justifyContent: "center", display: "grid" }}
+						>
+							<Avatar
+								size={250}
+								style={{ borderRadius: "20%" }}
+								shape="square"
+								icon={<UserOutlined />}
+							/>
+
+							<Paragraph style={{ marginTop: "20px" }}>
+								<Title level={5} style={{ textAlign: "center" }}>
+									Beixuan Dong |<em> PhD</em>
+									<br></br>
+									Co-Supervised (UofA)
+								</Title>
+							</Paragraph>
+						</Col>
+
 					</Row>
+					
 					<Row justify="space-around">
 						<Col
 							xl={8}
