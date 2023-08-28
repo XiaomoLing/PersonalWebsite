@@ -39,6 +39,8 @@ class News extends React.Component {
             {/* The announcement can be found <Link href="https://www.deansequityandinclusioninitiative.com/" target="_blank">
             here</Link>. */}
           </Paragraph>
+          
+          <Title level={5}>Appointed as an Adjunct Professor in Department of Civil and Environmental Engineering at University of Alberta -- Jan 2023</Title>
 
           <Title level={5}>Fellow for the 2022 Deans Equity and Inclusion Initiative (DEII) Cohort -- July, 2022</Title>
 

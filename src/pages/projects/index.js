@@ -37,6 +37,15 @@ class Projects extends React.Component {
               <Divider>
                 <Title level={4}>RESEARCH PROJECTS</Title>        
               </Divider>
+             
+              <Title level={5}>PacTrans WSDOT Summer High School Transportation Camp (2023) </Title>
+              <Paragraph >
+                Hosted at WSU in Pullman from July 24th to 29th and at the UW in Seattle from August 13th to 18th, the summer camps 
+                offer a transformative learning experience that provides high school students with a glimpse into a wide range of 
+                topics in transportation such as urban planning, traffic safety, supply chain logistics, and the future of connected 
+                and autonomous vehicles. More information can be found <Link href="https://pactranssucamp.online/" target="_blank">
+                here</Link>.
+              </Paragraph>  
 
               <Title level={5}>Innovative Tool for Owners: Owner Typology Assessment and Project Delivery Method Considerations (2022 – 2023) </Title>
               <Paragraph >
