@@ -48,7 +48,8 @@ class Projects extends React.Component {
                 structure and organizational culture, while also providing the ability for owners to predict 
                 areas of tension within their selected project delivery method that they can then plan for and 
                 manage in advance. This will inspire the development of innovative project management approaches that target 
-                organizational tensions
+                organizational tensions. More information can be found <Link href="https://boat.be.uw.edu/" target="_blank">
+                here</Link>.
               </Paragraph>  
 
               <Title level={5}>Construction's Digital Future: Smart Data-Driven Decision Support Systems (2017-Current) </Title>
