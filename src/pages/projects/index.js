@@ -9,7 +9,7 @@ import { Typography } from 'antd';
 import AppLayout from '../layout';
 import { Divider } from 'antd';
 
-const { Paragraph, Text } = Typography;
+const { Paragraph, Text, Link } = Typography;
 const { Title } = Typography;
 const { SubMenu } = Menu;
 
