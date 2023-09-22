@@ -70,14 +70,22 @@ class Team extends React.Component {
 									href="https://cm.be.uw.edu/students/grad-prof-programs/graduate-admission/"
 									target="_blank"
 								>
-									MSc{" "}
+									MSc{", "}
 								</Link>
+								
+								<Link
+									href="https://urbdp.be.uw.edu/admissions/phd/"
+									target="_blank"
+								>
+									UDP PhD{" "}
+								</Link>
+								
 								and{" "}
 								<Link
 									href="https://be.uw.edu/academics/phd/admissions-overview/"
 									target="_blank"
 								>
-									BE Ph.D
+									BE PhD
 								</Link>
 								) and be sure you meet all the criteria.
 							</li>
@@ -149,12 +157,7 @@ class Team extends React.Component {
 							xs={24}
 							style={{ justifyContent: "center", display: "grid" }}
 						>
-							<Avatar
-								size={250}
-								style={{ borderRadius: "20%" }}
-								shape="square"
-								icon={<UserOutlined />}
-							/>
+							<div className="shiqibg"></div>
 
 							<Paragraph style={{ marginTop: "20px" }}>
 								<Title level={5} style={{ textAlign: "center" }}>

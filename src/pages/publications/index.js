@@ -34,7 +34,9 @@ class Publications extends React.Component {
             <Text strong>Wu, L.</Text>         
               , Mohamed, E., Jafari, P., & AbouRizk, S., "Machine learning-based Bayesian framework 
               for interval estimate of Unsafe-Event Prediction in Construction.” <em>Journal of Construction Engineering 
-                and Management</em>, [In Press]
+                and Management</em>, 149(11), 04023118. <Link href="https://doi.org/10.1061/JCEMD4.COENG-1354" target="_blank">
+                https://doi.org/10.1061/JCEMD4.COENG-1354
+              </Link>
           </Paragraph>   
           
           <Paragraph >
