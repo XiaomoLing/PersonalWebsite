@@ -118,38 +118,6 @@ class Team extends React.Component {
 					</Divider>
 
 					<Row justify="space-around">
-						{/* <Col
-							xl={8}
-							md={12}
-							xs={24}
-							style={{ justifyContent: "center", display: "grid" }}
-						> */}
-							{/* <div className="mingwanbg"></div>
-							<Paragraph style={{}}> */}
-								{/* <Title level={5} style={{ textAlign: "center" }}>
-									Beixuan Dong |<em> PhD </em>
-									<br></br>
-									Co-supervised with Dr. Xinming Li (UofA)
-								</Title> */}
-							{/* </Paragraph> */}
-						{/* </Col> */}
-						{/* <Col
-							xl={8}
-							md={12}
-							xs={24}
-							style={{ justifyContent: "center", display: "grid" }}
-						>
-							<div className="MiriamCcarita"></div>
-
-							<Paragraph style={{}}>
-								<Title level={5} style={{ textAlign: "center" }}>
-									Shiqi Ding |<em> UDP PhD </em>
-									<br></br>
-									Supervised
-								</Title>
-							</Paragraph>
-
-						</Col> */}
 
 						<Col
 							xl={8}
@@ -196,12 +164,7 @@ class Team extends React.Component {
 							xs={24}
 							style={{ justifyContent: "center", display: "grid" }}
 						>
-							<Avatar
-								size={250}
-								style={{ borderRadius: "20%" }}
-								shape="square"
-								icon={<UserOutlined />}
-							/>
+							<div className="shiqibg"></div>
 
 							<Paragraph style={{ marginTop: "20px" }}>
 								<Title level={5} style={{ textAlign: "center" }}>
