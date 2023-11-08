@@ -55,9 +55,11 @@ function About() {
 
 								<Paragraph>
 									<Title level={5}>Assistant Professor</Title>
-
 									Department of Construction Management<br></br>
 									College of Built Environments<br></br>
+
+									<Title level={5}>Adjunct Assistant Professor</Title>
+									Department of Civil and Environmental Engineering<br></br>
 									University of Washington
 								</Paragraph>
 

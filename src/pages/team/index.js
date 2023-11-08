@@ -142,12 +142,14 @@ class Team extends React.Component {
 							xs={24}
 							style={{ justifyContent: "center", display: "grid" }}
 						>
-							<Avatar
+							{/* <Avatar
 								size={250}
 								style={{ borderRadius: "20%" }}
 								shape="square"
 								icon={<UserOutlined />}
-							/>
+							/> */}
+							<div className="amirabg"></div>
+
 
 							<Paragraph style={{ marginTop: "20px" }}>
 								<Title level={5} style={{ textAlign: "center" }}>
