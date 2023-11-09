@@ -54,17 +54,18 @@ function About() {
 								</Paragraph>
 
 								<Paragraph>
-									<Title level={5}>Assistant Professor</Title>
+								{/* <Title level={5}>Assistant Professor</Title> */}
+									<Text strong>Assistant Professor</Text>  <br></br>  
 									Department of Construction Management<br></br>
-									College of Built Environments<br></br>
 
-									<Title level={5}>Adjunct Assistant Professor</Title>
+									<Text strong>Adjunct Assistant Professor</Text>  <br></br>  
 									Department of Civil and Environmental Engineering<br></br>
 									University of Washington
 								</Paragraph>
 
 								<Paragraph>
-									<Title level={5}>Adjunct Professor</Title>
+								{/* <Title level={5}>Adjunct Professor</Title> */}
+									<Text strong>Adjunct Professor</Text>  <br></br>  
 									Department of Civil and Environmental Engineering<br></br>
 									University of Alberta, CA
 								</Paragraph>
@@ -139,13 +140,18 @@ function About() {
 							</Paragraph>
 
 							<Paragraph>
-								<Title level={5}>Assistant Professor</Title>
+								{/* <Title level={5}>Assistant Professor</Title> */}
+								<Text strong>Assistant Professor</Text>  <br></br>  
 								Department of Construction Management<br></br>
-								College of Built Environments<br></br>
+
+								<Text strong>Adjunct Assistant Professor</Text>  <br></br>  
+								Department of Civil and Environmental Engineering<br></br>
 								University of Washington
 							</Paragraph>
+
 							<Paragraph>
-								<Title level={5}>Adjunct Professor</Title>
+								{/* <Title level={5}>Adjunct Professor</Title> */}
+								<Text strong>Adjunct Professor</Text>  <br></br>  
 								Department of Civil and Environmental Engineering<br></br>
 								University of Alberta, CA
 							</Paragraph>

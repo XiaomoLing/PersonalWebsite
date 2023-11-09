@@ -141,7 +141,7 @@ class Teaching extends React.Component {
           <Paragraph >
             CM 412 Construction Practice（Spring 2023） <br></br>
             CM 588 Construction Operations And Productivity （Winter 2023） <br></br>
-            CM 449 Construction Plan Reading and Estimating （Autumn 2022） <br></br>
+            CM 449 Construction Plan Reading and Estimating （Autumn 2022 & 2023） <br></br>
 
           </Paragraph>
 

@@ -30,6 +30,8 @@ class News extends React.Component {
           <Divider>
             <Title level={4}>NEWS</Title>        
           </Divider>
+          <Title level={5}>Appointed as an Adjunct Assistant Professor in Department of Civil and Environmental Engineering at University of Washington -- Oct 2023</Title>
+
           <Title level={5}>Appointed as an Assistant Specialty Editor in <em>Journal of Construction Engineering and Management</em> -- Mar 2023</Title>
 
           <Paragraph >
