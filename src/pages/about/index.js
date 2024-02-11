@@ -6,7 +6,8 @@ import { Menu } from "antd";
 import { Typography } from "antd";
 import { Row, Col } from "antd";
 import AppLayout from "../layout";
-import selfie from "./IMG_8880_R3.jpg"
+import selfie from "./UW_1391_Edit.JPG"
+// import selfie from "./IMG_8880_R3.jpg"
 
 const { Paragraph, Text, Title } = Typography;
 
@@ -38,7 +39,7 @@ function About() {
 							<Col>
 								<img
 									alt="myself"
-									width={200}
+									width={350}
 									src={selfie}
 								/>
 								<Paragraph></Paragraph>
@@ -123,7 +124,7 @@ function About() {
 						>
 							<img
 								alt="myself"
-								width={200}
+								width={350}
 								src={selfie}
 							/>
 							<Paragraph></Paragraph>

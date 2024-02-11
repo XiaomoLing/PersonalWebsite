@@ -37,7 +37,15 @@ class Projects extends React.Component {
               <Divider>
                 <Title level={4}>RESEARCH PROJECTS</Title>        
               </Divider>
-             
+              <Title level={5}>Construction Claims and Project Delivery Methods (2024) </Title>
+              <Paragraph >
+                Funded by <Link href="https://ipda.ca/" target="_blank"> the Integrated Project Delivery Alliance (IPDA) </Link> 
+                and <Link href="https://www.cca-acc.com/" target="_blank"> Canadian Construction Association (CCA)</Link> , this project
+                aims to unveil the relationship between the increased (or decreased) risks of construction claims resulting from 
+                different project delivery methods, with a particular focus on the distinction between collaborative and traditional 
+                delivery methods.
+              </Paragraph>  
+
               <Title level={5}>PacTrans WSDOT Summer High School Transportation Camp (2023) </Title>
               <Paragraph >
                 Hosted at WSU in Pullman from July 24th to 29th and at the UW in Seattle from August 13th to 18th, the summer camps 

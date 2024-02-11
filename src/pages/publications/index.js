@@ -32,7 +32,7 @@ class Publications extends React.Component {
 
           <Paragraph >
             <Text strong>Wu, L.</Text>         
-              , Mohamed, E., Jafari, P., & AbouRizk, S., "Machine learning-based Bayesian framework 
+              , Mohamed, E., Jafari, P., & AbouRizk, S., (2023) "Machine learning-based Bayesian framework 
               for interval estimate of Unsafe-Event Prediction in Construction.” <em>Journal of Construction Engineering 
                 and Management</em>, 149(11), 04023118. <Link href="https://doi.org/10.1061/JCEMD4.COENG-13549" target="_blank">
                 https://doi.org/10.1061/JCEMD4.COENG-13549
@@ -101,7 +101,7 @@ class Publications extends React.Component {
           </Paragraph>
           <Paragraph >
              Karim, R. M., Brian G., <Text strong>Wu, L.</Text>, & Mohamed, Y. 
-             “Construction supply chain analysis on forecasting the demand for small equipment, tools, and consumables for industrial construction projects” 
+             “Job labour-hour forecasting for a pipe spool fabrication shop using data mining” 
              Canadian Society of Civil Engineering Annual Conference 2023             
              {/* <em>Proceedings of the 2022 Winter Simulation Conference</em>, 2409-2420. <Link href="https://doi.org/10.1109/WSC57314.2022.10015329" target="_blank">
              https://doi.org/10.1109/WSC57314.2022.10015329 
