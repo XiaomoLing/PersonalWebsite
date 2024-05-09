@@ -117,6 +117,9 @@ class Team extends React.Component {
 						<Title level={4}>TEAM MEMBER</Title>
 					</Divider>
 
+
+
+
 					<Row justify="space-around">
 
 						<Col
@@ -229,22 +232,29 @@ class Team extends React.Component {
 
 					</Row>
 					<Row justify="space-around">
-						{/* <Col
+						<Col
 							xl={8}
 							md={12}
 							xs={24}
 							style={{ justifyContent: "center", display: "grid" }}
 						>
-							<div className="shaojiabg"></div>
+							<Avatar
+								size={250}
+								style={{ borderRadius: "20%" }}
+								shape="square"
+								icon={<UserOutlined />}
+							/>
 							<Paragraph>
 								<Title level={5} style={{ textAlign: "center" }}>
-									Shaojia Fan |<em> MSc</em>
+									Falak Sethi |<em> CS Undergraduate</em>
 									<br></br>
-									Supervised
+									Co-Supervised (UofA)
 								</Title>
 							</Paragraph>
 
 						</Col>
+
+
 
 						<Col
 							xl={8}
@@ -252,13 +262,21 @@ class Team extends React.Component {
 							xs={24}
 							style={{ justifyContent: "center", display: "grid" }}
 						>
-							<div className="zuofubg"></div>
+							<Avatar
+								size={250}
+								style={{ borderRadius: "20%" }}
+								shape="square"
+								icon={<UserOutlined />}
+							/>
+							{/* <div className="zuofubg"></div> */}
 							<Paragraph style={{}}>
 								<Title level={5} style={{ textAlign: "center" }}>
-									Zuofu (Chris) Li |<em> Website Developer </em>
+									Advik Mehta|<em> CS Undergraduate</em>
+									<br></br>
+									Co-Supervised (UofA)
 								</Title>
 							</Paragraph>
-						</Col> */}
+						</Col>
 
 						<Col
 							xl={8}

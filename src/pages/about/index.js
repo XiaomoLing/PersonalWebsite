@@ -61,6 +61,9 @@ function About() {
 
 									<Text strong>Adjunct Assistant Professor</Text>  <br></br>  
 									Department of Civil and Environmental Engineering<br></br>
+									<Text strong>Affiliate Faculty</Text>  <br></br>  
+									Interdisciplinary PhD Program in Urban Design and Planning <br></br>
+									
 									University of Washington
 								</Paragraph>
 
@@ -147,6 +150,9 @@ function About() {
 
 								<Text strong>Adjunct Assistant Professor</Text>  <br></br>  
 								Department of Civil and Environmental Engineering<br></br>
+								<Text strong>Affiliate Faculty</Text>  <br></br>  
+								Interdisciplinary PhD Program in Urban Design and Planning <br></br>
+									
 								University of Washington
 							</Paragraph>
 

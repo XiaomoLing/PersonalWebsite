@@ -90,7 +90,49 @@ class Publications extends React.Component {
           </Paragraph>
 
           <Divider> <Title level={4}>CONFERENCE PAPERS</Title></Divider>
-          
+
+          <Paragraph >
+              Dong, B.*, <Text strong>Wu, L.</Text>, & Li, X., (2024)
+              “Short-term Disaster Impacts on Transportation Infrastructures: A Review of Emerging Technologies” 
+              ASCE International Conference on Computing in Civil Engineering, i3ce, July 28-31, 2024, Pittsburgh
+             {/* <em>Proceedings of the 2022 Winter Simulation Conference</em>, 2409-2420. <Link href="https://doi.org/10.1109/WSC57314.2022.10015329" target="_blank">
+             https://doi.org/10.1109/WSC57314.2022.10015329  */}
+             {/* </Link>  */}
+          </Paragraph>
+
+          <Paragraph >
+              Borjigin, O.,  <Text strong>Wu, L.</Text>, & Dossick, C. S., (2024)
+              “Virtual Design and Construction Time Study Schema Development” 
+              ASCE International Conference on Computing in Civil Engineering, i3ce, July 28-31, 2024, Pittsburgh
+             {/* <em>Proceedings of the 2022 Winter Simulation Conference</em>, 2409-2420. <Link href="https://doi.org/10.1109/WSC57314.2022.10015329" target="_blank">
+             https://doi.org/10.1109/WSC57314.2022.10015329  */}
+             {/* </Link>  */}
+          </Paragraph>
+
+          <Paragraph >
+              ElMenshawy M.*, <Text strong>Wu, L.</Text>, Hermann U., Zubick T., & AbouRizk, S., (2024)
+              “An advanced work packaging inspired ontology for industrial construction projects” 
+              The 20th conference of the International Society for Computing in Civil and Building Engineering, ICCCBE, Aug 25-28, 2024, Montreal 
+             {/* <em>Proceedings of the 2022 Winter Simulation Conference</em>, 2409-2420. <Link href="https://doi.org/10.1109/WSC57314.2022.10015329" target="_blank">
+             https://doi.org/10.1109/WSC57314.2022.10015329  */}
+             {/* </Link>  */}
+          </Paragraph>
+
+
+          <Paragraph >
+              ElMenshawy M.*, <Text strong>Wu, L.</Text>, Gue B., & AbouRizk, S., (2024)
+              “Exploring the potential of reinforcement learning in pipe spool scheduling in industrial projects” 
+              ISARC 2024: 41st International Symposium on Automation and Robotics in Construction, Jun 3-4, 2024, Lille, France
+             {/* <em>Proceedings of the 2022 Winter Simulation Conference</em>, 2409-2420. <Link href="https://doi.org/10.1109/WSC57314.2022.10015329" target="_blank">
+             https://doi.org/10.1109/WSC57314.2022.10015329  */}
+             {/* </Link>  */}
+          </Paragraph>
+
+
+
+
+
+
           <Paragraph >
               Li K., & <Text strong>Wu, L.</Text>
               “Monte Carlo-enabled dynamic multiple-criteria decision analysis for selecting sustainable construction methods: a wind farm case study” 

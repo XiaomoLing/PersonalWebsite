@@ -37,6 +37,44 @@ class Projects extends React.Component {
               <Divider>
                 <Title level={4}>RESEARCH PROJECTS</Title>        
               </Divider>
+
+
+              <Title level={5}>Analyzing the Impact and Mitigation Strategies of Transportation Electrification on Seattle’s Gentrification (2024) </Title>
+              <Paragraph >
+                Collaborating with <Link href="https://re.be.uw.edu/people/vince-wang/" target="_blank"> Prof. Vince Wang </Link> and 
+                and <Link href="https://seattle.gov/city-light" target="_blank"> Seattl City Light</Link> , 
+                this project aims to evaluate the comprehensive impacts of transporation electrification on Seattle's low-income communities
+                and evaluate potential policy supports to mitigate the negative impacts, such as displacement.
+              </Paragraph>
+
+
+              <Title level={5}>Advancing Construction Safety through Large Language Model (LLM) Field-Level Risk Assessment (2024) </Title>
+              <Paragraph >
+                Collaborating with <Link href="https://apps.ualberta.ca/directory/person/qipei" target="_blank"> Prof. Qipei Mei </Link> and 
+                and <Link href="https://www.pcl.com/us/en/who-we-are/our-offices/edmonton-industrial-management" target="_blank"> PCL Industrial Management</Link> , 
+                this project aims to enhance the field-level risk assessment by utilization of a Large Language Model. Successful project 
+                completion will yield a fine-tuned LLM, showcasing its capability to automate task analysis and provide insightful responses to risk-related queries. 
+              </Paragraph>
+
+
+              <Title level={5}>Construction Claims and Project Delivery Methods (2024) </Title>
+              <Paragraph >
+                Funded by <Link href="https://ipda.ca/" target="_blank"> the Integrated Project Delivery Alliance (IPDA) </Link> 
+                and <Link href="https://www.cca-acc.com/" target="_blank"> Canadian Construction Association (CCA)</Link> , this project
+                aims to unveil the relationship between the increased (or decreased) risks of construction claims resulting from 
+                different project delivery methods, with a particular focus on the distinction between collaborative and traditional 
+                delivery methods.
+              </Paragraph>
+
+
+              <Title level={5}> VDC Engineering Time Study (2023-2025) </Title>
+              <Paragraph >
+                As Virtual Design and Construction (VDC) practices evolve and become more common across the US, Mechanical, 
+                Electrical and Plumbing (MEP) trades struggle with benchmarking for VDC engineering work. 
+                Funded by MCAA, NECA, and SMACNA, this project aims to understand current industry practices and develop ways 
+                to assess unproductive time as well as valuable time spent in coordination.
+              </Paragraph>
+
               <Title level={5}>Construction Claims and Project Delivery Methods (2024) </Title>
               <Paragraph >
                 Funded by <Link href="https://ipda.ca/" target="_blank"> the Integrated Project Delivery Alliance (IPDA) </Link> 
@@ -46,12 +84,12 @@ class Projects extends React.Component {
                 delivery methods.
               </Paragraph>  
 
-              <Title level={5}>PacTrans WSDOT Summer High School Transportation Camp (2023) </Title>
+              <Title level={5}>PacTrans WSDOT Summer High School Transportation Camp (2023 & 2024) </Title>
               <Paragraph >
                 Hosted at WSU in Pullman from July 24th to 29th and at the UW in Seattle from August 13th to 18th, the summer camps 
                 offer a transformative learning experience that provides high school students with a glimpse into a wide range of 
                 topics in transportation such as urban planning, traffic safety, supply chain logistics, and the future of connected 
-                and autonomous vehicles. More information can be found <Link href="https://pactranssucamp.online/" target="_blank">
+                and autonomous vehicles. More information can be found <Link href="https://watransportation.camp/" target="_blank">
                 here</Link>.
               </Paragraph>  
 
