@@ -31,6 +31,17 @@ class Publications extends React.Component {
           <Divider> <Title level={4}>JOURNAL PAPERS</Title></Divider>
 
           <Paragraph >
+              ElMenshawy M.*, <Text strong>Wu, L.</Text>         
+              , Gue, B., & AbouRizk, S., (2024) "Automating the fabrication shop scheduling for modularized industrial construction 
+              projects using reinforcement learning.” <em>Journal of Construction Computing in Civil Engineering</em>, 
+              [In Press]
+              {/* 149(11), 04023118. <Link href="https://doi.org/10.1061/JCEMD4.COENG-13549" target="_blank">
+                https://doi.org/10.1061/JCEMD4.COENG-13549
+              </Link> */}
+          </Paragraph>   
+
+
+          <Paragraph >
             <Text strong>Wu, L.</Text>         
               , Mohamed, E., Jafari, P., & AbouRizk, S., (2023) "Machine learning-based Bayesian framework 
               for interval estimate of Unsafe-Event Prediction in Construction.” <em>Journal of Construction Engineering 
@@ -221,6 +232,14 @@ class Publications extends React.Component {
           <Divider> <Title level={4}>SOFTWARE PACKAGES</Title></Divider>
 
           <Paragraph >
+            Zhao, X., Dimitrov, D., Osburn, L., Dossick, C., Cheng, R., & <Text strong>Wu, L.</Text>,(2023), 
+            Building Owners Assessment Tool, University of Washington: Seattle, WA, <Link href="https://boat.be.uw.edu/" target="_blank">
+            https://boat.be.uw.edu/
+            </Link>                  
+          </Paragraph>
+
+
+          <Paragraph >
             Li, Z., 
             <Text strong>Wu, L.</Text>,
               & AbouRizk, S., LongestCommonSubstring, (2019), GitHub repository, <Link href="https://github.com/Chrisfufu/LongestCommonSubString" target="_blank">
@@ -242,6 +261,12 @@ class Publications extends React.Component {
           </Paragraph>
 
           <Divider> <Title level={4}>TECHNICAL REPORTS</Title></Divider>
+
+          <Paragraph >
+          <Text strong>Wu, L.</Text>,  
+            Wang, Y., & Li, J., (2023). <em>PacTrans-WSDOT Summer High School Transportation Camp Program Report</em>,
+            University of Washington: Seattle, WA
+          </Paragraph>
 
           <Paragraph >
           <Text strong>Wu, L.</Text>,  

@@ -40,7 +40,8 @@ class Team extends React.Component {
 					<Paragraph>
 						We are always on the lookout for exceptionally bright and eager students
 						to join our team. I supervise undergraduate, MASc and PhD students in
-						Construction Management at UW. I am looking for students who are:
+						Construction Management, Civil & Environmental Engineering, Urban Design & Planning,
+						and Computering Science at both UW and UofA. I am looking for students who are:
 						<ul>
 							<li>passionate about challenging the status quo;</li>
 							<li>problem solver;</li>
@@ -77,9 +78,16 @@ class Team extends React.Component {
 									href="https://urbdp.be.uw.edu/admissions/phd/"
 									target="_blank"
 								>
-									UDP PhD{" "}
+									UDP PhD{", "}
 								</Link>
-								
+
+								<Link
+									href="https://www.ce.washington.edu/future/grad/phd"
+									target="_blank"
+								>
+									CEE PhD{" "}
+								</Link>
+
 								and{" "}
 								<Link
 									href="https://be.uw.edu/academics/phd/admissions-overview/"
