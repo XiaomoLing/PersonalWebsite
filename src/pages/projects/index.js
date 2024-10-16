@@ -38,8 +38,17 @@ class Projects extends React.Component {
                 <Title level={4}>RESEARCH PROJECTS</Title>        
               </Divider>
 
+              <Title level={5}>Equitable Public Electric Vehicle Charging Infrastructure Expansion — From the Tribal Community Perspective (2024 - 2025) </Title>
+              <Paragraph >
+                Collaborating with <Link href="https://www.cei.washington.edu/people/hyun-woo-lee/" target="_blank"> Prof. Chris Lee </Link> and 
+                and <Link href="https://www.cei.washington.edu/people/dylan-stevenson/" target="_blank"> Prof. Dylan Stevenson</Link> , 
+                this project aims to evaluate electric vehicle charging infrastructure (EVCI) expansion needs and challenges in tribal communities, 
+                emphasizing environmental justice, transportation justice, and energy justice. The project announcement can be found <Link 
+                href="https://www.cei.washington.edu/cei-awards-2024-collaborative-seed-grants/" target="_blank">
+                here</Link>.
+              </Paragraph>
 
-              <Title level={5}>Analyzing the Impact and Mitigation Strategies of Transportation Electrification on Seattle’s Gentrification (2024) </Title>
+              <Title level={5}>Analyzing the Impact and Mitigation Strategies of Transportation Electrification on Seattle’s Gentrification (2024 - 2026) </Title>
               <Paragraph >
                 Collaborating with <Link href="https://re.be.uw.edu/people/vince-wang/" target="_blank"> Prof. Vince Wang </Link> and 
                 and <Link href="https://seattle.gov/city-light" target="_blank"> Seattl City Light</Link> , 
@@ -57,7 +66,7 @@ class Projects extends React.Component {
               </Paragraph>
 
 
-              <Title level={5}>Construction Claims and Project Delivery Methods (2024) </Title>
+              <Title level={5}>Construction Claims and Project Delivery Methods (2024 - 2025) </Title>
               <Paragraph >
                 Funded by <Link href="https://ipda.ca/" target="_blank"> the Integrated Project Delivery Alliance (IPDA) </Link> 
                 and <Link href="https://www.cca-acc.com/" target="_blank"> Canadian Construction Association (CCA)</Link> , this project

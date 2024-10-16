@@ -31,6 +31,16 @@ class Publications extends React.Component {
           <Divider> <Title level={4}>JOURNAL PAPERS</Title></Divider>
 
           <Paragraph >
+              Ding S.*, & <Text strong>Wu, L.</Text>         
+              "Disparities in electric vehicle charging infrastructure distribution: a socio-spatial clustering study 
+              in King County, Washington.” <em>Sustainable Cities and Society</em>, 
+              [Under Review]
+              {/* 149(11), 04023118. <Link href="https://doi.org/10.1061/JCEMD4.COENG-13549" target="_blank">
+                https://doi.org/10.1061/JCEMD4.COENG-13549
+              </Link> */}
+          </Paragraph>  
+
+          <Paragraph >
               ElMenshawy M.*, <Text strong>Wu, L.</Text>         
               , Gue, B., & AbouRizk, S., (2024) "Automating the fabrication shop scheduling for modularized industrial construction 
               projects using reinforcement learning.” <em>Journal of Construction Computing in Civil Engineering</em>, 
@@ -134,24 +144,21 @@ class Publications extends React.Component {
               ElMenshawy M.*, <Text strong>Wu, L.</Text>, Gue B., & AbouRizk, S., (2024)
               “Exploring the potential of reinforcement learning in pipe spool scheduling in industrial projects” 
               ISARC 2024: 41st International Symposium on Automation and Robotics in Construction, Jun 3-4, 2024, Lille, France
-             {/* <em>Proceedings of the 2022 Winter Simulation Conference</em>, 2409-2420. <Link href="https://doi.org/10.1109/WSC57314.2022.10015329" target="_blank">
-             https://doi.org/10.1109/WSC57314.2022.10015329  */}
-             {/* </Link>  */}
+              <em>Proceedings of ISARC 2024: 41st International Symposium on Automation and Robotics in Construction</em>, <Link href="https://doi.org/10.22260/ISARC2024/0125" target="_blank">
+              https://doi.org/10.22260/ISARC2024/0125  
+              </Link> 
           </Paragraph>
-
-
-
-
 
 
           <Paragraph >
               Li K., & <Text strong>Wu, L.</Text>
               “Monte Carlo-enabled dynamic multiple-criteria decision analysis for selecting sustainable construction methods: a wind farm case study” 
               Canadian Society of Civil Engineering Annual Conference 2023 
-             {/* <em>Proceedings of the 2022 Winter Simulation Conference</em>, 2409-2420. <Link href="https://doi.org/10.1109/WSC57314.2022.10015329" target="_blank">
-             https://doi.org/10.1109/WSC57314.2022.10015329  */}
-             {/* </Link>  */}
+              <em>Proceedings of the 2023 Canadian Society of Civil Engineering Annual Conference</em>, <Link href="https://doi.org/10.1007/978-3-031-62170-3_17" target="_blank">
+              https://doi.org/10.1007/978-3-031-62170-3_17  
+              </Link> 
           </Paragraph>
+          
           <Paragraph >
              Karim, R. M., Brian G., <Text strong>Wu, L.</Text>, & Mohamed, Y. 
              “Job labour-hour forecasting for a pipe spool fabrication shop using data mining” 
@@ -164,9 +171,9 @@ class Publications extends React.Component {
              Jafari, E., <Text strong>Wu, L.</Text>, Brian G., Malak, E. H., & AbouRizk, S. 
              “Construction supply chain analysis on forecasting the demand for small equipment, tools, and consumables for industrial construction projects” 
              Canadian Society of Civil Engineering Annual Conference 2023             
-             {/* <em>Proceedings of the 2022 Winter Simulation Conference</em>, 2409-2420. <Link href="https://doi.org/10.1109/WSC57314.2022.10015329" target="_blank">
-             https://doi.org/10.1109/WSC57314.2022.10015329 
-             </Link>  */}
+             <em>Proceedings of the 2023 Canadian Society of Civil Engineering Annual Conference</em>, <Link href="https://doi.org/10.1007/978-3-031-61499-6_2" target="_blank">
+             https://doi.org/10.1007/978-3-031-61499-6_2  
+             </Link> 
           </Paragraph>
 
           <Paragraph >
@@ -261,6 +268,12 @@ class Publications extends React.Component {
           </Paragraph>
 
           <Divider> <Title level={4}>TECHNICAL REPORTS</Title></Divider>
+
+          <Paragraph >
+          <Text strong>Wu, L.</Text>,  
+            Wang, Y., & Manawadu, A., (2024). <em>2024 Washington Summer High School Transportation Camp Program Report</em>,
+            University of Washington: Seattle, WA
+          </Paragraph>
 
           <Paragraph >
           <Text strong>Wu, L.</Text>,  

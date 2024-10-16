@@ -31,6 +31,16 @@ class Team extends React.Component {
 						</Title>
 					</Divider>
 
+
+					<Paragraph>
+						Our research team is fueled by a dynamic mission: tackling complex challenges in our built environments and 
+						driving meaningful and lasting change in our society. We are at the forefront of <Text strong>smart construction and 
+						sustainable infrastructure, combining cutting-edge technology with forward-thinking solutions</Text>. 
+						Our work is supported by a diverse range of funding from state and federal agencies, private industries, 
+						and foundations, reflecting the broad impact and real-world relevance of our research.
+					</Paragraph>
+
+
 					<Paragraph>
 						<Text strong>
 							Thank you for your interest in joining our research group!
