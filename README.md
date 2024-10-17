@@ -52,8 +52,11 @@ sftp lingwu@ovid.u.washington.edu
     // back to the ssh terminal
     
     5. mkdir static
-    6. mv css static
-    7. mv js static
-    8. mv media static
+    // check build first to see if css js and media is there. if yes, skip 6-8
+
+    6. mv css static // not necessary
+    7. mv js static // not necessary
+    8. mv media static // not necessary
+    
     9. cd ..
     10. chmod 755 public_html (permission error do this)
