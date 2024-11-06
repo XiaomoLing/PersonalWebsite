@@ -41,18 +41,18 @@ class Projects extends React.Component {
               <Title level={5}>Equitable Public Electric Vehicle Charging Infrastructure Expansion — From the Tribal Community Perspective (2024 - 2025) </Title>
               <Paragraph >
                 Collaborating with <Link href="https://www.cei.washington.edu/people/hyun-woo-lee/" target="_blank"> Prof. Chris Lee </Link> and 
-                and <Link href="https://www.cei.washington.edu/people/dylan-stevenson/" target="_blank"> Prof. Dylan Stevenson</Link> , 
+                <Link href="https://www.cei.washington.edu/people/dylan-stevenson/" target="_blank"> Prof. Dylan Stevenson</Link> , 
                 this project aims to evaluate electric vehicle charging infrastructure (EVCI) expansion needs and challenges in tribal communities, 
-                emphasizing environmental justice, transportation justice, and energy justice. The project announcement can be found <Link 
+                emphasizing environmental justice, transportation justice, and energy justice. <Link 
                 href="https://www.cei.washington.edu/cei-awards-2024-collaborative-seed-grants/" target="_blank">
-                here</Link>.
+                [link to announcement]]</Link>.
               </Paragraph>
 
-              <Title level={5}>Analyzing the Impact and Mitigation Strategies of Transportation Electrification on Seattle’s Gentrification (2024 - 2026) </Title>
+              <Title level={5}>Policy and Planning Support for Urban Low-Income Communities’ Transportation Electrification (2024 - 2026) </Title>
               <Paragraph >
                 Collaborating with <Link href="https://re.be.uw.edu/people/vince-wang/" target="_blank"> Prof. Vince Wang </Link> and 
-                and <Link href="https://seattle.gov/city-light" target="_blank"> Seattl City Light</Link> , 
-                this project aims to evaluate the comprehensive impacts of transporation electrification on Seattle's low-income communities
+                <Link href="https://seattle.gov/city-light" target="_blank"> Seattle City Light</Link> , 
+                this project aims to evaluate the comprehensive impacts of transportation electrification on Seattle's low-income communities
                 and evaluate potential policy supports to mitigate the negative impacts, such as displacement.
               </Paragraph>
 
@@ -62,7 +62,7 @@ class Projects extends React.Component {
                 Collaborating with <Link href="https://apps.ualberta.ca/directory/person/qipei" target="_blank"> Prof. Qipei Mei </Link> and 
                 and <Link href="https://www.pcl.com/us/en/who-we-are/our-offices/edmonton-industrial-management" target="_blank"> PCL Industrial Management</Link> , 
                 this project aims to enhance the field-level risk assessment by utilization of a Large Language Model. Successful project 
-                completion will yield a fine-tuned LLM, showcasing its capability to automate task analysis and provide insightful responses to risk-related queries. 
+                completion will yield a fine-tuned LLM, showcasing its capability of automating task analysis and generating safety-related insights. 
               </Paragraph>
 
 

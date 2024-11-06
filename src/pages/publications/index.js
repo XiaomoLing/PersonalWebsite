@@ -35,9 +35,9 @@ class Publications extends React.Component {
               "Disparities in electric vehicle charging infrastructure distribution: a socio-spatial clustering study 
               in King County, Washington.” <em>Sustainable Cities and Society</em>, 
               [Under Review]
-              {/* 149(11), 04023118. <Link href="https://doi.org/10.1061/JCEMD4.COENG-13549" target="_blank">
-                https://doi.org/10.1061/JCEMD4.COENG-13549
-              </Link> */}
+              149(11), 04023118. <Link href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4996036" target="_blank">
+                Preprint
+              </Link>
           </Paragraph>  
 
           <Paragraph >
@@ -49,7 +49,6 @@ class Publications extends React.Component {
                 https://doi.org/10.1061/JCEMD4.COENG-13549
               </Link> */}
           </Paragraph>   
-
 
           <Paragraph >
             <Text strong>Wu, L.</Text>         
