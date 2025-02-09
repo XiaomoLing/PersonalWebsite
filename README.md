@@ -40,6 +40,7 @@ sftp lingwu@ovid.u.washington.edu
     1. ssh lingwu@ovid.u.washington.edu
     2. cd public_html
     3. rm -r *
+    4. mkdir static (might need to do it before sftp terminal)
 
     // new terminal  
     0. npm run build
@@ -51,7 +52,7 @@ sftp lingwu@ovid.u.washington.edu
 
     // back to the ssh terminal
     
-    5. mkdir static
+    // 5. mkdir static (might need to do it before sftp terminal)
     // check build first to see if css js and media is there. if yes, skip 6-8
 
     6. mv css static // not necessary
