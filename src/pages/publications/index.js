@@ -29,25 +29,71 @@ class Publications extends React.Component {
         }}>
           
           <Divider> <Title level={4}>JOURNAL PAPERS</Title></Divider>
+          <Paragraph >
+              ElMenshawy M.*, <Text strong>Wu, L.</Text>         
+              , Hermann U., Zubick T., Mohamed, Y., & AbouRizk, S., (202x) "Framework for automated planning 
+              and scheduling in industrial construction projects using natural language processing, machine learning, 
+              and data mining.” <em>Journal of Construction Engineering and Management</em>, 
+              [revision and resubmission]. 
+              {/* <Link href="https://doi.org/10.1061/JCCEE5.CPENG-6042" target="_blank">
+              https://doi.org/10.1061/JCCEE5.CPENG-6042 
+              </Link> */}
+          </Paragraph> 
 
           <Paragraph >
-              Ding S.*, & <Text strong>Wu, L.</Text>         
+              ElMenshawy M.*, <Text strong>Wu, L.</Text>         
+              , Zubick T., Mohamed, Y., & AbouRizk, S., (202x) "Ontology for Industrial Construction Projects - 
+              An Advanced Work Packaging Perspective.” <em>Journal of Construction Engineering and Management</em>, 
+              [revision and resubmission]. 
+              {/* <Link href="https://doi.org/10.1061/JCCEE5.CPENG-6042" target="_blank">
+              https://doi.org/10.1061/JCCEE5.CPENG-6042 
+              </Link> */}
+          </Paragraph> 
+
+          <Paragraph >
+            <Text strong>Wu, L.</Text>         
+              , & Gue, B., (202x) “Do Winter Conditions Affect Construction Labor Productivity? A Case 
+              Study from the Northern Climate.” <em>Journal of Construction Engineering and Management</em>, 
+              [under review]. 
+              {/* <Link href="https://doi.org/10.1061/(ASCE)CP.1943-5487.0001001" target="_blank">
+              https://doi.org/10.1061/(ASCE)CP.1943-5487.0001001
+              </Link> */}          
+          </Paragraph>   
+          
+          <Paragraph >
+              Dong, B.*, Ding, S.*,  <Text strong>Wu, L.</Text>         
+              , & Li, X., (202x) "Short-term natural disaster impacts on transportation infrastructure: 
+              A Systematic Review.” <em>Reliability Engineering & System Safety</em>, 
+              [under review] 
+              {/* <Link href="https://doi.org/10.1061/JCCEE5.CPENG-6042" target="_blank">
+              https://doi.org/10.1061/JCCEE5.CPENG-6042 
+              </Link> */}
+          </Paragraph>   
+
+          <Paragraph >
+              Nikesha, L., <Text strong>Wu, L.</Text>         
+              , & Darko, A., (202x) "APartial least squares structural equation modeling of challenges to 
+              existing residential building net zero carbon retrofitting.” <em>Journal of Construction Engineering and Management</em>, 
+              [Revision Feb 2025]. 
+              {/* <Link href="https://doi.org/10.1061/JCCEE5.CPENG-6042" target="_blank">
+              https://doi.org/10.1061/JCCEE5.CPENG-6042 
+              </Link> */}
+          </Paragraph>                     
+          
+          <Paragraph >
+              Ding S.*, & <Text strong>Wu, L.</Text>   (2025)      
               "Disparities in electric vehicle charging infrastructure distribution: a socio-spatial clustering study 
-              in King County, Washington.” <em>Sustainable Cities and Society</em>, 
-              [Under Review]
-              149(11), 04023118. <Link href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4996036" target="_blank">
-                Preprint
-              </Link>
+              in King County, Washington.” <em>Sustainable Cities and Society</em>, 106193. <Link href="https://doi.org/10.1016/j.scs.2025.106193" target="_blank">
+              https://doi.org/10.1016/j.scs.2025.106193 </Link>
           </Paragraph>  
 
           <Paragraph >
               ElMenshawy M.*, <Text strong>Wu, L.</Text>         
               , Gue, B., & AbouRizk, S., (2024) "Automating the fabrication shop scheduling for modularized industrial construction 
-              projects using reinforcement learning.” <em>Journal of Construction Computing in Civil Engineering</em>, 
-              [In Press]
-              {/* 149(11), 04023118. <Link href="https://doi.org/10.1061/JCEMD4.COENG-13549" target="_blank">
-                https://doi.org/10.1061/JCEMD4.COENG-13549
-              </Link> */}
+              projects using reinforcement learning.” <em>Journal of Computing in Civil Engineering</em>, 
+              39(3), 04025013. <Link href="https://doi.org/10.1061/JCCEE5.CPENG-6042" target="_blank">
+              https://doi.org/10.1061/JCCEE5.CPENG-6042 
+              </Link>
           </Paragraph>   
 
           <Paragraph >
@@ -112,8 +158,55 @@ class Publications extends React.Component {
           <Divider> <Title level={4}>CONFERENCE PAPERS</Title></Divider>
 
           <Paragraph >
+              Dong, B.*, Zhou, C.*, Gue, B., Li, X., & <Text strong>Wu, L.</Text>, (2025)
+              "Impacts identification of supplier reliability on project duration in heavy industrial construction supply chain using discrete event simulation"
+              Joint CSCE Construction Specialty - CRC Conference 2025, July 28-31, 2025, Montreal, CA
+             {/* <em>Proceedings of the 2022 Winter Simulation Conference</em>, 2409-2420. <Link href="https://doi.org/10.1109/WSC57314.2022.10015329" target="_blank">
+             https://doi.org/10.1109/WSC57314.2022.10015329  */}
+             {/* </Link>  */}
+          </Paragraph>
+
+          <Paragraph >
+              Ding, S.*, & <Text strong>Wu, L.</Text>, (2025)
+              “Analyzing public electric vehicle charging distribution and urban socio-spatial characteristics using geographically weighted machine learning” 
+              ASCE International Conference on Computing in Civil Engineering, i3ce 2025, May 11-14, 2025, New Orleans, LA
+             {/* <em>Proceedings of the 2022 Winter Simulation Conference</em>, 2409-2420. <Link href="https://doi.org/10.1109/WSC57314.2022.10015329" target="_blank">
+             https://doi.org/10.1109/WSC57314.2022.10015329  */}
+             {/* </Link>  */}
+          </Paragraph>
+
+          <Paragraph >
+              Bramono, N.,  <Text strong>Wu, L.</Text>, & Lee, H. W., (2025)
+              “Examining the risk-responsiveness levels of the US building codes for healthier and safer building practices.” 
+              CIB World Building Congress WBC2025 Conference, May 19-23, 2025, Purdue
+             {/* <em>Proceedings of the 2022 Winter Simulation Conference</em>, 2409-2420. <Link href="https://doi.org/10.1109/WSC57314.2022.10015329" target="_blank">
+             https://doi.org/10.1109/WSC57314.2022.10015329  */}
+             {/* </Link>  */}
+          </Paragraph>
+
+          <Paragraph >
+              Wang, X., Wang Y., & <Text strong>Wu, L.</Text> , (2025)
+              “Engaging high school students in a DOT-funded summer camp to promote transportation engineering majors and careers” 
+              2025 ASEE American Society for Engineering Education Annual Conference, June 22-25, Montreal, CA 
+              {/* <em>Proceedings of the 2023 Canadian Society of Civil Engineering Annual Conference</em>,  */}
+              {/* <Link href="https://doi.org/10.1007/978-3-031-62170-3_17" target="_blank">
+              https://doi.org/10.1007/978-3-031-62170-3_17  
+              </Link>  */}
+          </Paragraph>
+          
+          <Paragraph >
+              Zhao, X.*, Mehta, M.*, Sethi, F.*, Gue, B., Mei, Q., & <Text strong>Wu, L.</Text> , (2025)
+              “RAG-Enhanced safety information retrieval for construction: integration of large language models with domain-specific information” 
+              ISARC 2025: 42nd International Symposium on Automation and Robotics in Construction 
+              {/* <em>Proceedings of the 2023 Canadian Society of Civil Engineering Annual Conference</em>,  */}
+              {/* <Link href="https://doi.org/10.1007/978-3-031-62170-3_17" target="_blank">
+              https://doi.org/10.1007/978-3-031-62170-3_17  
+              </Link>  */}
+          </Paragraph>
+
+          <Paragraph >
               Dong, B.*, <Text strong>Wu, L.</Text>, & Li, X., (2024)
-              “Short-term Disaster Impacts on Transportation Infrastructures: A Review of Emerging Technologies” 
+              “Short-term disaster impacts on transportation infrastructures: A review of emerging technologies” 
               ASCE International Conference on Computing in Civil Engineering, i3ce, July 28-31, 2024, Pittsburgh
              {/* <em>Proceedings of the 2022 Winter Simulation Conference</em>, 2409-2420. <Link href="https://doi.org/10.1109/WSC57314.2022.10015329" target="_blank">
              https://doi.org/10.1109/WSC57314.2022.10015329  */}
@@ -150,7 +243,7 @@ class Publications extends React.Component {
 
 
           <Paragraph >
-              Li K., & <Text strong>Wu, L.</Text>
+              Li K., & <Text strong>Wu, L.</Text>, (2023)
               “Monte Carlo-enabled dynamic multiple-criteria decision analysis for selecting sustainable construction methods: a wind farm case study” 
               Canadian Society of Civil Engineering Annual Conference 2023 
               <em>Proceedings of the 2023 Canadian Society of Civil Engineering Annual Conference</em>, <Link href="https://doi.org/10.1007/978-3-031-62170-3_17" target="_blank">
@@ -159,15 +252,15 @@ class Publications extends React.Component {
           </Paragraph>
           
           <Paragraph >
-             Karim, R. M., Brian G., <Text strong>Wu, L.</Text>, & Mohamed, Y. 
+             Karim, R. M., Brian G., <Text strong>Wu, L.</Text>, & Mohamed, Y., (2023) 
              “Job labour-hour forecasting for a pipe spool fabrication shop using data mining” 
              Canadian Society of Civil Engineering Annual Conference 2023             
-             {/* <em>Proceedings of the 2022 Winter Simulation Conference</em>, 2409-2420. <Link href="https://doi.org/10.1109/WSC57314.2022.10015329" target="_blank">
-             https://doi.org/10.1109/WSC57314.2022.10015329 
-             </Link>  */}
+             <em>Proceedings of the 2023 Canadian Society of Civil Engineering Annual Conference</em>, 2409-2420. <Link href="https://doi.org/10.1007/978-3-031-61503-0_32" target="_blank">
+             https://doi.org/10.1007/978-3-031-61503-0_32
+             </Link> 
           </Paragraph>
           <Paragraph >
-             Jafari, E., <Text strong>Wu, L.</Text>, Brian G., Malak, E. H., & AbouRizk, S. 
+             Jafari, E., <Text strong>Wu, L.</Text>, Brian G., Malak, E. H., & AbouRizk, S., (2023) 
              “Construction supply chain analysis on forecasting the demand for small equipment, tools, and consumables for industrial construction projects” 
              Canadian Society of Civil Engineering Annual Conference 2023             
              <em>Proceedings of the 2023 Canadian Society of Civil Engineering Annual Conference</em>, <Link href="https://doi.org/10.1007/978-3-031-61499-6_2" target="_blank">

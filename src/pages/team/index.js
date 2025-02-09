@@ -76,7 +76,7 @@ class Team extends React.Component {
 								research interests.
 							</li>
 							<li>
-								Review information about the programs (
+								Review information about these programs (
 								<Link
 									href="https://cm.be.uw.edu/students/grad-prof-programs/graduate-admission/"
 									target="_blank"
@@ -105,7 +105,7 @@ class Team extends React.Component {
 								>
 									BE PhD
 								</Link>
-								) and be sure you meet all the criteria.
+								) and be sure you meet all the criteria of any program.
 							</li>
 							<li>
 								Contact Dr. Lingzi Wu by email with:
@@ -136,8 +136,6 @@ class Team extends React.Component {
 					</Divider>
 
 
-
-
 					<Row justify="space-around">
 
 						<Col
@@ -152,7 +150,7 @@ class Team extends React.Component {
 								<Title level={5} style={{ textAlign: "center" }}>
 									Shiqi Ding |<em> UDP PhD </em>
 									<br></br>
-									Supervised
+									Supervise
 								</Title>
 							</Paragraph>
 						</Col>
@@ -176,7 +174,7 @@ class Team extends React.Component {
 								<Title level={5} style={{ textAlign: "center" }}>
 									Amira Saleh |<em> PhD</em>
 									<br></br>
-									Co-Supervised (UofA)
+									Co-Supervise (UofA)
 								</Title>
 							</Paragraph>
 						</Col>
@@ -193,7 +191,7 @@ class Team extends React.Component {
 								<Title level={5} style={{ textAlign: "center" }}>
 									Beixuan Dong |<em> PhD</em>
 									<br></br>
-									Co-Supervised (UofA)
+									Co-Supervise (UofA)
 								</Title>
 							</Paragraph>
 						</Col>
@@ -207,12 +205,18 @@ class Team extends React.Component {
 							xs={24}
 							style={{ justifyContent: "center", display: "grid" }}
 						>
-							<div className="mohamedbg"></div>
+							<Avatar
+								size={250}
+								style={{ borderRadius: "20%" }}
+								shape="square"
+								icon={<UserOutlined />}
+							/>
+							{/* <div className="mohamedbg"></div> */}
 							<Paragraph>
 								<Title level={5} style={{ textAlign: "center" }}>
-								Mohamed Elmenshawy |<em> PhD </em>
+								Karla Villarreal |<em> CMMS </em>
 								<br></br>
-								Co-Supervised (UofA)								
+								Supervise								
 								</Title>
 							</Paragraph>
 						</Col>
@@ -227,7 +231,7 @@ class Team extends React.Component {
 								<Title level={5} style={{ textAlign: "center" }}>
 									Shaojia Fan |<em> MSc</em>
 									<br></br>
-									Supervised
+									Supervise
 								</Title>
 							</Paragraph>
 
@@ -264,15 +268,13 @@ class Team extends React.Component {
 							/>
 							<Paragraph>
 								<Title level={5} style={{ textAlign: "center" }}>
-									Falak Sethi |<em> CS Undergraduate</em>
+									Sean Zhao |<em> BE PhD</em>
 									<br></br>
-									Co-Supervised (UofA)
+									Supervise through a funded research project
 								</Title>
 							</Paragraph>
 
 						</Col>
-
-
 
 						<Col
 							xl={8}
@@ -289,9 +291,9 @@ class Team extends React.Component {
 							{/* <div className="zuofubg"></div> */}
 							<Paragraph style={{}}>
 								<Title level={5} style={{ textAlign: "center" }}>
-									Advik Mehta|<em> CS Undergraduate</em>
+								Zachary McQuinn Drennan |<em> UDP UMP</em>
 									<br></br>
-									Co-Supervised (UofA)
+									Supervise through a funded research project
 								</Title>
 							</Paragraph>
 						</Col>
@@ -314,6 +316,30 @@ class Team extends React.Component {
 						<Title level={4}>FORMER STUDENTS</Title>
 					</Divider>
 					<Paragraph>
+					<Text strong>
+							Mohamed Elmenshawy |<em> PhD</em>
+							<br></br>
+					</Text>		
+					Co-supervised	
+					</Paragraph>
+					<Paragraph>
+					<Text strong>
+							Advik Mehta |<em> CS Undergraduate</em>
+							<br></br>
+					</Text>		
+					Co-supervised	
+					</Paragraph>
+
+					<Paragraph>
+					<Text strong>
+							Falak Sethi |<em> CS Undergraduate</em>
+							<br></br>
+					</Text>		
+					Co-supervised	
+					</Paragraph>
+
+
+					<Paragraph>											
 						<Text strong>
 							Shaojia Fan and Mingwan Zhang |<em> MLA Students</em>
 							<br></br>
