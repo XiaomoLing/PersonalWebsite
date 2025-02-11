@@ -205,13 +205,13 @@ class Team extends React.Component {
 							xs={24}
 							style={{ justifyContent: "center", display: "grid" }}
 						>
-							<Avatar
+							{/* <Avatar
 								size={250}
 								style={{ borderRadius: "20%" }}
 								shape="square"
 								icon={<UserOutlined />}
-							/>
-							{/* <div className="mohamedbg"></div> */}
+							/> */}
+							<div className="karlabg"></div>
 							<Paragraph>
 								<Title level={5} style={{ textAlign: "center" }}>
 								Karla Villarreal |<em> CMMS </em>
@@ -260,13 +260,16 @@ class Team extends React.Component {
 							xs={24}
 							style={{ justifyContent: "center", display: "grid" }}
 						>
-							<Avatar
+							{/* <Avatar
 								size={250}
 								style={{ borderRadius: "20%" }}
 								shape="square"
 								icon={<UserOutlined />}
-							/>
+							/> */}
+
+							<div className="seanbg"></div>
 							<Paragraph>
+								
 								<Title level={5} style={{ textAlign: "center" }}>
 									Sean Zhao |<em> BE PhD</em>
 									<br></br>
@@ -282,13 +285,13 @@ class Team extends React.Component {
 							xs={24}
 							style={{ justifyContent: "center", display: "grid" }}
 						>
-							<Avatar
+							{/* <Avatar
 								size={250}
 								style={{ borderRadius: "20%" }}
 								shape="square"
 								icon={<UserOutlined />}
-							/>
-							{/* <div className="zuofubg"></div> */}
+							/> */}
+							<div className="zacharybg"></div>
 							<Paragraph style={{}}>
 								<Title level={5} style={{ textAlign: "center" }}>
 								Zachary McQuinn Drennan |<em> UDP UMP</em>
