@@ -31,11 +31,10 @@ class Team extends React.Component {
 						</Title>
 					</Divider>
 
-
 					<Paragraph>
-						Our research team is fueled by a dynamic mission: tackling complex challenges in our built environments and 
-						driving meaningful and lasting change in our society. We are at the forefront of <Text strong>smart construction and 
-						sustainable infrastructure, combining cutting-edge technology with forward-thinking solutions</Text>. 
+						The CIRCUIT lab is fueled by a dynamic mission: tackling complex challenges in our built environments and 
+						driving meaningful and lasting change in our society. We are at the forefront of <Text strong>smart construction,  
+						resilient infrastructure, and sustainable urban systems, </Text>combining cutting-edge technology with forward-thinking solutions. 
 						Our work is supported by a diverse range of funding from state and federal agencies, private industries, 
 						and foundations, reflecting the broad impact and real-world relevance of our research.
 					</Paragraph>
@@ -43,15 +42,15 @@ class Team extends React.Component {
 
 					<Paragraph>
 						<Text strong>
-							Thank you for your interest in joining our research group!
+							Thank you for your interest in joining our research lab!
 						</Text>
 					</Paragraph>
 
 					<Paragraph>
 						We are always on the lookout for exceptionally bright and eager students
-						to join our team. I supervise undergraduate, MASc and PhD students in
+						to join our team. I supervise undergraduate, MSc and PhD students in
 						Construction Management, Civil & Environmental Engineering, Urban Design & Planning,
-						and Computering Science at both UW and UofA. I am looking for students who are:
+						and Computing Science at both UW and UofA. I am looking for students who are:
 						<ul>
 							<li>passionate about challenging the status quo;</li>
 							<li>problem solver;</li>
@@ -61,15 +60,15 @@ class Team extends React.Component {
 					</Paragraph>
 
 					<Paragraph>
-						Graduate Research Assistant (GRA) positions are limited and competitive.
+						Graduate Research Assistant (RA) positions are limited and competitive.
 						Students who pursue and receive funding through outside scholarships or
 						fellowships greatly increase their likelihood of admission. I keep the
 						team moderately sized so that I can work closely with every student in the
-						group.
+						lab.
 					</Paragraph>
 
 					<Paragraph>
-						If you would like to join our team, please do the following:
+						If you would like to join our lab, please do the following:
 						<ol>
 							<li>
 								Review our recent work on this website to ensure it aligns with your
@@ -132,7 +131,7 @@ class Team extends React.Component {
 					</Paragraph>
 
 					<Divider>
-						<Title level={4}>TEAM MEMBER</Title>
+						<Title level={4}>CURRENT LAB MEMBER</Title>
 					</Divider>
 
 
@@ -229,7 +228,7 @@ class Team extends React.Component {
 							<div className="shaojiabg"></div>
 							<Paragraph>
 								<Title level={5} style={{ textAlign: "center" }}>
-									Shaojia Fan |<em> MSc</em>
+									Shaojia Fan |<em> CMMS</em>
 									<br></br>
 									Supervise
 								</Title>
@@ -237,20 +236,28 @@ class Team extends React.Component {
 
 						</Col>
 
+
 						<Col
 							xl={8}
 							md={12}
 							xs={24}
 							style={{ justifyContent: "center", display: "grid" }}
 						>
-							<div className="zuofubg"></div>
+							{/* <Avatar
+								size={250}
+								style={{ borderRadius: "20%" }}
+								shape="square"
+								icon={<UserOutlined />}
+							/> */}
+							<div className="zacharybg"></div>
 							<Paragraph style={{}}>
 								<Title level={5} style={{ textAlign: "center" }}>
-									Zuofu (Chris) Li |<em> Website Developer </em>
+								Zachary M. Drennan |<em> UDP UMP</em>
+									<br></br>
+									Supervise through a funded research project
 								</Title>
 							</Paragraph>
 						</Col>
-
 
 					</Row>
 					<Row justify="space-around">
@@ -278,28 +285,20 @@ class Team extends React.Component {
 							</Paragraph>
 
 						</Col>
-
 						<Col
 							xl={8}
 							md={12}
 							xs={24}
 							style={{ justifyContent: "center", display: "grid" }}
 						>
-							{/* <Avatar
-								size={250}
-								style={{ borderRadius: "20%" }}
-								shape="square"
-								icon={<UserOutlined />}
-							/> */}
-							<div className="zacharybg"></div>
+							<div className="zuofubg"></div>
 							<Paragraph style={{}}>
 								<Title level={5} style={{ textAlign: "center" }}>
-								Zachary McQuinn Drennan |<em> UDP UMP</em>
-									<br></br>
-									Supervise through a funded research project
+									Zuofu (Chris) Li |<em> Website Developer </em>
 								</Title>
 							</Paragraph>
 						</Col>
+
 
 						<Col
 							xl={8}
@@ -310,7 +309,7 @@ class Team extends React.Component {
 							<div className="kimigigibg"></div>
 							<Paragraph>
 								<Title level={5} style={{ textAlign: "center" }}>
-									Kimi and Gigi |<em> Happiness Coordinators </em>
+									Kimi and Gigi |<em> CIRCUIT Lab Happiness Coordinators </em>
 								</Title>
 							</Paragraph>
 						</Col>

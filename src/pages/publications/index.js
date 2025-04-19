@@ -50,31 +50,31 @@ class Publications extends React.Component {
               </Link> */}
           </Paragraph> 
 
-          <Paragraph >
+          {/* <Paragraph >
             <Text strong>Wu, L.</Text>         
               , & Gue, B., (202x) “Do Winter Conditions Affect Construction Labor Productivity? A Case 
               Study from the Northern Climate.” <em>Journal of Construction Engineering and Management</em>, 
-              [under review]. 
+              [under review].  */}
               {/* <Link href="https://doi.org/10.1061/(ASCE)CP.1943-5487.0001001" target="_blank">
               https://doi.org/10.1061/(ASCE)CP.1943-5487.0001001
               </Link> */}          
-          </Paragraph>   
-          
+          {/* </Paragraph>   
+           */}
           <Paragraph >
               Dong, B.*, Ding, S.*,  <Text strong>Wu, L.</Text>         
               , & Li, X., (202x) "Short-term natural disaster impacts on transportation infrastructure: 
-              A Systematic Review.” <em>Reliability Engineering & System Safety</em>, 
-              [under review] 
+              A Systematic Review.” <em>Natural Hazards</em>, 
+              [revision] 
               {/* <Link href="https://doi.org/10.1061/JCCEE5.CPENG-6042" target="_blank">
               https://doi.org/10.1061/JCCEE5.CPENG-6042 
               </Link> */}
           </Paragraph>   
 
           <Paragraph >
-              Nikesha, L., <Text strong>Wu, L.</Text>         
-              , & Darko, A., (202x) "APartial least squares structural equation modeling of challenges to 
+              Darko, A., Nikesha, L., Chen, A., & <Text strong>Wu, L.</Text>         
+              , (2025) "A Partial least squares structural equation modeling of challenges to 
               existing residential building net zero carbon retrofitting.” <em>Journal of Construction Engineering and Management</em>, 
-              [Revision Feb 2025]. 
+              [In Press]. 
               {/* <Link href="https://doi.org/10.1061/JCCEE5.CPENG-6042" target="_blank">
               https://doi.org/10.1061/JCCEE5.CPENG-6042 
               </Link> */}
@@ -157,10 +157,34 @@ class Publications extends React.Component {
 
           <Divider> <Title level={4}>CONFERENCE PAPERS</Title></Divider>
 
+
+
+
+
+
+          <Paragraph >
+              Mehta, A.*, Gue, B., Mei, Q., & <Text strong>Wu, L.</Text> , (2025)
+              " " 
+              CRC Conference 2026 [Abstract Submitted]
+              {/* <em>Proceedings of the 2023 Canadian Society of Civil Engineering Annual Conference</em>,  */}
+              {/* <Link href="https://doi.org/10.1007/978-3-031-62170-3_17" target="_blank">
+              https://doi.org/10.1007/978-3-031-62170-3_17  
+              </Link>  */}
+          </Paragraph>
+
+          <Paragraph >
+              Ding, S.*, & <Text strong>Wu, L.</Text>, (2025)
+              "Spatial Patterns of Electric Vehicle Miles Traveled (EVMT) as a Proportion of Total Mobility"
+              ACSP 2025 Annual Conference Oct 23-25, Minneapolis [Abstract Submited]
+             {/* <em>Proceedings of the 2022 Winter Simulation Conference</em>, 2409-2420. <Link href="https://doi.org/10.1109/WSC57314.2022.10015329" target="_blank">
+             https://doi.org/10.1109/WSC57314.2022.10015329  */}
+             {/* </Link>  */}
+          </Paragraph>
+
           <Paragraph >
               Dong, B.*, Zhou, C.*, Gue, B., Li, X., & <Text strong>Wu, L.</Text>, (2025)
               "Impacts identification of supplier reliability on project duration in heavy industrial construction supply chain using discrete event simulation"
-              Joint CSCE Construction Specialty - CRC Conference 2025, July 28-31, 2025, Montreal, CA
+              Joint CSCE Construction Specialty - CRC Conference 2025, July 28-31, 2025, Montreal, CA [Accepted]
              {/* <em>Proceedings of the 2022 Winter Simulation Conference</em>, 2409-2420. <Link href="https://doi.org/10.1109/WSC57314.2022.10015329" target="_blank">
              https://doi.org/10.1109/WSC57314.2022.10015329  */}
              {/* </Link>  */}
@@ -169,7 +193,7 @@ class Publications extends React.Component {
           <Paragraph >
               Ding, S.*, & <Text strong>Wu, L.</Text>, (2025)
               “Analyzing public electric vehicle charging distribution and urban socio-spatial characteristics using geographically weighted machine learning” 
-              ASCE International Conference on Computing in Civil Engineering, i3ce 2025, May 11-14, 2025, New Orleans, LA
+              ASCE International Conference on Computing in Civil Engineering, i3ce 2025, May 11-14, 2025, New Orleans, LA [Accepted]
              {/* <em>Proceedings of the 2022 Winter Simulation Conference</em>, 2409-2420. <Link href="https://doi.org/10.1109/WSC57314.2022.10015329" target="_blank">
              https://doi.org/10.1109/WSC57314.2022.10015329  */}
              {/* </Link>  */}
@@ -178,7 +202,7 @@ class Publications extends React.Component {
           <Paragraph >
               Bramono, N.,  <Text strong>Wu, L.</Text>, & Lee, H. W., (2025)
               “Examining the risk-responsiveness levels of the US building codes for healthier and safer building practices.” 
-              CIB World Building Congress WBC2025 Conference, May 19-23, 2025, Purdue
+              CIB World Building Congress WBC2025 Conference, May 19-23, 2025, Purdue [Accepted]
              {/* <em>Proceedings of the 2022 Winter Simulation Conference</em>, 2409-2420. <Link href="https://doi.org/10.1109/WSC57314.2022.10015329" target="_blank">
              https://doi.org/10.1109/WSC57314.2022.10015329  */}
              {/* </Link>  */}
@@ -187,7 +211,7 @@ class Publications extends React.Component {
           <Paragraph >
               Wang, X., Wang Y., & <Text strong>Wu, L.</Text> , (2025)
               “Engaging high school students in a DOT-funded summer camp to promote transportation engineering majors and careers” 
-              2025 ASEE American Society for Engineering Education Annual Conference, June 22-25, Montreal, CA 
+              2025 ASEE American Society for Engineering Education Annual Conference, June 22-25, Montreal, CA [Accepted]
               {/* <em>Proceedings of the 2023 Canadian Society of Civil Engineering Annual Conference</em>,  */}
               {/* <Link href="https://doi.org/10.1007/978-3-031-62170-3_17" target="_blank">
               https://doi.org/10.1007/978-3-031-62170-3_17  
@@ -195,9 +219,9 @@ class Publications extends React.Component {
           </Paragraph>
           
           <Paragraph >
-              Zhao, X.*, Mehta, M.*, Sethi, F.*, Gue, B., Mei, Q., & <Text strong>Wu, L.</Text> , (2025)
+              Zhao, X.*, Mehta, A.*, Sethi, F.*, Gue, B., Mei, Q., & <Text strong>Wu, L.</Text> , (2025)
               “RAG-Enhanced safety information retrieval for construction: integration of large language models with domain-specific information” 
-              ISARC 2025: 42nd International Symposium on Automation and Robotics in Construction 
+              ISARC 2025: 42nd International Symposium on Automation and Robotics in Construction [Accepted]
               {/* <em>Proceedings of the 2023 Canadian Society of Civil Engineering Annual Conference</em>,  */}
               {/* <Link href="https://doi.org/10.1007/978-3-031-62170-3_17" target="_blank">
               https://doi.org/10.1007/978-3-031-62170-3_17  
@@ -226,9 +250,9 @@ class Publications extends React.Component {
               ElMenshawy M.*, <Text strong>Wu, L.</Text>, Hermann U., Zubick T., & AbouRizk, S., (2024)
               “An advanced work packaging inspired ontology for industrial construction projects” 
               The 20th conference of the International Society for Computing in Civil and Building Engineering, ICCCBE, Aug 25-28, 2024, Montreal 
-             {/* <em>Proceedings of the 2022 Winter Simulation Conference</em>, 2409-2420. <Link href="https://doi.org/10.1109/WSC57314.2022.10015329" target="_blank">
-             https://doi.org/10.1109/WSC57314.2022.10015329  */}
-             {/* </Link>  */}
+             <em>Proceedings of the 20th conference of the International Society for Computing in Civil and Building Engineering</em>, vol 628. Springer, Cham. <Link href="https://doi.org/10.1007/978-3-031-84208-5_62" target="_blank">
+             https://doi.org/10.1007/978-3-031-84208-5_62 
+             </Link> 
           </Paragraph>
 
 

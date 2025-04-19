@@ -31,8 +31,16 @@ function About() {
 						paddingBottom: "25px",
 					}}
 				>
-					LINGZI WU | RESEARCH GROUP
+					CIRCUIT Lab | LINGZI WU
 				</Title>
+				<Paragraph>
+				 Welcome to the <Text strong>CIRCUIT</Text> Lab (<Text strong><Text underline>C</Text></Text>ritical <Text strong><Text underline>I</Text></Text>nfrastructure <Text strong><Text underline>R</Text></Text>esilience and <Text strong><Text underline>C</Text></Text>onstruction <Text strong><Text underline>U</Text></Text>nder <Text strong><Text underline>I</Text></Text>nnovation & <Text strong><Text underline>T</Text></Text>echnology), 
+				 which explores the intersection
+				 of intelligent construction, infrastructure resilience, and community-centered 
+				 sustainable urban systems. The lab is committed to addressing complex challenges within 
+				 the built environment and is guided by a mission to promote meaningful and lasting 
+				 transformations in society through scholarship, teaching, and service.
+				</Paragraph>
 				{width < 768 ? (
 					<>
 						<Row justify="space-around">
@@ -83,7 +91,8 @@ function About() {
 								</Title>
 
 								<Paragraph>
-									I am an Assistant Professor in the Department of Construction
+									I am the founder and director of the <Text strong>CIRCUIT</Text> Lab (<Text strong><Text underline>C</Text></Text>ritical <Text strong><Text underline>I</Text></Text>nfrastructure <Text strong><Text underline>R</Text></Text>esilience and <Text strong><Text underline>C</Text></Text>onstruction <Text strong><Text underline>U</Text></Text>nder <Text strong><Text underline>I</Text></Text>nnovation & <Text strong><Text underline>T</Text></Text>echnology).
+									I serve as an Assistant Professor in the Department of Construction
 									Management (CM) at the University of Washington (UW). Prior to joining
 									UW in September 2022, I served as a postdoctoral fellow in the
 									Department of Civil and Environmental Engineering at University of
@@ -110,9 +119,8 @@ function About() {
 
 								<Paragraph>
 									My research expertise and teaching interests include: project life
-									cycle management, construction sustainability, resilient design,
-									machine learning and artificial intelligence, construction informatics,
-									data analytics, simulation and automation.
+									cycle management, infrastructure resilience, construction informatics, data science,
+									machine learning, artificial intelligence, simulation and automation.
 								</Paragraph>
 							</Col>
 						</Row>
@@ -176,7 +184,8 @@ function About() {
 							</Title>
 
 							<Paragraph>
-									I am an Assistant Professor in the Department of Construction
+									I am the founder and director of the <Text strong>CIRCUIT</Text> Lab (<Text strong><Text underline>C</Text></Text>ritical <Text strong><Text underline>I</Text></Text>nfrastructure <Text strong><Text underline>R</Text></Text>esilience and <Text strong><Text underline>C</Text></Text>onstruction <Text strong><Text underline>U</Text></Text>nder <Text strong><Text underline>I</Text></Text>nnovation & <Text strong><Text underline>T</Text></Text>echnology).
+									I serve as an Assistant Professor in the Department of Construction
 									Management (CM) at the University of Washington (UW). Prior to joining
 									UW in September 2022, I served as a postdoctoral fellow in the
 									Department of Civil and Environmental Engineering at University of
@@ -203,9 +212,8 @@ function About() {
 
 							<Paragraph>
 									My research expertise and teaching interests include: project life
-									cycle management, construction sustainability, resilient design,
-									machine learning and artificial intelligence, construction informatics,
-									data analytics, simulation and automation.
+									cycle management, infrastructure resilience, construction informatics, data science,
+									machine learning, artificial intelligence, simulation and automation.
 							</Paragraph>
 						</Col>
 					</Row>
