@@ -159,12 +159,20 @@ class Publications extends React.Component {
 
 
 
-
+          <Paragraph >
+               <Text strong>Wu, L.</Text> & Gue, B., (2026)
+              "Do winter conditions affect construction labor productivity? A case study from the northern climate" 
+              CRC Conference 2026 [Abstract Submitted]
+              {/* <em>Proceedings of the 2023 Canadian Society of Civil Engineering Annual Conference</em>,  */}
+              {/* <Link href="https://doi.org/10.1007/978-3-031-62170-3_17" target="_blank">
+              https://doi.org/10.1007/978-3-031-62170-3_17  
+              </Link>  */}
+          </Paragraph>
 
 
           <Paragraph >
-              Mehta, A.*, Gue, B., Mei, Q., & <Text strong>Wu, L.</Text> , (2025)
-              " " 
+              Mehta, A.*, Gue, B., Mei, Q., & <Text strong>Wu, L.</Text> , (2026)
+              "Tailoring Language Models for Construction Industry: The Forge Toolkit for Construction Domain-Specific AI" 
               CRC Conference 2026 [Abstract Submitted]
               {/* <em>Proceedings of the 2023 Canadian Society of Civil Engineering Annual Conference</em>,  */}
               {/* <Link href="https://doi.org/10.1007/978-3-031-62170-3_17" target="_blank">
