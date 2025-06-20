@@ -30,6 +30,8 @@ class News extends React.Component {
           <Divider>
             <Title level={4}>NEWS</Title>        
           </Divider>
+          <Title level={5}>Appointed as an Affiliated Faculty member in the Interdisciplinary PhD Program in Urban Design and Planning at the University of Washington -- Nov 2023</Title>
+
           <Title level={5}>Appointed as an Adjunct Assistant Professor in Department of Civil and Environmental Engineering at University of Washington -- Oct 2023</Title>
 
           <Title level={5}>Appointed as an Assistant Specialty Editor in <em>Journal of Construction Engineering and Management</em> -- Mar 2023</Title>
@@ -63,20 +65,6 @@ class News extends React.Component {
             here</Link>.   
           </Paragraph>      
  
-          <Title level={5}>AI4Society Grants Awarded –- Feb, 2022</Title>
-          <Paragraph >
-            The <Link href="https://ai4society.ca/" target="_blank">
-            AI4Society</Link> (University of Alberta) announced that Simaan AbouRizk, 
-            distinguished university professor of Construction Engineering and Management, 
-            Lingzi Wu, postdoctoral fellow in the Department of Construction Engineering 
-            and Management, and Ildar Akhmetov, Assistant Lecturer in the Department of 
-            Computing Science, have received a $10,080 award to study construction supply 
-            chain analysis on forecasting the demand for small equipment, tools, and consumables 
-            for industrial construction projects <Link href="https://forum.ai4society.ca/index.php/P-Apps30:Main" target="_blank">
-            (P-Apps30)</Link>.
-
-          </Paragraph>
-
 
           <Title level={5}>Best Paper at MAS 2018</Title>
           <Paragraph >

@@ -66,15 +66,12 @@ class Projects extends React.Component {
               </Paragraph>
 
 
-              <Title level={5}>Construction Claims and Project Delivery Methods (2024 - 2025) </Title>
+              <Title level={5}>Innovative Tool for Owners: Owner Typology Assessment and Project Delivery Method Considerations Phase II (2024 - 2025) </Title>
               <Paragraph >
-                Funded by <Link href="https://ipda.ca/" target="_blank"> the Integrated Project Delivery Alliance (IPDA) </Link> 
-                and <Link href="https://www.cca-acc.com/" target="_blank"> Canadian Construction Association (CCA)</Link> , this project
-                aims to unveil the relationship between the increased (or decreased) risks of construction claims resulting from 
-                different project delivery methods, with a particular focus on the distinction between collaborative and traditional 
-                delivery methods.
+                Funded by <Link href="https://ipda.ca/" target="_blank"> the Integrated Project Delivery Alliance (IPDA) </Link> , this project
+                aims to shed light upon the typical owner’s decision-making profile characteristics (DMPC) profile, thus enhancing the initial 
+                project outcomes.
               </Paragraph>
-
 
               <Title level={5}> VDC Engineering Time Study (2023-2025) </Title>
               <Paragraph >
@@ -115,6 +112,19 @@ class Projects extends React.Component {
                 organizational tensions. More information can be found <Link href="https://boat.be.uw.edu/" target="_blank">
                 here</Link>.
               </Paragraph>  
+
+              <Title level={5}>AI4Society Grants Awarded –- Feb, 2022</Title>
+              <Paragraph >
+                The <Link href="https://ai4society.ca/" target="_blank">
+                AI4Society</Link> (University of Alberta) announced that Simaan AbouRizk, 
+                distinguished university professor of Construction Engineering and Management, 
+                Lingzi Wu, postdoctoral fellow in the Department of Construction Engineering 
+                and Management, and Ildar Akhmetov, Assistant Lecturer in the Department of 
+                Computing Science, have received a $10,080 award to study construction supply 
+                chain analysis on forecasting the demand for small equipment, tools, and consumables 
+                for industrial construction projects <Link href="https://forum.ai4society.ca/index.php/P-Apps30:Main" target="_blank">
+                (P-Apps30)</Link>.
+               </Paragraph>
 
               <Title level={5}>Construction's Digital Future: Smart Data-Driven Decision Support Systems (2017-Current) </Title>
               <Paragraph >

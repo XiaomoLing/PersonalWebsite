@@ -225,42 +225,23 @@ class Team extends React.Component {
 							xs={24}
 							style={{ justifyContent: "center", display: "grid" }}
 						>
-							<div className="shaojiabg"></div>
-							<Paragraph>
-								<Title level={5} style={{ textAlign: "center" }}>
-									Shaojia Fan |<em> CMMS</em>
-									<br></br>
-									Supervise
-								</Title>
-							</Paragraph>
-
-						</Col>
-
-
-						<Col
-							xl={8}
-							md={12}
-							xs={24}
-							style={{ justifyContent: "center", display: "grid" }}
-						>
-							{/* <Avatar
+						<Avatar
 								size={250}
 								style={{ borderRadius: "20%" }}
 								shape="square"
 								icon={<UserOutlined />}
-							/> */}
-							<div className="zacharybg"></div>
-							<Paragraph style={{}}>
+						/>
+							{/* <div className="xxx"></div> */}
+							<Paragraph>
 								<Title level={5} style={{ textAlign: "center" }}>
-								Zachary M. Drennan |<em> UDP UMP</em>
+									Yu-Chen Chu |<em> UDP PhD</em>
 									<br></br>
-									Supervise through a funded research project
+									Co-Supervise 
 								</Title>
 							</Paragraph>
+
 						</Col>
 
-					</Row>
-					<Row justify="space-around">
 						<Col
 							xl={8}
 							md={12}
@@ -285,6 +266,10 @@ class Team extends React.Component {
 							</Paragraph>
 
 						</Col>
+
+					</Row>
+					<Row justify="space-around">
+
 						<Col
 							xl={8}
 							md={12}
@@ -317,6 +302,25 @@ class Team extends React.Component {
 					<Divider>
 						<Title level={4}>FORMER STUDENTS</Title>
 					</Divider>
+
+					
+					
+					<Paragraph>
+					<Text strong>
+							Zachary M. Drennan |<em> MUP</em>
+							<br></br>
+					</Text>		
+					Supervised through a funded research project	
+					</Paragraph>
+
+					<Paragraph>
+					<Text strong>
+							Shaojia Fan |<em> CMMS</em>
+							<br></br>
+					</Text>		
+					Supervised	
+					</Paragraph>
+
 					<Paragraph>
 					<Text strong>
 							Mohamed Elmenshawy |<em> PhD</em>
@@ -324,6 +328,7 @@ class Team extends React.Component {
 					</Text>		
 					Co-supervised	
 					</Paragraph>
+
 					<Paragraph>
 					<Text strong>
 							Advik Mehta |<em> CS Undergraduate</em>
@@ -350,7 +355,7 @@ class Team extends React.Component {
 					</Paragraph>						
 					<Paragraph>
 						<Text strong>
-							Elnaz Jafari |<em> MSc Student</em>
+							Elnaz Jafari |<em> MSc</em>
 							<br></br>
 						</Text>
 						Co-supervised
@@ -358,7 +363,7 @@ class Team extends React.Component {
 					
 					<Paragraph>
 						<Text strong>
-							Sean (Xianxiang) Zhao |<em> MSc Student</em>
+							Sean (Xianxiang) Zhao |<em> CMMS</em>
 							<br></br>
 						</Text>
 						Supervised through a funded research project
