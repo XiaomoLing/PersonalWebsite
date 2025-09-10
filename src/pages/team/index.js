@@ -219,19 +219,20 @@ class Team extends React.Component {
 								</Title>
 							</Paragraph>
 						</Col>
+						
 						<Col
 							xl={8}
 							md={12}
 							xs={24}
 							style={{ justifyContent: "center", display: "grid" }}
 						>
-						<Avatar
+						{/* <Avatar
 								size={250}
 								style={{ borderRadius: "20%" }}
 								shape="square"
 								icon={<UserOutlined />}
-						/>
-							{/* <div className="xxx"></div> */}
+						/> */}
+							<div className="yuchenbg"></div>
 							<Paragraph>
 								<Title level={5} style={{ textAlign: "center" }}>
 									Yu-Chen Chu |<em> UDP PhD</em>
@@ -242,19 +243,12 @@ class Team extends React.Component {
 
 						</Col>
 
-						<Col
+						{/* <Col
 							xl={8}
 							md={12}
 							xs={24}
 							style={{ justifyContent: "center", display: "grid" }}
 						>
-							{/* <Avatar
-								size={250}
-								style={{ borderRadius: "20%" }}
-								shape="square"
-								icon={<UserOutlined />}
-							/> */}
-
 							<div className="seanbg"></div>
 							<Paragraph>
 								
@@ -265,11 +259,7 @@ class Team extends React.Component {
 								</Title>
 							</Paragraph>
 
-						</Col>
-
-					</Row>
-					<Row justify="space-around">
-
+						</Col> */}
 						<Col
 							xl={8}
 							md={12}
@@ -283,6 +273,10 @@ class Team extends React.Component {
 								</Title>
 							</Paragraph>
 						</Col>
+					</Row>
+					<Row justify="space-around">
+
+
 
 
 						<Col
